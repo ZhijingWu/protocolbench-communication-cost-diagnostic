@@ -1,0 +1,9 @@
+# Payload length is ASCII text bytes; 1 KB means 1024 bytes here.
+warmup: 5
+measured_repetitions: 30
+payload_size_bytes: [1024, 10240, 51200, 102400]
+timeout_seconds: 30
+setup_timeout_seconds: 40
+# --mode real automatically starts isolated local original protocol servers.
+# It uses deterministic no-op responder hooks with no LLM/API key/GAIA.
+# Setup timings and tracebacks are separate; conversion-only files remain separate.

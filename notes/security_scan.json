@@ -1,0 +1,435 @@
+{
+  "binary_checks": [
+    {
+      "file": "outreach/v2/figures/protocol_assignment_mechanism.png",
+      "method": "Binary textual chunks; PIL metadata inspection confirms only DPI and sRGB"
+    },
+    {
+      "file": "outreach/v2/figures/protocol_assignment_mechanism.pptx",
+      "method": "All archive XML/relationship metadata, no external relationships"
+    },
+    {
+      "file": "outreach/v2/figures/protocol_latency_v2.pdf",
+      "method": "Poppler text and metadata; final note also checked with pypdf and visually rendered"
+    },
+    {
+      "file": "outreach/v2/technical_note_v2.pdf",
+      "method": "Poppler text and metadata; final note also checked with pypdf and visually rendered"
+    }
+  ],
+  "credential_values_detected": [],
+  "keyword_occurrences": [
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "PUBLICATION.md",
+      "line": 7,
+      "match_count": 3
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "README.md",
+      "line": 9,
+      "match_count": 1
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "README.md",
+      "line": 33,
+      "match_count": 2
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "notes/change_report.md",
+      "line": 50,
+      "match_count": 1
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "notes/cost_interface_verification.json",
+      "line": 29,
+      "match_count": 1
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "notes/experiment_design.md",
+      "line": 75,
+      "match_count": 1
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "notes/final_audit.md",
+      "line": 257,
+      "match_count": 1
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "notes/final_audit.md",
+      "line": 284,
+      "match_count": 1
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "notes/final_audit.md",
+      "line": 302,
+      "match_count": 1
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "notes/final_audit.md",
+      "line": 313,
+      "match_count": 1
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "notes/findings.md",
+      "line": 117,
+      "match_count": 1
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "notes/local_preference_signal_audit.md",
+      "line": 97,
+      "match_count": 1
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "notes/local_preference_signal_audit.md",
+      "line": 100,
+      "match_count": 1
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "notes/local_preference_signal_audit.md",
+      "line": 116,
+      "match_count": 1
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "notes/local_preference_signal_audit.md",
+      "line": 122,
+      "match_count": 1
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "notes/local_preference_signal_audit.md",
+      "line": 138,
+      "match_count": 1
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "notes/local_preference_signal_audit.md",
+      "line": 142,
+      "match_count": 1
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "notes/local_preference_signal_audit.md",
+      "line": 244,
+      "match_count": 1
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "notes/local_preference_signal_audit.md",
+      "line": 264,
+      "match_count": 1
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "notes/local_preference_signal_audit.md",
+      "line": 365,
+      "match_count": 1
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "notes/local_preference_signal_audit.md",
+      "line": 367,
+      "match_count": 1
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "notes/local_preference_signal_audit.md",
+      "line": 371,
+      "match_count": 1
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "notes/local_preference_signal_audit.md",
+      "line": 384,
+      "match_count": 1
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "notes/publication_audit.md",
+      "line": 29,
+      "match_count": 1
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "notes/publication_audit.md",
+      "line": 171,
+      "match_count": 1
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "notes/source_readme.md",
+      "line": 82,
+      "match_count": 1
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "notes/source_readme.md",
+      "line": 210,
+      "match_count": 1
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "notes/source_readme.md",
+      "line": 229,
+      "match_count": 1
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "outreach/claim_check.md",
+      "line": 34,
+      "match_count": 1
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "outreach/claim_check.md",
+      "line": 43,
+      "match_count": 1
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "outreach/claim_check.md",
+      "line": 92,
+      "match_count": 1
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "outreach/claim_check.md",
+      "line": 96,
+      "match_count": 1
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "outreach/v2/README_v2.md",
+      "line": 164,
+      "match_count": 1
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "outreach/v2/claim_check_v2.md",
+      "line": 55,
+      "match_count": 1
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "outreach/v2/claim_check_v2.md",
+      "line": 60,
+      "match_count": 1
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "outreach/v2/claim_check_v2.md",
+      "line": 62,
+      "match_count": 2
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "outreach/v2/claim_check_v2.md",
+      "line": 116,
+      "match_count": 1
+    },
+    {
+      "classification": "benign methodological document vocabulary",
+      "file": "outreach/v2/figures/protocol_assignment_mechanism.pptx",
+      "line": 12,
+      "match_count": 1
+    },
+    {
+      "classification": "benign methodological document vocabulary",
+      "file": "outreach/v2/technical_note_v2.pdf",
+      "line": 133,
+      "match_count": 1
+    },
+    {
+      "classification": "benign methodological document vocabulary",
+      "file": "outreach/v2/technical_note_v2.pdf",
+      "line": 147,
+      "match_count": 1
+    },
+    {
+      "classification": "benign methodological document vocabulary",
+      "file": "outreach/v2/technical_note_v2.tex",
+      "line": 131,
+      "match_count": 1
+    },
+    {
+      "classification": "benign methodological document vocabulary",
+      "file": "outreach/v2/technical_note_v2.tex",
+      "line": 153,
+      "match_count": 1
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "results/processed/gaia_workflow_summary.json",
+      "line": 1780,
+      "match_count": 1
+    },
+    {
+      "classification": "benign audit/methodology vocabulary, measurement probe reference, or substring in task-related wording",
+      "file": "results/raw/joint_output_archive/aa0edd44c80a585788e5170945f06068b67cbc8c653e27fb953a72ef3e8b9f79/findings.md",
+      "line": 90,
+      "match_count": 1
+    },
+    {
+      "classification": "benign code/environment-name clearing or synthetic request/test probe",
+      "file": "scripts/inspect_saved_results.py",
+      "line": 87,
+      "match_count": 1
+    },
+    {
+      "classification": "benign code/environment-name clearing or synthetic request/test probe",
+      "file": "src/gaia_workflow_experiment.py",
+      "line": 176,
+      "match_count": 1
+    },
+    {
+      "classification": "benign code/environment-name clearing or synthetic request/test probe",
+      "file": "src/gaia_workflow_experiment.py",
+      "line": 258,
+      "match_count": 1
+    },
+    {
+      "classification": "benign code/environment-name clearing or synthetic request/test probe",
+      "file": "src/local_protocol_microbench.py",
+      "line": 151,
+      "match_count": 2
+    },
+    {
+      "classification": "benign code/environment-name clearing or synthetic request/test probe",
+      "file": "src/local_protocol_microbench.py",
+      "line": 278,
+      "match_count": 1
+    },
+    {
+      "classification": "benign code/environment-name clearing or synthetic request/test probe",
+      "file": "src/local_protocol_microbench.py",
+      "line": 279,
+      "match_count": 2
+    },
+    {
+      "classification": "benign code/environment-name clearing or synthetic request/test probe",
+      "file": "src/protocol_cost_profiler.py",
+      "line": 21,
+      "match_count": 1
+    },
+    {
+      "classification": "benign code/environment-name clearing or synthetic request/test probe",
+      "file": "src/protocol_cost_profiler.py",
+      "line": 22,
+      "match_count": 1
+    },
+    {
+      "classification": "benign code/environment-name clearing or synthetic request/test probe",
+      "file": "src/protocol_cost_profiler.py",
+      "line": 23,
+      "match_count": 1
+    },
+    {
+      "classification": "benign code/environment-name clearing or synthetic request/test probe",
+      "file": "src/protocol_cost_profiler.py",
+      "line": 24,
+      "match_count": 2
+    },
+    {
+      "classification": "benign code/environment-name clearing or synthetic request/test probe",
+      "file": "src/protocol_cost_profiler.py",
+      "line": 83,
+      "match_count": 2
+    },
+    {
+      "classification": "benign code/environment-name clearing or synthetic request/test probe",
+      "file": "src/protocol_cost_profiler.py",
+      "line": 85,
+      "match_count": 1
+    },
+    {
+      "classification": "benign code/environment-name clearing or synthetic request/test probe",
+      "file": "src/protocol_cost_profiler.py",
+      "line": 87,
+      "match_count": 2
+    },
+    {
+      "classification": "benign code/environment-name clearing or synthetic request/test probe",
+      "file": "src/protocol_cost_profiler.py",
+      "line": 89,
+      "match_count": 2
+    },
+    {
+      "classification": "benign code/environment-name clearing or synthetic request/test probe",
+      "file": "src/protocol_cost_profiler.py",
+      "line": 109,
+      "match_count": 1
+    },
+    {
+      "classification": "benign code/environment-name clearing or synthetic request/test probe",
+      "file": "src/protocol_cost_profiler.py",
+      "line": 163,
+      "match_count": 1
+    },
+    {
+      "classification": "benign code/environment-name clearing or synthetic request/test probe",
+      "file": "src/protocol_cost_profiler.py",
+      "line": 166,
+      "match_count": 1
+    },
+    {
+      "classification": "benign code/environment-name clearing or synthetic request/test probe",
+      "file": "src/protocol_cost_profiler.py",
+      "line": 167,
+      "match_count": 2
+    },
+    {
+      "classification": "benign code/environment-name clearing or synthetic request/test probe",
+      "file": "tests/test_objective.py",
+      "line": 14,
+      "match_count": 1
+    },
+    {
+      "classification": "benign code/environment-name clearing or synthetic request/test probe",
+      "file": "tests/test_objective.py",
+      "line": 121,
+      "match_count": 1
+    },
+    {
+      "classification": "benign code/environment-name clearing or synthetic request/test probe",
+      "file": "tests/test_objective.py",
+      "line": 123,
+      "match_count": 1
+    },
+    {
+      "classification": "benign code/environment-name clearing or synthetic request/test probe",
+      "file": "tests/test_objective.py",
+      "line": 124,
+      "match_count": 3
+    },
+    {
+      "classification": "benign code/environment-name clearing or synthetic request/test probe",
+      "file": "tests/test_objective.py",
+      "line": 125,
+      "match_count": 2
+    },
+    {
+      "classification": "benign code/environment-name clearing or synthetic request/test probe",
+      "file": "tests/test_objective.py",
+      "line": 126,
+      "match_count": 2
+    }
+  ],
+  "private_paths_or_credentialed_urls": [],
+  "retained_infrastructure": "Loopback HTTP server URLs, ephemeral local listening ports, public reference URLs, dummy unused unit-test endpoint. No proxy credential configuration or private API endpoint is present.",
+  "scanned_files": 118,
+  "scope": "Recursive public-file inspection. Audit reports and manifest contain only classifications, relative filenames, hashes, and public-safe replacement labels; their generated bytes receive final high-confidence credential/path scan before staging."
+}

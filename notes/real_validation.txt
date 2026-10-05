@@ -1,0 +1,32 @@
+test_deterministic_assignment_and_objective (test_graph_aware_oracle.OracleTests.test_deterministic_assignment_and_objective) ... ok
+test_equal_costs (test_graph_aware_oracle.OracleTests.test_equal_costs) ... ok
+test_exhaustive_matches_independent_separable_calculation (test_graph_aware_oracle.OracleTests.test_exhaustive_matches_independent_separable_calculation) ... ok
+test_hand_computed_two_node_case (test_graph_aware_oracle.OracleTests.test_hand_computed_two_node_case) ... ok
+test_lambda_zero_is_local_optimum (test_graph_aware_oracle.OracleTests.test_lambda_zero_is_local_optimum) ... ok
+test_permutation_invariance_oracle (test_graph_aware_oracle.OracleTests.test_permutation_invariance_oracle) ... ok
+test_size_guard (test_graph_aware_oracle.OracleTests.test_size_guard) ... ok
+test_threshold_tie_and_strict_reversal (test_graph_aware_oracle.OracleTests.test_threshold_tie_and_strict_reversal) ... ok
+test_zero_traffic (test_graph_aware_oracle.OracleTests.test_zero_traffic) ... ok
+test_conversion_latency_not_network (test_objective.ObjectiveTests.test_conversion_latency_not_network) ... ok
+test_destination_protocol_only (test_objective.ObjectiveTests.test_destination_protocol_only) ... ok
+test_failed_cost_and_duplicate_cost_rejected (test_objective.ObjectiveTests.test_failed_cost_and_duplicate_cost_rejected) ... ok
+test_fallback_and_error_rejection (test_objective.ObjectiveTests.test_fallback_and_error_rejection) ... ok
+test_id_permutation_value (test_objective.ObjectiveTests.test_id_permutation_value) ... ok
+test_invalid_inputs_rejected (test_objective.ObjectiveTests.test_invalid_inputs_rejected) ... ok
+test_missing_original_metric_rejects_success (test_objective.ObjectiveTests.test_missing_original_metric_rejects_success) ... ok
+test_original_conversion_measured_repeatable_sizes (test_objective.ObjectiveTests.test_original_conversion_measured_repeatable_sizes) ... ok
+test_output_scope_guard (test_objective.ObjectiveTests.test_output_scope_guard) ... ok
+test_setup_blocked_not_zero_cost (test_objective.ObjectiveTests.test_setup_blocked_not_zero_cost) ... ok
+test_warmups_excluded_and_failures_retained (test_objective.ObjectiveTests.test_warmups_excluded_and_failures_retained) ... ok
+test_equal_total_control (test_topology_generator.TopologyTests.test_equal_total_control) ... ok
+test_explicit_traffic_scaling (test_topology_generator.TopologyTests.test_explicit_traffic_scaling) ... ok
+test_original_router_inputs_prompt_and_assignment_fixed (test_topology_generator.TopologyTests.test_original_router_inputs_prompt_and_assignment_fixed) ... ok
+test_saved_assignment_validation (test_topology_generator.TopologyTests.test_saved_assignment_validation) ... ok
+test_seed_repeatability (test_topology_generator.TopologyTests.test_seed_repeatability) ... ok
+test_structures_and_fixed_features (test_topology_generator.TopologyTests.test_structures_and_fixed_features) ... ok
+test_zero_traffic_and_invalid_nodes (test_topology_generator.TopologyTests.test_zero_traffic_and_invalid_nodes) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.051s
+
+OK

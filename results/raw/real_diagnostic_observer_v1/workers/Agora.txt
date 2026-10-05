@@ -1,0 +1,298 @@
+<PYTHON_ENV>/lib/python3.11/site-packages/langgraph/checkpoint/base/__init__.py:18: LangChainPendingDeprecationWarning: The default value of `allowed_objects` will change in a future version. Pass an explicit value (e.g., allowed_objects='messages' or allowed_objects='core') to suppress this warning.
+  from langgraph.checkpoint.serde.jsonplus import JsonPlusSerializer
+Registered router type: llm_based
+Registered router type: load_balanced
+🚀 Starting Agora Server for profile-destination on 127.0.0.1:54393
+📡 Agora ReceiverServer starting on 127.0.0.1:54393
+ * Serving Flask app 'agora.receiver.server'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:54393
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [05/Oct/2026 18:24:31] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:31] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:31] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:31] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:31] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:31] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:31] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:31] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:31] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:31] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:31] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:32] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:33] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:34] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:34] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:34] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:34] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:34] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:34] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:34] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:34] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:34] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:34] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:34] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:34] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:34] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:34] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:34] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:34] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:34] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:34] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:34] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:34] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:34] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:34] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:34] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:34] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:34] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:34] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:34] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:34] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:34] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:34] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:34] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:34] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:34] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:34] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:34] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:34] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:34] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:35] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:35] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:35] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:35] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:35] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:35] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:35] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:35] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:35] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:35] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:35] "POST /message HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:24:35] "POST /message HTTP/1.1" 200 -
+🔗 Agora Client Adapter initialized for http://127.0.0.1:54393
+📋 Available tasks: ['general']
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.01s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.01s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.03s
+✅ Agora task 'general' completed in 0.04s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+✅ Agora task 'general' completed in 0.02s
+🧹 Cleaning up Agora Client Adapter
+📊 Final metrics: {'total_calls': 140, 'task_usage': {'general': 140}, 'efficiency_ratio': 1.0, 'protocol_negotiations': 0}
+🛑 Shutdown signal received for Agora Server profile-destination
+🔚 Agora Server for profile-destination stopped

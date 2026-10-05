@@ -1,0 +1,17 @@
+# Public packaging and provenance
+
+This release packages the isolated experiment at the audited upstream commit. Scientific numeric data, the saved routing baseline, model formulas, margins, configurations, and assignment results are preserved. No experiments were rerun to prepare this artifact.
+
+[The publication manifest](notes/publication_manifest.json) records every source file, every exclusion, original SHA256 hashes, destination mappings, publication changes, and every path-redaction group with source line numbers and occurrence counts. Its `release_file_sha256` map authenticates current public files; it excludes the manifest itself to avoid a self-hash cycle. Run `python scripts/verify_artifact.py` for read-only verification.
+
+Private machine-specific absolute paths are replaced with `<ARTIFACT_ROOT>`, `<UPSTREAM_ROOT>`, `<PYTHON_ENV>`, `<UNUSED_PYTHON_ENV>`, or generic executable/output-directory names. JSON manifests and diagnostic tracebacks are public-safe equivalents; measurement numbers and error diagnoses are retained. Loopback URLs and local server ports are retained as scientifically relevant local-transport provenance, not proxy credentials. Runtime-generated request IDs/digests and public DID/connection identifiers are not secret access tokens. No private key material is included.
+
+Historical hash values inside copied scientific provenance records retain their original source-time meaning. Sanitizing a manifest or traceback changes its byte hash without changing the scientific result. `source_snapshot_sha256` and each source-file record retain the original hashes, while `release_file_sha256` records the sanitized file hashes. A historical archive-directory name may therefore identify the original bytes rather than the current sanitized bytes. Do not silently interpret historical hashes as claims about edited public bytes. This two-level mapping preserves both provenance and public-file integrity.
+
+The existing code paths validate hashes of the unchanged current request CSV and measured-cost CSV. Where historical records refer to earlier versions of an overwritten file, the matching original hash is retained in its content-addressed archive. Publication integrity is checked separately without rewriting or relabeling scientific evidence.
+
+Standalone changes adapt script/test imports from the old enclosing experiment namespace to this repository's `src` package and resolve upstream using `AGENTPROTOCOLS_ROOT` or the sibling checkout. A one-line `src/__init__.py` fixes package resolution. No objective, tie policy, converter, client/server path, enumeration, or candidate-set semantics is changed. The packaging audit checks these changes against the original source and verifies unchanged CSV bytes and all JSON numeric leaves.
+
+The final note remains at [outreach/v2/technical_note_v2.pdf](outreach/v2/technical_note_v2.pdf), with its existing editable source and figure paths. This small outreach subdirectory is retained to preserve document references. Superseded v1 PDF/figures and duplicate page previews are omitted; the v1 and v2 claim audits remain. The original README survives as [notes/source_readme.md](notes/source_readme.md), a historical record; use the root README for current reproduction commands.
+
+See [notes/publication_audit.md](notes/publication_audit.md) for actual checks and the exact inventory. Preparing/staging the local repository does not authorize a commit or a push.

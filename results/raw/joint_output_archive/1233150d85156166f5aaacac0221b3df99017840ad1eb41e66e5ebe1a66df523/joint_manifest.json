@@ -1,0 +1,140 @@
+{
+  "baseline": {
+    "0": "Agora",
+    "1": "A2A",
+    "2": "ACP",
+    "3": "A2A"
+  },
+  "branch": "exp/topology-aware-protocol-routing",
+  "case_count": 144,
+  "config": {
+    "agents": [
+      {
+        "id": "0",
+        "name": "Reader",
+        "port": 19000,
+        "role": "Gather evidence",
+        "tool": "browser_use"
+      },
+      {
+        "id": "1",
+        "name": "Analyst",
+        "port": 19001,
+        "role": "Analyze evidence",
+        "tool": "python_execute"
+      },
+      {
+        "id": "2",
+        "name": "Synthesizer",
+        "port": 19002,
+        "role": "Synthesize answer",
+        "tool": "create_chat_completion"
+      },
+      {
+        "id": "3",
+        "name": "Editor",
+        "port": 19003,
+        "role": "Prepare artifacts",
+        "tool": "str_replace_editor"
+      }
+    ],
+    "cost_metric": "mean_encoded_bytes",
+    "lambdas": [
+      0,
+      1e-05,
+      0.0001,
+      0.001,
+      0.01,
+      0.1
+    ],
+    "local_loss_source": "controlled_manual_margin",
+    "manual_local_margin": 1.0,
+    "normalizations": [
+      false,
+      true
+    ],
+    "payload_size_bytes": 10240,
+    "seed": 6349,
+    "task_analysis": {
+      "complexity": "medium",
+      "domain_areas": [
+        "document_analysis"
+      ],
+      "required_tools": [
+        "browser_use",
+        "python_execute",
+        "create_chat_completion",
+        "str_replace_editor"
+      ],
+      "task_type": "mixed"
+    },
+    "topologies": [
+      "chain",
+      "star",
+      "full_mesh",
+      "hotspot"
+    ],
+    "traffic_scales": {
+      "high": 100,
+      "low": 1,
+      "medium": 10
+    }
+  },
+  "config_sha256": "bf1cf6c8b0793585e77258b2cbbf72752820ba2fd10cee76c3e63f290d263b04",
+  "cost_file": "<ARTIFACT_ROOT>/results/processed/protocol_costs.csv",
+  "cost_file_sha256": "9d72fe3c741a18b2c0c8924d3f643c229b2232507ec53a4fc1fb13d74d53dd09",
+  "cost_metric": "mean_encoded_bytes",
+  "executable": "<UNUSED_PYTHON_ENV>/bin/python",
+  "head": "6349eb97f0ca83db9cbfd44dea0bbdbb3ea9d37f",
+  "local_inputs_sha256": "7feebac851b3efda55198539da729651b1fddf7b1fe6abc9ac2e97e44ac5b835",
+  "local_loss_source": "controlled_manual_margin",
+  "local_losses": {
+    "0": {
+      "A2A": 1.0,
+      "ACP": 1.0,
+      "ANP": 1.0,
+      "Agora": 0.0
+    },
+    "1": {
+      "A2A": 0.0,
+      "ACP": 1.0,
+      "ANP": 1.0,
+      "Agora": 1.0
+    },
+    "2": {
+      "A2A": 1.0,
+      "ACP": 0.0,
+      "ANP": 1.0,
+      "Agora": 1.0
+    },
+    "3": {
+      "A2A": 0.0,
+      "ACP": 1.0,
+      "ANP": 1.0,
+      "Agora": 1.0
+    }
+  },
+  "objective_delta_definition": "graph_objective - baseline_objective (negative = improvement)",
+  "platform": "Linux-6.1.0-40-amd64-x86_64-with-glibc2.36",
+  "profile_mode": "conversion-only",
+  "python": "3.11.9 (main, Apr 19 2024, 16:48:06) [GCC 11.2.0]",
+  "result_kind": "controlled_sensitivity_analysis",
+  "source_sha256": {
+    "routerbench/evaluator.py": "e920603ed9c9a77a474986beadaff97cda53071c2d899e63e2068a7d554e441b",
+    "routerbench/prompt_template.py": "343a26e655a9551d2694c711f5afb4681cfde53bf725d640e82ad81c07e52614",
+    "routerbench/proto_router.py": "f5976e4de68086b2afbaf255f81eccd21da5a5e536ed71d231fd1f681d6637f6",
+    "routerbench/run_benchmark.py": "caaba0fd2e999ca2a62d18360d9f13fe506aaece9a538c597a13902d639c4838",
+    "scenarios/gaia/config/meta_protocol.yaml": "b64482dcbd47a6fb1140ffabcc82fcb05de7733607ea29e909fa6f28b277b0c9",
+    "scenarios/gaia/protocol_backends/meta_protocol/llm_router.py": "13583c6be843d9153b8a4e14b87f20d04c4bb6ded0c80a205cdd4e24dcc9fb45",
+    "scenarios/gaia/protocol_backends/meta_protocol/network.py": "12f24613211f0253ca0ba84321f36551ea8372d267c98da72eb889d4dc4fc406",
+    "scenarios/gaia/runners/run_meta_protocol.py": "022ef862bbd60a388a6c5269b1e2e0766eda16f76291cf5018442e6e0e90dd18",
+    "src/agent_adapters/agora_adapter.py": "33aa224f917b42701921074698f9e244245f7727fa9c9352d05b55459dda1920",
+    "src/core/base_agent.py": "3b0f20b81069405d3a6b87a760f57071f56f38130f9577ee2681168d6bba1741",
+    "src/core/metrics.py": "cf57a5cf0a16f6134e60dab7030b83a3bf5e821010584fd9c163579420468a9a",
+    "src/core/network.py": "0d1884819ca957d96b93bdc90b8b17ec8c81aabfb3fa8a72d9050f29b46ae336",
+    "src/core/protocol_converter.py": "0cc17f2032098726e5428fd52b2e2ac43ce8fa11c8a19a6a4ad91bcb94b72485",
+    "src/core/unified_message.py": "85aba33b22213e694a8ea6e84be4e0a95bf192e8567c714a0a202f784242c39e"
+  },
+  "strict_reversal_cases": 60,
+  "threshold_traffic_lambda": 1.0
+}

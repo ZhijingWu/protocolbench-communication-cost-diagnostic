@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+.venv/
+venv/
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+*.aux
+*.log
+*.out
+*.synctex.gz

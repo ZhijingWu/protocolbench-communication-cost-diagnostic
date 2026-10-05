@@ -1,0 +1,20 @@
+# Controlled fixture; no benchmark dataset/config is edited.
+seed: 6349
+payload_size_bytes: 10240
+topologies: [chain, star, full_mesh, hotspot]
+traffic_scales: {low: 1, medium: 10, high: 100}
+normalizations: [false, true]
+lambdas: [0, 0.00001, 0.0001, 0.001, 0.01, 0.1]
+manual_local_margin: 1.0
+local_loss_source: controlled_manual_margin
+cost_metric: mean_encoded_bytes
+task_analysis:
+  task_type: mixed
+  complexity: medium
+  required_tools: [browser_use, python_execute, create_chat_completion, str_replace_editor]
+  domain_areas: [document_analysis]
+agents:
+  - {id: "0", name: Reader, tool: browser_use, role: Gather evidence, port: 19000}
+  - {id: "1", name: Analyst, tool: python_execute, role: Analyze evidence, port: 19001}
+  - {id: "2", name: Synthesizer, tool: create_chat_completion, role: Synthesize answer, port: 19002}
+  - {id: "3", name: Editor, tool: str_replace_editor, role: Prepare artifacts, port: 19003}

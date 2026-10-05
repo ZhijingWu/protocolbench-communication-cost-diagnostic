@@ -1,0 +1,17 @@
+{
+  "configs/topology_cases.yaml": "56e3493e0f8870c192b8e98c1dfb9255c3bb11d61a71f1ba0c2327ddfc4fc7c2",
+  "results/processed/protocol_costs_conversion-only.csv": "9d72fe3c741a18b2c0c8924d3f643c229b2232507ec53a4fc1fb13d74d53dd09",
+  "results/processed/real_protocol_costs.csv": "c9d5ee0d7d5c906715cbe4529b6d7a4335fe7b741809b53f721249b44d2478c8",
+  "results/raw/local_router_output.json": "d844c024abb62a95c17005ff10d55a55664f11a38b8565755b65239732c91eb3",
+  "results/raw/protocol_profile_conversion-only.csv": "cbff05e476b80045b4ce612ab8834d1b9c4a35c311b2b3c0a6f983a6cf11b91c",
+  "results/raw/real_protocol_manifest.json": "13482540f6ec4b4c5294827f91822507f1ad69df401071d7899d8841589b41ab",
+  "results/raw/real_protocol_profile.csv": "442ef769d72176c9db734e9765e9b7521af2508f23472d9ec5170e1fd16c0479",
+  "results/raw/real_protocol_profile_failures.json": "5f29e88d565e21acec585fbc17e21239781c843b92524f29d75ed4f01760513b",
+  "results/raw/topology_cases.json": "7cbd5a50c92e179af8891c6d1c26e6a74ce90ddd9f2e1b8e10d4898c8e5cbee9",
+  "src/graph_aware_oracle.py": "de4cedea27941ca52e21651fe5705e5d00aaa3570f1e86d300e009a1992f14cf",
+  "src/local_protocol_microbench.py": "f3ec3369378b1da7536d9abd5d473465a737a443f3113ab7baafff09e6b257a3",
+  "src/local_router_adapter.py": "bd5bf01ec1266089a18ec2d69e504dcd4042a2528e34497a8ac0c52ab0dcb3f9",
+  "src/objective.py": "d07979dc921f11f2caf32cc3ce00694d5166fe5ae68eaa8c5f3e2b9fc07d953e",
+  "src/protocol_cost_profiler.py": "f443a41c64aec8befba3f0f86fdaf746e5579449be44fba230af8540704d8176",
+  "src/topology_generator.py": "30cffbfd020a7466f4c24632bd56707bb7c73600954409f4f5b246f759c2ca5d"
+}

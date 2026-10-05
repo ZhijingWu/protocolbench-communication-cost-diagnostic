@@ -1,0 +1,2388 @@
+{
+  "baseline_assignment": {
+    "0": "Agora",
+    "1": "A2A",
+    "2": "ACP",
+    "3": "A2A"
+  },
+  "baseline_file_sha256": "d844c024abb62a95c17005ff10d55a55664f11a38b8565755b65239732c91eb3",
+  "baseline_source": "saved_routing_output_replay",
+  "candidate_set_totals": {
+    "all_four": {
+      "a2a_acp_anp_preference_reversal_cases": 2,
+      "cases_with_forced_removal": 0,
+      "distinct_graph_assignments": [
+        {
+          "0": "ANP",
+          "1": "A2A",
+          "2": "ACP",
+          "3": "A2A"
+        },
+        {
+          "0": "ANP",
+          "1": "ANP",
+          "2": "ACP",
+          "3": "ANP"
+        },
+        {
+          "0": "Agora",
+          "1": "A2A",
+          "2": "ACP",
+          "3": "A2A"
+        },
+        {
+          "0": "Agora",
+          "1": "ANP",
+          "2": "ACP",
+          "3": "A2A"
+        }
+      ],
+      "eligible_preference_grid_minima": {
+        "minimum_lambda": 0.001,
+        "minimum_lambda_at_minimum_traffic_scale": 0.1,
+        "minimum_traffic_scale": 1.0,
+        "minimum_traffic_scale_at_minimum_lambda": 100.0
+      },
+      "eligible_preference_node_transitions": {
+        "A2A -> ANP": 3,
+        "Agora -> ANP": 12
+      },
+      "non_agora_preference_reversal_examples": [
+        {
+          "a2a_acp_anp_preference_reversal_nodes": [
+            "1"
+          ],
+          "baseline_assignment": {
+            "0": "Agora",
+            "1": "A2A",
+            "2": "ACP",
+            "3": "A2A"
+          },
+          "eligible_preference_reversal_nodes": [
+            "1"
+          ],
+          "forced_removal_nodes": [],
+          "graph_assignment": {
+            "0": "Agora",
+            "1": "ANP",
+            "2": "ACP",
+            "3": "A2A"
+          },
+          "lambda": 0.1,
+          "objective_delta": -0.5649729999999984,
+          "objective_delta_vs_feasible_seed": -0.5649729999999984,
+          "traffic_normalization": "per_edge",
+          "traffic_scale": 100.0,
+          "workflow": "analysis_task"
+        },
+        {
+          "a2a_acp_anp_preference_reversal_nodes": [
+            "1",
+            "3"
+          ],
+          "baseline_assignment": {
+            "0": "Agora",
+            "1": "A2A",
+            "2": "ACP",
+            "3": "A2A"
+          },
+          "eligible_preference_reversal_nodes": [
+            "0",
+            "1",
+            "3"
+          ],
+          "forced_removal_nodes": [],
+          "graph_assignment": {
+            "0": "ANP",
+            "1": "ANP",
+            "2": "ACP",
+            "3": "ANP"
+          },
+          "lambda": 0.1,
+          "objective_delta": -662.30446,
+          "objective_delta_vs_feasible_seed": -662.30446,
+          "traffic_normalization": "per_edge",
+          "traffic_scale": 100.0,
+          "workflow": "collaborative_task"
+        }
+      ],
+      "pure_a2a_acp_anp_strict_assignment_reversal_cases": 1,
+      "strict_by_normalization": {
+        "equal_total": 6,
+        "per_edge": 7
+      },
+      "strict_by_traffic_scale": {
+        "1.0": 2,
+        "10.0": 4,
+        "100.0": 7
+      },
+      "strict_changed_node_transitions": {
+        "A2A -> ANP": 3,
+        "Agora -> ANP": 12
+      },
+      "strict_eligible_preference_reversal_cases": 13,
+      "strict_original_baseline_grid_minima": {
+        "minimum_lambda": 0.001,
+        "minimum_lambda_at_minimum_traffic_scale": 0.1,
+        "minimum_traffic_scale": 1.0,
+        "minimum_traffic_scale_at_minimum_lambda": 100.0
+      },
+      "strict_reversal_examples": [
+        {
+          "a2a_acp_anp_preference_reversal_nodes": [
+            "1"
+          ],
+          "baseline_assignment": {
+            "0": "Agora",
+            "1": "A2A",
+            "2": "ACP",
+            "3": "A2A"
+          },
+          "eligible_preference_reversal_nodes": [
+            "1"
+          ],
+          "forced_removal_nodes": [],
+          "graph_assignment": {
+            "0": "Agora",
+            "1": "ANP",
+            "2": "ACP",
+            "3": "A2A"
+          },
+          "lambda": 0.1,
+          "objective_delta": -0.5649729999999984,
+          "objective_delta_vs_feasible_seed": -0.5649729999999984,
+          "traffic_normalization": "per_edge",
+          "traffic_scale": 100.0,
+          "workflow": "analysis_task"
+        },
+        {
+          "a2a_acp_anp_preference_reversal_nodes": [],
+          "baseline_assignment": {
+            "0": "Agora",
+            "1": "A2A",
+            "2": "ACP",
+            "3": "A2A"
+          },
+          "eligible_preference_reversal_nodes": [
+            "0"
+          ],
+          "forced_removal_nodes": [],
+          "graph_assignment": {
+            "0": "ANP",
+            "1": "A2A",
+            "2": "ACP",
+            "3": "A2A"
+          },
+          "lambda": 0.1,
+          "objective_delta": -5.62174514,
+          "objective_delta_vs_feasible_seed": -5.62174514,
+          "traffic_normalization": "per_edge",
+          "traffic_scale": 1.0,
+          "workflow": "collaborative_task"
+        },
+        {
+          "a2a_acp_anp_preference_reversal_nodes": [],
+          "baseline_assignment": {
+            "0": "Agora",
+            "1": "A2A",
+            "2": "ACP",
+            "3": "A2A"
+          },
+          "eligible_preference_reversal_nodes": [
+            "0"
+          ],
+          "forced_removal_nodes": [],
+          "graph_assignment": {
+            "0": "ANP",
+            "1": "A2A",
+            "2": "ACP",
+            "3": "A2A"
+          },
+          "lambda": 0.01,
+          "objective_delta": -5.62174514,
+          "objective_delta_vs_feasible_seed": -5.62174514,
+          "traffic_normalization": "per_edge",
+          "traffic_scale": 10.0,
+          "workflow": "collaborative_task"
+        }
+      ],
+      "strict_reversals_vs_original_baseline": 13,
+      "total_cases": 72
+    },
+    "without_agora": {
+      "a2a_acp_anp_preference_reversal_cases": 2,
+      "cases_with_forced_removal": 72,
+      "distinct_graph_assignments": [
+        {
+          "0": "A2A",
+          "1": "A2A",
+          "2": "ACP",
+          "3": "A2A"
+        },
+        {
+          "0": "A2A",
+          "1": "ANP",
+          "2": "ACP",
+          "3": "A2A"
+        },
+        {
+          "0": "ANP",
+          "1": "A2A",
+          "2": "ACP",
+          "3": "A2A"
+        },
+        {
+          "0": "ANP",
+          "1": "ANP",
+          "2": "ACP",
+          "3": "ANP"
+        }
+      ],
+      "eligible_preference_grid_minima": {
+        "minimum_lambda": 0.1,
+        "minimum_lambda_at_minimum_traffic_scale": 0.1,
+        "minimum_traffic_scale": 100.0,
+        "minimum_traffic_scale_at_minimum_lambda": 100.0
+      },
+      "eligible_preference_node_transitions": {
+        "A2A -> ANP": 3
+      },
+      "non_agora_preference_reversal_examples": [
+        {
+          "a2a_acp_anp_preference_reversal_nodes": [
+            "1"
+          ],
+          "baseline_assignment": {
+            "0": "Agora",
+            "1": "A2A",
+            "2": "ACP",
+            "3": "A2A"
+          },
+          "eligible_preference_reversal_nodes": [
+            "1"
+          ],
+          "forced_removal_nodes": [
+            "0"
+          ],
+          "graph_assignment": {
+            "0": "A2A",
+            "1": "ANP",
+            "2": "ACP",
+            "3": "A2A"
+          },
+          "lambda": 0.1,
+          "objective_delta": 0.4350270000000016,
+          "objective_delta_vs_feasible_seed": -0.5649729999999984,
+          "traffic_normalization": "per_edge",
+          "traffic_scale": 100.0,
+          "workflow": "analysis_task"
+        },
+        {
+          "a2a_acp_anp_preference_reversal_nodes": [
+            "1",
+            "3"
+          ],
+          "baseline_assignment": {
+            "0": "Agora",
+            "1": "A2A",
+            "2": "ACP",
+            "3": "A2A"
+          },
+          "eligible_preference_reversal_nodes": [
+            "1",
+            "3"
+          ],
+          "forced_removal_nodes": [
+            "0"
+          ],
+          "graph_assignment": {
+            "0": "ANP",
+            "1": "ANP",
+            "2": "ACP",
+            "3": "ANP"
+          },
+          "lambda": 0.1,
+          "objective_delta": -662.30446,
+          "objective_delta_vs_feasible_seed": -5.824864999999988,
+          "traffic_normalization": "per_edge",
+          "traffic_scale": 100.0,
+          "workflow": "collaborative_task"
+        }
+      ],
+      "pure_a2a_acp_anp_strict_assignment_reversal_cases": 0,
+      "strict_by_normalization": {
+        "equal_total": 6,
+        "per_edge": 6
+      },
+      "strict_by_traffic_scale": {
+        "1.0": 2,
+        "10.0": 4,
+        "100.0": 6
+      },
+      "strict_changed_node_transitions": {
+        "A2A -> ANP": 2,
+        "Agora -> ANP": 12
+      },
+      "strict_eligible_preference_reversal_cases": 2,
+      "strict_original_baseline_grid_minima": {
+        "minimum_lambda": 0.001,
+        "minimum_lambda_at_minimum_traffic_scale": 0.1,
+        "minimum_traffic_scale": 1.0,
+        "minimum_traffic_scale_at_minimum_lambda": 100.0
+      },
+      "strict_reversal_examples": [
+        {
+          "a2a_acp_anp_preference_reversal_nodes": [],
+          "baseline_assignment": {
+            "0": "Agora",
+            "1": "A2A",
+            "2": "ACP",
+            "3": "A2A"
+          },
+          "eligible_preference_reversal_nodes": [],
+          "forced_removal_nodes": [
+            "0"
+          ],
+          "graph_assignment": {
+            "0": "ANP",
+            "1": "A2A",
+            "2": "ACP",
+            "3": "A2A"
+          },
+          "lambda": 0.1,
+          "objective_delta": -5.62174514,
+          "objective_delta_vs_feasible_seed": -0.046949190000000085,
+          "traffic_normalization": "per_edge",
+          "traffic_scale": 1.0,
+          "workflow": "collaborative_task"
+        },
+        {
+          "a2a_acp_anp_preference_reversal_nodes": [],
+          "baseline_assignment": {
+            "0": "Agora",
+            "1": "A2A",
+            "2": "ACP",
+            "3": "A2A"
+          },
+          "eligible_preference_reversal_nodes": [],
+          "forced_removal_nodes": [
+            "0"
+          ],
+          "graph_assignment": {
+            "0": "ANP",
+            "1": "A2A",
+            "2": "ACP",
+            "3": "A2A"
+          },
+          "lambda": 0.01,
+          "objective_delta": -5.62174514,
+          "objective_delta_vs_feasible_seed": -0.04694919000000031,
+          "traffic_normalization": "per_edge",
+          "traffic_scale": 10.0,
+          "workflow": "collaborative_task"
+        },
+        {
+          "a2a_acp_anp_preference_reversal_nodes": [],
+          "baseline_assignment": {
+            "0": "Agora",
+            "1": "A2A",
+            "2": "ACP",
+            "3": "A2A"
+          },
+          "eligible_preference_reversal_nodes": [],
+          "forced_removal_nodes": [
+            "0"
+          ],
+          "graph_assignment": {
+            "0": "ANP",
+            "1": "A2A",
+            "2": "ACP",
+            "3": "A2A"
+          },
+          "lambda": 0.1,
+          "objective_delta": -65.2174514,
+          "objective_delta_vs_feasible_seed": -0.4694918999999995,
+          "traffic_normalization": "per_edge",
+          "traffic_scale": 10.0,
+          "workflow": "collaborative_task"
+        }
+      ],
+      "strict_reversals_vs_original_baseline": 12,
+      "total_cases": 72
+    }
+  },
+  "control_config_sha256": "56e3493e0f8870c192b8e98c1dfb9255c3bb11d61a71f1ba0c2327ddfc4fc7c2",
+  "controlled_lambdas": [
+    0,
+    1e-05,
+    0.0001,
+    0.001,
+    0.01,
+    0.1
+  ],
+  "controlled_traffic_scales": {
+    "high": 100,
+    "low": 1,
+    "medium": 10
+  },
+  "cost_provenance": {
+    "cost_metric": "mean_latency_ms",
+    "input_sha256": {
+      "results/processed/real_protocol_costs.csv": "c9d5ee0d7d5c906715cbe4529b6d7a4335fe7b741809b53f721249b44d2478c8",
+      "results/raw/real_protocol_manifest.json": "13482540f6ec4b4c5294827f91822507f1ad69df401071d7899d8841589b41ab",
+      "results/raw/real_protocol_profile.csv": "442ef769d72176c9db734e9765e9b7521af2508f23472d9ec5170e1fd16c0479"
+    },
+    "latency_boundary": "perf_counter_ns immediately around await BaseAgent.send; setup/warmup excluded from summary",
+    "measurement_kind": "end_to_end_local_request",
+    "measurements_recomputed": false
+  },
+  "graphs": [
+    {
+      "all_expansion": "all other agents in the unchanged four-node experiment roster",
+      "edges": [
+        {
+          "dst": "1",
+          "metadata": {
+            "protocol_preference": "anp",
+            "reason": "high_accuracy_needed"
+          },
+          "payload_size_bytes": 10240,
+          "src": "0",
+          "step_index": 0,
+          "weight": 1.0
+        },
+        {
+          "dst": "2",
+          "metadata": {
+            "protocol_preference": "a2a",
+            "reason": "fast_data_transfer"
+          },
+          "payload_size_bytes": 10240,
+          "src": "1",
+          "step_index": 1,
+          "weight": 1.0
+        }
+      ],
+      "final_handling": "terminal output marker; no new agent, assigned protocol or invented network cost",
+      "nodes": [
+        {
+          "id": "0",
+          "name": "Reader",
+          "port": 19000,
+          "role": "Gather evidence",
+          "tool": "browser_use"
+        },
+        {
+          "id": "1",
+          "name": "Analyst",
+          "port": 19001,
+          "role": "Analyze evidence",
+          "tool": "python_execute"
+        },
+        {
+          "id": "2",
+          "name": "Synthesizer",
+          "port": 19002,
+          "role": "Synthesize answer",
+          "tool": "create_chat_completion"
+        },
+        {
+          "id": "3",
+          "name": "Editor",
+          "port": 19003,
+          "role": "Prepare artifacts",
+          "tool": "str_replace_editor"
+        }
+      ],
+      "official_pattern": [
+        {
+          "from": 0,
+          "protocol_preference": "anp",
+          "reason": "high_accuracy_needed",
+          "to": [
+            1
+          ]
+        },
+        {
+          "from": 1,
+          "protocol_preference": "a2a",
+          "reason": "fast_data_transfer",
+          "to": [
+            2
+          ]
+        },
+        {
+          "from": 2,
+          "protocol_preference": "agora",
+          "reason": "reliable_final_result",
+          "to": "final"
+        }
+      ],
+      "protocol_preference_handling": "metadata only; not used in local loss or objective",
+      "terminal_events": [
+        {
+          "dst": "final",
+          "included_in_communication_objective": false,
+          "metadata": {
+            "protocol_preference": "agora",
+            "reason": "reliable_final_result"
+          },
+          "src": "2",
+          "step_index": 2,
+          "weight": 1.0
+        }
+      ],
+      "total_agent_messages": 2.0,
+      "traffic_normalization": "per_edge",
+      "traffic_scale": 1.0,
+      "workflow": "analysis_task"
+    },
+    {
+      "all_expansion": "all other agents in the unchanged four-node experiment roster",
+      "edges": [
+        {
+          "dst": "1",
+          "metadata": {
+            "protocol_preference": "anp",
+            "reason": "high_accuracy_needed"
+          },
+          "payload_size_bytes": 10240,
+          "src": "0",
+          "step_index": 0,
+          "weight": 10.0
+        },
+        {
+          "dst": "2",
+          "metadata": {
+            "protocol_preference": "a2a",
+            "reason": "fast_data_transfer"
+          },
+          "payload_size_bytes": 10240,
+          "src": "1",
+          "step_index": 1,
+          "weight": 10.0
+        }
+      ],
+      "final_handling": "terminal output marker; no new agent, assigned protocol or invented network cost",
+      "nodes": [
+        {
+          "id": "0",
+          "name": "Reader",
+          "port": 19000,
+          "role": "Gather evidence",
+          "tool": "browser_use"
+        },
+        {
+          "id": "1",
+          "name": "Analyst",
+          "port": 19001,
+          "role": "Analyze evidence",
+          "tool": "python_execute"
+        },
+        {
+          "id": "2",
+          "name": "Synthesizer",
+          "port": 19002,
+          "role": "Synthesize answer",
+          "tool": "create_chat_completion"
+        },
+        {
+          "id": "3",
+          "name": "Editor",
+          "port": 19003,
+          "role": "Prepare artifacts",
+          "tool": "str_replace_editor"
+        }
+      ],
+      "official_pattern": [
+        {
+          "from": 0,
+          "protocol_preference": "anp",
+          "reason": "high_accuracy_needed",
+          "to": [
+            1
+          ]
+        },
+        {
+          "from": 1,
+          "protocol_preference": "a2a",
+          "reason": "fast_data_transfer",
+          "to": [
+            2
+          ]
+        },
+        {
+          "from": 2,
+          "protocol_preference": "agora",
+          "reason": "reliable_final_result",
+          "to": "final"
+        }
+      ],
+      "protocol_preference_handling": "metadata only; not used in local loss or objective",
+      "terminal_events": [
+        {
+          "dst": "final",
+          "included_in_communication_objective": false,
+          "metadata": {
+            "protocol_preference": "agora",
+            "reason": "reliable_final_result"
+          },
+          "src": "2",
+          "step_index": 2,
+          "weight": 10.0
+        }
+      ],
+      "total_agent_messages": 20.0,
+      "traffic_normalization": "per_edge",
+      "traffic_scale": 10.0,
+      "workflow": "analysis_task"
+    },
+    {
+      "all_expansion": "all other agents in the unchanged four-node experiment roster",
+      "edges": [
+        {
+          "dst": "1",
+          "metadata": {
+            "protocol_preference": "anp",
+            "reason": "high_accuracy_needed"
+          },
+          "payload_size_bytes": 10240,
+          "src": "0",
+          "step_index": 0,
+          "weight": 100.0
+        },
+        {
+          "dst": "2",
+          "metadata": {
+            "protocol_preference": "a2a",
+            "reason": "fast_data_transfer"
+          },
+          "payload_size_bytes": 10240,
+          "src": "1",
+          "step_index": 1,
+          "weight": 100.0
+        }
+      ],
+      "final_handling": "terminal output marker; no new agent, assigned protocol or invented network cost",
+      "nodes": [
+        {
+          "id": "0",
+          "name": "Reader",
+          "port": 19000,
+          "role": "Gather evidence",
+          "tool": "browser_use"
+        },
+        {
+          "id": "1",
+          "name": "Analyst",
+          "port": 19001,
+          "role": "Analyze evidence",
+          "tool": "python_execute"
+        },
+        {
+          "id": "2",
+          "name": "Synthesizer",
+          "port": 19002,
+          "role": "Synthesize answer",
+          "tool": "create_chat_completion"
+        },
+        {
+          "id": "3",
+          "name": "Editor",
+          "port": 19003,
+          "role": "Prepare artifacts",
+          "tool": "str_replace_editor"
+        }
+      ],
+      "official_pattern": [
+        {
+          "from": 0,
+          "protocol_preference": "anp",
+          "reason": "high_accuracy_needed",
+          "to": [
+            1
+          ]
+        },
+        {
+          "from": 1,
+          "protocol_preference": "a2a",
+          "reason": "fast_data_transfer",
+          "to": [
+            2
+          ]
+        },
+        {
+          "from": 2,
+          "protocol_preference": "agora",
+          "reason": "reliable_final_result",
+          "to": "final"
+        }
+      ],
+      "protocol_preference_handling": "metadata only; not used in local loss or objective",
+      "terminal_events": [
+        {
+          "dst": "final",
+          "included_in_communication_objective": false,
+          "metadata": {
+            "protocol_preference": "agora",
+            "reason": "reliable_final_result"
+          },
+          "src": "2",
+          "step_index": 2,
+          "weight": 100.0
+        }
+      ],
+      "total_agent_messages": 200.0,
+      "traffic_normalization": "per_edge",
+      "traffic_scale": 100.0,
+      "workflow": "analysis_task"
+    },
+    {
+      "all_expansion": "all other agents in the unchanged four-node experiment roster",
+      "edges": [
+        {
+          "dst": "1",
+          "metadata": {
+            "protocol_preference": "anp",
+            "reason": "high_accuracy_needed"
+          },
+          "payload_size_bytes": 10240,
+          "src": "0",
+          "step_index": 0,
+          "weight": 0.5
+        },
+        {
+          "dst": "2",
+          "metadata": {
+            "protocol_preference": "a2a",
+            "reason": "fast_data_transfer"
+          },
+          "payload_size_bytes": 10240,
+          "src": "1",
+          "step_index": 1,
+          "weight": 0.5
+        }
+      ],
+      "final_handling": "terminal output marker; no new agent, assigned protocol or invented network cost",
+      "nodes": [
+        {
+          "id": "0",
+          "name": "Reader",
+          "port": 19000,
+          "role": "Gather evidence",
+          "tool": "browser_use"
+        },
+        {
+          "id": "1",
+          "name": "Analyst",
+          "port": 19001,
+          "role": "Analyze evidence",
+          "tool": "python_execute"
+        },
+        {
+          "id": "2",
+          "name": "Synthesizer",
+          "port": 19002,
+          "role": "Synthesize answer",
+          "tool": "create_chat_completion"
+        },
+        {
+          "id": "3",
+          "name": "Editor",
+          "port": 19003,
+          "role": "Prepare artifacts",
+          "tool": "str_replace_editor"
+        }
+      ],
+      "official_pattern": [
+        {
+          "from": 0,
+          "protocol_preference": "anp",
+          "reason": "high_accuracy_needed",
+          "to": [
+            1
+          ]
+        },
+        {
+          "from": 1,
+          "protocol_preference": "a2a",
+          "reason": "fast_data_transfer",
+          "to": [
+            2
+          ]
+        },
+        {
+          "from": 2,
+          "protocol_preference": "agora",
+          "reason": "reliable_final_result",
+          "to": "final"
+        }
+      ],
+      "protocol_preference_handling": "metadata only; not used in local loss or objective",
+      "terminal_events": [
+        {
+          "dst": "final",
+          "included_in_communication_objective": false,
+          "metadata": {
+            "protocol_preference": "agora",
+            "reason": "reliable_final_result"
+          },
+          "src": "2",
+          "step_index": 2,
+          "weight": 1.0
+        }
+      ],
+      "total_agent_messages": 1.0,
+      "traffic_normalization": "equal_total",
+      "traffic_scale": 1.0,
+      "workflow": "analysis_task"
+    },
+    {
+      "all_expansion": "all other agents in the unchanged four-node experiment roster",
+      "edges": [
+        {
+          "dst": "1",
+          "metadata": {
+            "protocol_preference": "anp",
+            "reason": "high_accuracy_needed"
+          },
+          "payload_size_bytes": 10240,
+          "src": "0",
+          "step_index": 0,
+          "weight": 5.0
+        },
+        {
+          "dst": "2",
+          "metadata": {
+            "protocol_preference": "a2a",
+            "reason": "fast_data_transfer"
+          },
+          "payload_size_bytes": 10240,
+          "src": "1",
+          "step_index": 1,
+          "weight": 5.0
+        }
+      ],
+      "final_handling": "terminal output marker; no new agent, assigned protocol or invented network cost",
+      "nodes": [
+        {
+          "id": "0",
+          "name": "Reader",
+          "port": 19000,
+          "role": "Gather evidence",
+          "tool": "browser_use"
+        },
+        {
+          "id": "1",
+          "name": "Analyst",
+          "port": 19001,
+          "role": "Analyze evidence",
+          "tool": "python_execute"
+        },
+        {
+          "id": "2",
+          "name": "Synthesizer",
+          "port": 19002,
+          "role": "Synthesize answer",
+          "tool": "create_chat_completion"
+        },
+        {
+          "id": "3",
+          "name": "Editor",
+          "port": 19003,
+          "role": "Prepare artifacts",
+          "tool": "str_replace_editor"
+        }
+      ],
+      "official_pattern": [
+        {
+          "from": 0,
+          "protocol_preference": "anp",
+          "reason": "high_accuracy_needed",
+          "to": [
+            1
+          ]
+        },
+        {
+          "from": 1,
+          "protocol_preference": "a2a",
+          "reason": "fast_data_transfer",
+          "to": [
+            2
+          ]
+        },
+        {
+          "from": 2,
+          "protocol_preference": "agora",
+          "reason": "reliable_final_result",
+          "to": "final"
+        }
+      ],
+      "protocol_preference_handling": "metadata only; not used in local loss or objective",
+      "terminal_events": [
+        {
+          "dst": "final",
+          "included_in_communication_objective": false,
+          "metadata": {
+            "protocol_preference": "agora",
+            "reason": "reliable_final_result"
+          },
+          "src": "2",
+          "step_index": 2,
+          "weight": 10.0
+        }
+      ],
+      "total_agent_messages": 10.0,
+      "traffic_normalization": "equal_total",
+      "traffic_scale": 10.0,
+      "workflow": "analysis_task"
+    },
+    {
+      "all_expansion": "all other agents in the unchanged four-node experiment roster",
+      "edges": [
+        {
+          "dst": "1",
+          "metadata": {
+            "protocol_preference": "anp",
+            "reason": "high_accuracy_needed"
+          },
+          "payload_size_bytes": 10240,
+          "src": "0",
+          "step_index": 0,
+          "weight": 50.0
+        },
+        {
+          "dst": "2",
+          "metadata": {
+            "protocol_preference": "a2a",
+            "reason": "fast_data_transfer"
+          },
+          "payload_size_bytes": 10240,
+          "src": "1",
+          "step_index": 1,
+          "weight": 50.0
+        }
+      ],
+      "final_handling": "terminal output marker; no new agent, assigned protocol or invented network cost",
+      "nodes": [
+        {
+          "id": "0",
+          "name": "Reader",
+          "port": 19000,
+          "role": "Gather evidence",
+          "tool": "browser_use"
+        },
+        {
+          "id": "1",
+          "name": "Analyst",
+          "port": 19001,
+          "role": "Analyze evidence",
+          "tool": "python_execute"
+        },
+        {
+          "id": "2",
+          "name": "Synthesizer",
+          "port": 19002,
+          "role": "Synthesize answer",
+          "tool": "create_chat_completion"
+        },
+        {
+          "id": "3",
+          "name": "Editor",
+          "port": 19003,
+          "role": "Prepare artifacts",
+          "tool": "str_replace_editor"
+        }
+      ],
+      "official_pattern": [
+        {
+          "from": 0,
+          "protocol_preference": "anp",
+          "reason": "high_accuracy_needed",
+          "to": [
+            1
+          ]
+        },
+        {
+          "from": 1,
+          "protocol_preference": "a2a",
+          "reason": "fast_data_transfer",
+          "to": [
+            2
+          ]
+        },
+        {
+          "from": 2,
+          "protocol_preference": "agora",
+          "reason": "reliable_final_result",
+          "to": "final"
+        }
+      ],
+      "protocol_preference_handling": "metadata only; not used in local loss or objective",
+      "terminal_events": [
+        {
+          "dst": "final",
+          "included_in_communication_objective": false,
+          "metadata": {
+            "protocol_preference": "agora",
+            "reason": "reliable_final_result"
+          },
+          "src": "2",
+          "step_index": 2,
+          "weight": 100.0
+        }
+      ],
+      "total_agent_messages": 100.0,
+      "traffic_normalization": "equal_total",
+      "traffic_scale": 100.0,
+      "workflow": "analysis_task"
+    },
+    {
+      "all_expansion": "all other agents in the unchanged four-node experiment roster",
+      "edges": [
+        {
+          "dst": "1",
+          "metadata": {
+            "protocol_preference": "agora",
+            "reason": "broadcast_reliability"
+          },
+          "payload_size_bytes": 10240,
+          "src": "0",
+          "step_index": 0,
+          "weight": 1.0
+        },
+        {
+          "dst": "2",
+          "metadata": {
+            "protocol_preference": "agora",
+            "reason": "broadcast_reliability"
+          },
+          "payload_size_bytes": 10240,
+          "src": "0",
+          "step_index": 0,
+          "weight": 1.0
+        },
+        {
+          "dst": "3",
+          "metadata": {
+            "protocol_preference": "agora",
+            "reason": "broadcast_reliability"
+          },
+          "payload_size_bytes": 10240,
+          "src": "0",
+          "step_index": 0,
+          "weight": 1.0
+        },
+        {
+          "dst": "0",
+          "metadata": {
+            "protocol_preference": "a2a",
+            "reason": "fast_aggregation"
+          },
+          "payload_size_bytes": 10240,
+          "src": "1",
+          "step_index": 1,
+          "weight": 1.0
+        },
+        {
+          "dst": "0",
+          "metadata": {
+            "protocol_preference": "a2a",
+            "reason": "fast_aggregation"
+          },
+          "payload_size_bytes": 10240,
+          "src": "2",
+          "step_index": 1,
+          "weight": 1.0
+        },
+        {
+          "dst": "0",
+          "metadata": {
+            "protocol_preference": "a2a",
+            "reason": "fast_aggregation"
+          },
+          "payload_size_bytes": 10240,
+          "src": "3",
+          "step_index": 1,
+          "weight": 1.0
+        }
+      ],
+      "final_handling": "terminal output marker; no new agent, assigned protocol or invented network cost",
+      "nodes": [
+        {
+          "id": "0",
+          "name": "Reader",
+          "port": 19000,
+          "role": "Gather evidence",
+          "tool": "browser_use"
+        },
+        {
+          "id": "1",
+          "name": "Analyst",
+          "port": 19001,
+          "role": "Analyze evidence",
+          "tool": "python_execute"
+        },
+        {
+          "id": "2",
+          "name": "Synthesizer",
+          "port": 19002,
+          "role": "Synthesize answer",
+          "tool": "create_chat_completion"
+        },
+        {
+          "id": "3",
+          "name": "Editor",
+          "port": 19003,
+          "role": "Prepare artifacts",
+          "tool": "str_replace_editor"
+        }
+      ],
+      "official_pattern": [
+        {
+          "from": 0,
+          "protocol_preference": "agora",
+          "reason": "broadcast_reliability",
+          "to": "all"
+        },
+        {
+          "from": "all",
+          "protocol_preference": "a2a",
+          "reason": "fast_aggregation",
+          "to": 0
+        }
+      ],
+      "protocol_preference_handling": "metadata only; not used in local loss or objective",
+      "terminal_events": [],
+      "total_agent_messages": 6.0,
+      "traffic_normalization": "per_edge",
+      "traffic_scale": 1.0,
+      "workflow": "collaborative_task"
+    },
+    {
+      "all_expansion": "all other agents in the unchanged four-node experiment roster",
+      "edges": [
+        {
+          "dst": "1",
+          "metadata": {
+            "protocol_preference": "agora",
+            "reason": "broadcast_reliability"
+          },
+          "payload_size_bytes": 10240,
+          "src": "0",
+          "step_index": 0,
+          "weight": 10.0
+        },
+        {
+          "dst": "2",
+          "metadata": {
+            "protocol_preference": "agora",
+            "reason": "broadcast_reliability"
+          },
+          "payload_size_bytes": 10240,
+          "src": "0",
+          "step_index": 0,
+          "weight": 10.0
+        },
+        {
+          "dst": "3",
+          "metadata": {
+            "protocol_preference": "agora",
+            "reason": "broadcast_reliability"
+          },
+          "payload_size_bytes": 10240,
+          "src": "0",
+          "step_index": 0,
+          "weight": 10.0
+        },
+        {
+          "dst": "0",
+          "metadata": {
+            "protocol_preference": "a2a",
+            "reason": "fast_aggregation"
+          },
+          "payload_size_bytes": 10240,
+          "src": "1",
+          "step_index": 1,
+          "weight": 10.0
+        },
+        {
+          "dst": "0",
+          "metadata": {
+            "protocol_preference": "a2a",
+            "reason": "fast_aggregation"
+          },
+          "payload_size_bytes": 10240,
+          "src": "2",
+          "step_index": 1,
+          "weight": 10.0
+        },
+        {
+          "dst": "0",
+          "metadata": {
+            "protocol_preference": "a2a",
+            "reason": "fast_aggregation"
+          },
+          "payload_size_bytes": 10240,
+          "src": "3",
+          "step_index": 1,
+          "weight": 10.0
+        }
+      ],
+      "final_handling": "terminal output marker; no new agent, assigned protocol or invented network cost",
+      "nodes": [
+        {
+          "id": "0",
+          "name": "Reader",
+          "port": 19000,
+          "role": "Gather evidence",
+          "tool": "browser_use"
+        },
+        {
+          "id": "1",
+          "name": "Analyst",
+          "port": 19001,
+          "role": "Analyze evidence",
+          "tool": "python_execute"
+        },
+        {
+          "id": "2",
+          "name": "Synthesizer",
+          "port": 19002,
+          "role": "Synthesize answer",
+          "tool": "create_chat_completion"
+        },
+        {
+          "id": "3",
+          "name": "Editor",
+          "port": 19003,
+          "role": "Prepare artifacts",
+          "tool": "str_replace_editor"
+        }
+      ],
+      "official_pattern": [
+        {
+          "from": 0,
+          "protocol_preference": "agora",
+          "reason": "broadcast_reliability",
+          "to": "all"
+        },
+        {
+          "from": "all",
+          "protocol_preference": "a2a",
+          "reason": "fast_aggregation",
+          "to": 0
+        }
+      ],
+      "protocol_preference_handling": "metadata only; not used in local loss or objective",
+      "terminal_events": [],
+      "total_agent_messages": 60.0,
+      "traffic_normalization": "per_edge",
+      "traffic_scale": 10.0,
+      "workflow": "collaborative_task"
+    },
+    {
+      "all_expansion": "all other agents in the unchanged four-node experiment roster",
+      "edges": [
+        {
+          "dst": "1",
+          "metadata": {
+            "protocol_preference": "agora",
+            "reason": "broadcast_reliability"
+          },
+          "payload_size_bytes": 10240,
+          "src": "0",
+          "step_index": 0,
+          "weight": 100.0
+        },
+        {
+          "dst": "2",
+          "metadata": {
+            "protocol_preference": "agora",
+            "reason": "broadcast_reliability"
+          },
+          "payload_size_bytes": 10240,
+          "src": "0",
+          "step_index": 0,
+          "weight": 100.0
+        },
+        {
+          "dst": "3",
+          "metadata": {
+            "protocol_preference": "agora",
+            "reason": "broadcast_reliability"
+          },
+          "payload_size_bytes": 10240,
+          "src": "0",
+          "step_index": 0,
+          "weight": 100.0
+        },
+        {
+          "dst": "0",
+          "metadata": {
+            "protocol_preference": "a2a",
+            "reason": "fast_aggregation"
+          },
+          "payload_size_bytes": 10240,
+          "src": "1",
+          "step_index": 1,
+          "weight": 100.0
+        },
+        {
+          "dst": "0",
+          "metadata": {
+            "protocol_preference": "a2a",
+            "reason": "fast_aggregation"
+          },
+          "payload_size_bytes": 10240,
+          "src": "2",
+          "step_index": 1,
+          "weight": 100.0
+        },
+        {
+          "dst": "0",
+          "metadata": {
+            "protocol_preference": "a2a",
+            "reason": "fast_aggregation"
+          },
+          "payload_size_bytes": 10240,
+          "src": "3",
+          "step_index": 1,
+          "weight": 100.0
+        }
+      ],
+      "final_handling": "terminal output marker; no new agent, assigned protocol or invented network cost",
+      "nodes": [
+        {
+          "id": "0",
+          "name": "Reader",
+          "port": 19000,
+          "role": "Gather evidence",
+          "tool": "browser_use"
+        },
+        {
+          "id": "1",
+          "name": "Analyst",
+          "port": 19001,
+          "role": "Analyze evidence",
+          "tool": "python_execute"
+        },
+        {
+          "id": "2",
+          "name": "Synthesizer",
+          "port": 19002,
+          "role": "Synthesize answer",
+          "tool": "create_chat_completion"
+        },
+        {
+          "id": "3",
+          "name": "Editor",
+          "port": 19003,
+          "role": "Prepare artifacts",
+          "tool": "str_replace_editor"
+        }
+      ],
+      "official_pattern": [
+        {
+          "from": 0,
+          "protocol_preference": "agora",
+          "reason": "broadcast_reliability",
+          "to": "all"
+        },
+        {
+          "from": "all",
+          "protocol_preference": "a2a",
+          "reason": "fast_aggregation",
+          "to": 0
+        }
+      ],
+      "protocol_preference_handling": "metadata only; not used in local loss or objective",
+      "terminal_events": [],
+      "total_agent_messages": 600.0,
+      "traffic_normalization": "per_edge",
+      "traffic_scale": 100.0,
+      "workflow": "collaborative_task"
+    },
+    {
+      "all_expansion": "all other agents in the unchanged four-node experiment roster",
+      "edges": [
+        {
+          "dst": "1",
+          "metadata": {
+            "protocol_preference": "agora",
+            "reason": "broadcast_reliability"
+          },
+          "payload_size_bytes": 10240,
+          "src": "0",
+          "step_index": 0,
+          "weight": 0.16666666666666666
+        },
+        {
+          "dst": "2",
+          "metadata": {
+            "protocol_preference": "agora",
+            "reason": "broadcast_reliability"
+          },
+          "payload_size_bytes": 10240,
+          "src": "0",
+          "step_index": 0,
+          "weight": 0.16666666666666666
+        },
+        {
+          "dst": "3",
+          "metadata": {
+            "protocol_preference": "agora",
+            "reason": "broadcast_reliability"
+          },
+          "payload_size_bytes": 10240,
+          "src": "0",
+          "step_index": 0,
+          "weight": 0.16666666666666666
+        },
+        {
+          "dst": "0",
+          "metadata": {
+            "protocol_preference": "a2a",
+            "reason": "fast_aggregation"
+          },
+          "payload_size_bytes": 10240,
+          "src": "1",
+          "step_index": 1,
+          "weight": 0.16666666666666666
+        },
+        {
+          "dst": "0",
+          "metadata": {
+            "protocol_preference": "a2a",
+            "reason": "fast_aggregation"
+          },
+          "payload_size_bytes": 10240,
+          "src": "2",
+          "step_index": 1,
+          "weight": 0.16666666666666666
+        },
+        {
+          "dst": "0",
+          "metadata": {
+            "protocol_preference": "a2a",
+            "reason": "fast_aggregation"
+          },
+          "payload_size_bytes": 10240,
+          "src": "3",
+          "step_index": 1,
+          "weight": 0.16666666666666666
+        }
+      ],
+      "final_handling": "terminal output marker; no new agent, assigned protocol or invented network cost",
+      "nodes": [
+        {
+          "id": "0",
+          "name": "Reader",
+          "port": 19000,
+          "role": "Gather evidence",
+          "tool": "browser_use"
+        },
+        {
+          "id": "1",
+          "name": "Analyst",
+          "port": 19001,
+          "role": "Analyze evidence",
+          "tool": "python_execute"
+        },
+        {
+          "id": "2",
+          "name": "Synthesizer",
+          "port": 19002,
+          "role": "Synthesize answer",
+          "tool": "create_chat_completion"
+        },
+        {
+          "id": "3",
+          "name": "Editor",
+          "port": 19003,
+          "role": "Prepare artifacts",
+          "tool": "str_replace_editor"
+        }
+      ],
+      "official_pattern": [
+        {
+          "from": 0,
+          "protocol_preference": "agora",
+          "reason": "broadcast_reliability",
+          "to": "all"
+        },
+        {
+          "from": "all",
+          "protocol_preference": "a2a",
+          "reason": "fast_aggregation",
+          "to": 0
+        }
+      ],
+      "protocol_preference_handling": "metadata only; not used in local loss or objective",
+      "terminal_events": [],
+      "total_agent_messages": 0.9999999999999999,
+      "traffic_normalization": "equal_total",
+      "traffic_scale": 1.0,
+      "workflow": "collaborative_task"
+    },
+    {
+      "all_expansion": "all other agents in the unchanged four-node experiment roster",
+      "edges": [
+        {
+          "dst": "1",
+          "metadata": {
+            "protocol_preference": "agora",
+            "reason": "broadcast_reliability"
+          },
+          "payload_size_bytes": 10240,
+          "src": "0",
+          "step_index": 0,
+          "weight": 1.6666666666666667
+        },
+        {
+          "dst": "2",
+          "metadata": {
+            "protocol_preference": "agora",
+            "reason": "broadcast_reliability"
+          },
+          "payload_size_bytes": 10240,
+          "src": "0",
+          "step_index": 0,
+          "weight": 1.6666666666666667
+        },
+        {
+          "dst": "3",
+          "metadata": {
+            "protocol_preference": "agora",
+            "reason": "broadcast_reliability"
+          },
+          "payload_size_bytes": 10240,
+          "src": "0",
+          "step_index": 0,
+          "weight": 1.6666666666666667
+        },
+        {
+          "dst": "0",
+          "metadata": {
+            "protocol_preference": "a2a",
+            "reason": "fast_aggregation"
+          },
+          "payload_size_bytes": 10240,
+          "src": "1",
+          "step_index": 1,
+          "weight": 1.6666666666666667
+        },
+        {
+          "dst": "0",
+          "metadata": {
+            "protocol_preference": "a2a",
+            "reason": "fast_aggregation"
+          },
+          "payload_size_bytes": 10240,
+          "src": "2",
+          "step_index": 1,
+          "weight": 1.6666666666666667
+        },
+        {
+          "dst": "0",
+          "metadata": {
+            "protocol_preference": "a2a",
+            "reason": "fast_aggregation"
+          },
+          "payload_size_bytes": 10240,
+          "src": "3",
+          "step_index": 1,
+          "weight": 1.6666666666666667
+        }
+      ],
+      "final_handling": "terminal output marker; no new agent, assigned protocol or invented network cost",
+      "nodes": [
+        {
+          "id": "0",
+          "name": "Reader",
+          "port": 19000,
+          "role": "Gather evidence",
+          "tool": "browser_use"
+        },
+        {
+          "id": "1",
+          "name": "Analyst",
+          "port": 19001,
+          "role": "Analyze evidence",
+          "tool": "python_execute"
+        },
+        {
+          "id": "2",
+          "name": "Synthesizer",
+          "port": 19002,
+          "role": "Synthesize answer",
+          "tool": "create_chat_completion"
+        },
+        {
+          "id": "3",
+          "name": "Editor",
+          "port": 19003,
+          "role": "Prepare artifacts",
+          "tool": "str_replace_editor"
+        }
+      ],
+      "official_pattern": [
+        {
+          "from": 0,
+          "protocol_preference": "agora",
+          "reason": "broadcast_reliability",
+          "to": "all"
+        },
+        {
+          "from": "all",
+          "protocol_preference": "a2a",
+          "reason": "fast_aggregation",
+          "to": 0
+        }
+      ],
+      "protocol_preference_handling": "metadata only; not used in local loss or objective",
+      "terminal_events": [],
+      "total_agent_messages": 10.0,
+      "traffic_normalization": "equal_total",
+      "traffic_scale": 10.0,
+      "workflow": "collaborative_task"
+    },
+    {
+      "all_expansion": "all other agents in the unchanged four-node experiment roster",
+      "edges": [
+        {
+          "dst": "1",
+          "metadata": {
+            "protocol_preference": "agora",
+            "reason": "broadcast_reliability"
+          },
+          "payload_size_bytes": 10240,
+          "src": "0",
+          "step_index": 0,
+          "weight": 16.666666666666668
+        },
+        {
+          "dst": "2",
+          "metadata": {
+            "protocol_preference": "agora",
+            "reason": "broadcast_reliability"
+          },
+          "payload_size_bytes": 10240,
+          "src": "0",
+          "step_index": 0,
+          "weight": 16.666666666666668
+        },
+        {
+          "dst": "3",
+          "metadata": {
+            "protocol_preference": "agora",
+            "reason": "broadcast_reliability"
+          },
+          "payload_size_bytes": 10240,
+          "src": "0",
+          "step_index": 0,
+          "weight": 16.666666666666668
+        },
+        {
+          "dst": "0",
+          "metadata": {
+            "protocol_preference": "a2a",
+            "reason": "fast_aggregation"
+          },
+          "payload_size_bytes": 10240,
+          "src": "1",
+          "step_index": 1,
+          "weight": 16.666666666666668
+        },
+        {
+          "dst": "0",
+          "metadata": {
+            "protocol_preference": "a2a",
+            "reason": "fast_aggregation"
+          },
+          "payload_size_bytes": 10240,
+          "src": "2",
+          "step_index": 1,
+          "weight": 16.666666666666668
+        },
+        {
+          "dst": "0",
+          "metadata": {
+            "protocol_preference": "a2a",
+            "reason": "fast_aggregation"
+          },
+          "payload_size_bytes": 10240,
+          "src": "3",
+          "step_index": 1,
+          "weight": 16.666666666666668
+        }
+      ],
+      "final_handling": "terminal output marker; no new agent, assigned protocol or invented network cost",
+      "nodes": [
+        {
+          "id": "0",
+          "name": "Reader",
+          "port": 19000,
+          "role": "Gather evidence",
+          "tool": "browser_use"
+        },
+        {
+          "id": "1",
+          "name": "Analyst",
+          "port": 19001,
+          "role": "Analyze evidence",
+          "tool": "python_execute"
+        },
+        {
+          "id": "2",
+          "name": "Synthesizer",
+          "port": 19002,
+          "role": "Synthesize answer",
+          "tool": "create_chat_completion"
+        },
+        {
+          "id": "3",
+          "name": "Editor",
+          "port": 19003,
+          "role": "Prepare artifacts",
+          "tool": "str_replace_editor"
+        }
+      ],
+      "official_pattern": [
+        {
+          "from": 0,
+          "protocol_preference": "agora",
+          "reason": "broadcast_reliability",
+          "to": "all"
+        },
+        {
+          "from": "all",
+          "protocol_preference": "a2a",
+          "reason": "fast_aggregation",
+          "to": 0
+        }
+      ],
+      "protocol_preference_handling": "metadata only; not used in local loss or objective",
+      "terminal_events": [],
+      "total_agent_messages": 100.00000000000001,
+      "traffic_normalization": "equal_total",
+      "traffic_scale": 100.0,
+      "workflow": "collaborative_task"
+    }
+  ],
+  "limitations": [
+    "measured local latency point estimates",
+    "official config templates, not executed GAIA traces",
+    "traffic scaling controlled",
+    "local margins synthetic",
+    "terminal output cost outside agent objective",
+    "all instantiated as peers, no self-loop",
+    "no end-to-end GAIA task-quality claim"
+  ],
+  "local_inputs_sha256": "7feebac851b3efda55198539da729651b1fddf7b1fe6abc9ac2e97e44ac5b835",
+  "local_losses": {
+    "0": {
+      "A2A": 1.0,
+      "ACP": 1.0,
+      "ANP": 1.0,
+      "Agora": 0.0
+    },
+    "1": {
+      "A2A": 0.0,
+      "ACP": 1.0,
+      "ANP": 1.0,
+      "Agora": 1.0
+    },
+    "2": {
+      "A2A": 1.0,
+      "ACP": 0.0,
+      "ANP": 1.0,
+      "Agora": 1.0
+    },
+    "3": {
+      "A2A": 0.0,
+      "ACP": 1.0,
+      "ANP": 1.0,
+      "Agora": 1.0
+    }
+  },
+  "manual_local_margin": 1.0,
+  "no_agora_policy": "global exclusion; forced changes are not eligible preference reversals",
+  "normalizations": [
+    false,
+    true
+  ],
+  "official_config_path": "<UPSTREAM_ROOT>/scenarios/gaia/config/meta_protocol.yaml",
+  "official_config_sha256": "b64482dcbd47a6fb1140ffabcc82fcb05de7733607ea29e909fa6f28b277b0c9",
+  "original_baseline_unchanged": true,
+  "payload_size_bytes": 10240,
+  "protocol_preferences": "metadata only",
+  "result_kind": "repository_workflow_controlled_sensitivity",
+  "total_cases": 144,
+  "workflows": {
+    "analysis_task": {
+      "official_pattern": [
+        {
+          "from": 0,
+          "protocol_preference": "anp",
+          "reason": "high_accuracy_needed",
+          "to": [
+            1
+          ]
+        },
+        {
+          "from": 1,
+          "protocol_preference": "a2a",
+          "reason": "fast_data_transfer",
+          "to": [
+            2
+          ]
+        },
+        {
+          "from": 2,
+          "protocol_preference": "agora",
+          "reason": "reliable_final_result",
+          "to": "final"
+        }
+      ],
+      "variants": {
+        "all_four": {
+          "a2a_acp_anp_preference_reversal_cases": 1,
+          "cases_with_forced_removal": 0,
+          "distinct_graph_assignments": [
+            {
+              "0": "Agora",
+              "1": "A2A",
+              "2": "ACP",
+              "3": "A2A"
+            },
+            {
+              "0": "Agora",
+              "1": "ANP",
+              "2": "ACP",
+              "3": "A2A"
+            }
+          ],
+          "eligible_preference_grid_minima": {
+            "minimum_lambda": 0.1,
+            "minimum_lambda_at_minimum_traffic_scale": 0.1,
+            "minimum_traffic_scale": 100.0,
+            "minimum_traffic_scale_at_minimum_lambda": 100.0
+          },
+          "eligible_preference_node_transitions": {
+            "A2A -> ANP": 1
+          },
+          "non_agora_preference_reversal_examples": [
+            {
+              "a2a_acp_anp_preference_reversal_nodes": [
+                "1"
+              ],
+              "baseline_assignment": {
+                "0": "Agora",
+                "1": "A2A",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "eligible_preference_reversal_nodes": [
+                "1"
+              ],
+              "forced_removal_nodes": [],
+              "graph_assignment": {
+                "0": "Agora",
+                "1": "ANP",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "lambda": 0.1,
+              "objective_delta": -0.5649729999999984,
+              "objective_delta_vs_feasible_seed": -0.5649729999999984,
+              "traffic_normalization": "per_edge",
+              "traffic_scale": 100.0,
+              "workflow": "analysis_task"
+            }
+          ],
+          "pure_a2a_acp_anp_strict_assignment_reversal_cases": 1,
+          "strict_by_normalization": {
+            "equal_total": 0,
+            "per_edge": 1
+          },
+          "strict_by_traffic_scale": {
+            "1.0": 0,
+            "10.0": 0,
+            "100.0": 1
+          },
+          "strict_changed_node_transitions": {
+            "A2A -> ANP": 1
+          },
+          "strict_eligible_preference_reversal_cases": 1,
+          "strict_original_baseline_grid_minima": {
+            "minimum_lambda": 0.1,
+            "minimum_lambda_at_minimum_traffic_scale": 0.1,
+            "minimum_traffic_scale": 100.0,
+            "minimum_traffic_scale_at_minimum_lambda": 100.0
+          },
+          "strict_reversal_examples": [
+            {
+              "a2a_acp_anp_preference_reversal_nodes": [
+                "1"
+              ],
+              "baseline_assignment": {
+                "0": "Agora",
+                "1": "A2A",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "eligible_preference_reversal_nodes": [
+                "1"
+              ],
+              "forced_removal_nodes": [],
+              "graph_assignment": {
+                "0": "Agora",
+                "1": "ANP",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "lambda": 0.1,
+              "objective_delta": -0.5649729999999984,
+              "objective_delta_vs_feasible_seed": -0.5649729999999984,
+              "traffic_normalization": "per_edge",
+              "traffic_scale": 100.0,
+              "workflow": "analysis_task"
+            }
+          ],
+          "strict_reversals_vs_original_baseline": 1,
+          "total_cases": 36
+        },
+        "without_agora": {
+          "a2a_acp_anp_preference_reversal_cases": 1,
+          "cases_with_forced_removal": 36,
+          "distinct_graph_assignments": [
+            {
+              "0": "A2A",
+              "1": "A2A",
+              "2": "ACP",
+              "3": "A2A"
+            },
+            {
+              "0": "A2A",
+              "1": "ANP",
+              "2": "ACP",
+              "3": "A2A"
+            }
+          ],
+          "eligible_preference_grid_minima": {
+            "minimum_lambda": 0.1,
+            "minimum_lambda_at_minimum_traffic_scale": 0.1,
+            "minimum_traffic_scale": 100.0,
+            "minimum_traffic_scale_at_minimum_lambda": 100.0
+          },
+          "eligible_preference_node_transitions": {
+            "A2A -> ANP": 1
+          },
+          "non_agora_preference_reversal_examples": [
+            {
+              "a2a_acp_anp_preference_reversal_nodes": [
+                "1"
+              ],
+              "baseline_assignment": {
+                "0": "Agora",
+                "1": "A2A",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "eligible_preference_reversal_nodes": [
+                "1"
+              ],
+              "forced_removal_nodes": [
+                "0"
+              ],
+              "graph_assignment": {
+                "0": "A2A",
+                "1": "ANP",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "lambda": 0.1,
+              "objective_delta": 0.4350270000000016,
+              "objective_delta_vs_feasible_seed": -0.5649729999999984,
+              "traffic_normalization": "per_edge",
+              "traffic_scale": 100.0,
+              "workflow": "analysis_task"
+            }
+          ],
+          "pure_a2a_acp_anp_strict_assignment_reversal_cases": 0,
+          "strict_by_normalization": {
+            "equal_total": 0,
+            "per_edge": 0
+          },
+          "strict_by_traffic_scale": {
+            "1.0": 0,
+            "10.0": 0,
+            "100.0": 0
+          },
+          "strict_changed_node_transitions": {},
+          "strict_eligible_preference_reversal_cases": 1,
+          "strict_original_baseline_grid_minima": {
+            "minimum_lambda": null,
+            "minimum_lambda_at_minimum_traffic_scale": null,
+            "minimum_traffic_scale": null,
+            "minimum_traffic_scale_at_minimum_lambda": null
+          },
+          "strict_reversal_examples": [],
+          "strict_reversals_vs_original_baseline": 0,
+          "total_cases": 36
+        }
+      }
+    },
+    "collaborative_task": {
+      "official_pattern": [
+        {
+          "from": 0,
+          "protocol_preference": "agora",
+          "reason": "broadcast_reliability",
+          "to": "all"
+        },
+        {
+          "from": "all",
+          "protocol_preference": "a2a",
+          "reason": "fast_aggregation",
+          "to": 0
+        }
+      ],
+      "variants": {
+        "all_four": {
+          "a2a_acp_anp_preference_reversal_cases": 1,
+          "cases_with_forced_removal": 0,
+          "distinct_graph_assignments": [
+            {
+              "0": "ANP",
+              "1": "A2A",
+              "2": "ACP",
+              "3": "A2A"
+            },
+            {
+              "0": "ANP",
+              "1": "ANP",
+              "2": "ACP",
+              "3": "ANP"
+            },
+            {
+              "0": "Agora",
+              "1": "A2A",
+              "2": "ACP",
+              "3": "A2A"
+            }
+          ],
+          "eligible_preference_grid_minima": {
+            "minimum_lambda": 0.001,
+            "minimum_lambda_at_minimum_traffic_scale": 0.1,
+            "minimum_traffic_scale": 1.0,
+            "minimum_traffic_scale_at_minimum_lambda": 100.0
+          },
+          "eligible_preference_node_transitions": {
+            "A2A -> ANP": 2,
+            "Agora -> ANP": 12
+          },
+          "non_agora_preference_reversal_examples": [
+            {
+              "a2a_acp_anp_preference_reversal_nodes": [
+                "1",
+                "3"
+              ],
+              "baseline_assignment": {
+                "0": "Agora",
+                "1": "A2A",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "eligible_preference_reversal_nodes": [
+                "0",
+                "1",
+                "3"
+              ],
+              "forced_removal_nodes": [],
+              "graph_assignment": {
+                "0": "ANP",
+                "1": "ANP",
+                "2": "ACP",
+                "3": "ANP"
+              },
+              "lambda": 0.1,
+              "objective_delta": -662.30446,
+              "objective_delta_vs_feasible_seed": -662.30446,
+              "traffic_normalization": "per_edge",
+              "traffic_scale": 100.0,
+              "workflow": "collaborative_task"
+            }
+          ],
+          "pure_a2a_acp_anp_strict_assignment_reversal_cases": 0,
+          "strict_by_normalization": {
+            "equal_total": 6,
+            "per_edge": 6
+          },
+          "strict_by_traffic_scale": {
+            "1.0": 2,
+            "10.0": 4,
+            "100.0": 6
+          },
+          "strict_changed_node_transitions": {
+            "A2A -> ANP": 2,
+            "Agora -> ANP": 12
+          },
+          "strict_eligible_preference_reversal_cases": 12,
+          "strict_original_baseline_grid_minima": {
+            "minimum_lambda": 0.001,
+            "minimum_lambda_at_minimum_traffic_scale": 0.1,
+            "minimum_traffic_scale": 1.0,
+            "minimum_traffic_scale_at_minimum_lambda": 100.0
+          },
+          "strict_reversal_examples": [
+            {
+              "a2a_acp_anp_preference_reversal_nodes": [],
+              "baseline_assignment": {
+                "0": "Agora",
+                "1": "A2A",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "eligible_preference_reversal_nodes": [
+                "0"
+              ],
+              "forced_removal_nodes": [],
+              "graph_assignment": {
+                "0": "ANP",
+                "1": "A2A",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "lambda": 0.1,
+              "objective_delta": -5.62174514,
+              "objective_delta_vs_feasible_seed": -5.62174514,
+              "traffic_normalization": "per_edge",
+              "traffic_scale": 1.0,
+              "workflow": "collaborative_task"
+            },
+            {
+              "a2a_acp_anp_preference_reversal_nodes": [],
+              "baseline_assignment": {
+                "0": "Agora",
+                "1": "A2A",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "eligible_preference_reversal_nodes": [
+                "0"
+              ],
+              "forced_removal_nodes": [],
+              "graph_assignment": {
+                "0": "ANP",
+                "1": "A2A",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "lambda": 0.01,
+              "objective_delta": -5.62174514,
+              "objective_delta_vs_feasible_seed": -5.62174514,
+              "traffic_normalization": "per_edge",
+              "traffic_scale": 10.0,
+              "workflow": "collaborative_task"
+            },
+            {
+              "a2a_acp_anp_preference_reversal_nodes": [],
+              "baseline_assignment": {
+                "0": "Agora",
+                "1": "A2A",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "eligible_preference_reversal_nodes": [
+                "0"
+              ],
+              "forced_removal_nodes": [],
+              "graph_assignment": {
+                "0": "ANP",
+                "1": "A2A",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "lambda": 0.1,
+              "objective_delta": -65.2174514,
+              "objective_delta_vs_feasible_seed": -65.2174514,
+              "traffic_normalization": "per_edge",
+              "traffic_scale": 10.0,
+              "workflow": "collaborative_task"
+            }
+          ],
+          "strict_reversals_vs_original_baseline": 12,
+          "total_cases": 36
+        },
+        "without_agora": {
+          "a2a_acp_anp_preference_reversal_cases": 1,
+          "cases_with_forced_removal": 36,
+          "distinct_graph_assignments": [
+            {
+              "0": "A2A",
+              "1": "A2A",
+              "2": "ACP",
+              "3": "A2A"
+            },
+            {
+              "0": "ANP",
+              "1": "A2A",
+              "2": "ACP",
+              "3": "A2A"
+            },
+            {
+              "0": "ANP",
+              "1": "ANP",
+              "2": "ACP",
+              "3": "ANP"
+            }
+          ],
+          "eligible_preference_grid_minima": {
+            "minimum_lambda": 0.1,
+            "minimum_lambda_at_minimum_traffic_scale": 0.1,
+            "minimum_traffic_scale": 100.0,
+            "minimum_traffic_scale_at_minimum_lambda": 100.0
+          },
+          "eligible_preference_node_transitions": {
+            "A2A -> ANP": 2
+          },
+          "non_agora_preference_reversal_examples": [
+            {
+              "a2a_acp_anp_preference_reversal_nodes": [
+                "1",
+                "3"
+              ],
+              "baseline_assignment": {
+                "0": "Agora",
+                "1": "A2A",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "eligible_preference_reversal_nodes": [
+                "1",
+                "3"
+              ],
+              "forced_removal_nodes": [
+                "0"
+              ],
+              "graph_assignment": {
+                "0": "ANP",
+                "1": "ANP",
+                "2": "ACP",
+                "3": "ANP"
+              },
+              "lambda": 0.1,
+              "objective_delta": -662.30446,
+              "objective_delta_vs_feasible_seed": -5.824864999999988,
+              "traffic_normalization": "per_edge",
+              "traffic_scale": 100.0,
+              "workflow": "collaborative_task"
+            }
+          ],
+          "pure_a2a_acp_anp_strict_assignment_reversal_cases": 0,
+          "strict_by_normalization": {
+            "equal_total": 6,
+            "per_edge": 6
+          },
+          "strict_by_traffic_scale": {
+            "1.0": 2,
+            "10.0": 4,
+            "100.0": 6
+          },
+          "strict_changed_node_transitions": {
+            "A2A -> ANP": 2,
+            "Agora -> ANP": 12
+          },
+          "strict_eligible_preference_reversal_cases": 1,
+          "strict_original_baseline_grid_minima": {
+            "minimum_lambda": 0.001,
+            "minimum_lambda_at_minimum_traffic_scale": 0.1,
+            "minimum_traffic_scale": 1.0,
+            "minimum_traffic_scale_at_minimum_lambda": 100.0
+          },
+          "strict_reversal_examples": [
+            {
+              "a2a_acp_anp_preference_reversal_nodes": [],
+              "baseline_assignment": {
+                "0": "Agora",
+                "1": "A2A",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "eligible_preference_reversal_nodes": [],
+              "forced_removal_nodes": [
+                "0"
+              ],
+              "graph_assignment": {
+                "0": "ANP",
+                "1": "A2A",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "lambda": 0.1,
+              "objective_delta": -5.62174514,
+              "objective_delta_vs_feasible_seed": -0.046949190000000085,
+              "traffic_normalization": "per_edge",
+              "traffic_scale": 1.0,
+              "workflow": "collaborative_task"
+            },
+            {
+              "a2a_acp_anp_preference_reversal_nodes": [],
+              "baseline_assignment": {
+                "0": "Agora",
+                "1": "A2A",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "eligible_preference_reversal_nodes": [],
+              "forced_removal_nodes": [
+                "0"
+              ],
+              "graph_assignment": {
+                "0": "ANP",
+                "1": "A2A",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "lambda": 0.01,
+              "objective_delta": -5.62174514,
+              "objective_delta_vs_feasible_seed": -0.04694919000000031,
+              "traffic_normalization": "per_edge",
+              "traffic_scale": 10.0,
+              "workflow": "collaborative_task"
+            },
+            {
+              "a2a_acp_anp_preference_reversal_nodes": [],
+              "baseline_assignment": {
+                "0": "Agora",
+                "1": "A2A",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "eligible_preference_reversal_nodes": [],
+              "forced_removal_nodes": [
+                "0"
+              ],
+              "graph_assignment": {
+                "0": "ANP",
+                "1": "A2A",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "lambda": 0.1,
+              "objective_delta": -65.2174514,
+              "objective_delta_vs_feasible_seed": -0.4694918999999995,
+              "traffic_normalization": "per_edge",
+              "traffic_scale": 10.0,
+              "workflow": "collaborative_task"
+            }
+          ],
+          "strict_reversals_vs_original_baseline": 12,
+          "total_cases": 36
+        }
+      }
+    }
+  }
+}

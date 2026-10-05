@@ -1,0 +1,41 @@
+{
+  "failures": [],
+  "setup": [
+    {
+      "error_message": "",
+      "error_type": "",
+      "protocol": "A2A",
+      "server_url": "http://127.0.0.1:57745",
+      "setup_latency_ms": 1907.941015,
+      "status": "ready",
+      "transport_path": "A2AAdapter -> A2AStarletteApplication /message -> SDKNoopExecutor"
+    },
+    {
+      "error_message": "",
+      "error_type": "",
+      "protocol": "ACP",
+      "server_url": "http://127.0.0.1:51285",
+      "setup_latency_ms": 2002.874017,
+      "status": "ready",
+      "transport_path": "ACPAdapter -> ACPStarletteApplication /acp/message -> ACPNoopExecutor"
+    },
+    {
+      "error_message": "",
+      "error_type": "",
+      "protocol": "ANP",
+      "server_url": "http://127.0.0.1:54459",
+      "setup_latency_ms": 2395.489563,
+      "status": "ready",
+      "transport_path": "ANPAdapter -> ANPSimpleNodeWrapper /anp/message HTTP -> ANPNoopExecutor.answer"
+    },
+    {
+      "error_message": "",
+      "error_type": "",
+      "protocol": "Agora",
+      "server_url": "http://127.0.0.1:39933",
+      "setup_latency_ms": 1927.650991,
+      "status": "ready",
+      "transport_path": "AgoraClientAdapter(toolformer=None) -> AgoraServerWrapper /message -> EchoReceipts.answer"
+    }
+  ]
+}

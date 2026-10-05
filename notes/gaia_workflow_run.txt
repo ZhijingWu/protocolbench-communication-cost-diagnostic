@@ -1,0 +1,575 @@
+{
+  "baseline_assignment": {
+    "0": "Agora",
+    "1": "A2A",
+    "2": "ACP",
+    "3": "A2A"
+  },
+  "total_cases": 144,
+  "workflows": {
+    "analysis_task": {
+      "official_pattern": [
+        {
+          "from": 0,
+          "protocol_preference": "anp",
+          "reason": "high_accuracy_needed",
+          "to": [
+            1
+          ]
+        },
+        {
+          "from": 1,
+          "protocol_preference": "a2a",
+          "reason": "fast_data_transfer",
+          "to": [
+            2
+          ]
+        },
+        {
+          "from": 2,
+          "protocol_preference": "agora",
+          "reason": "reliable_final_result",
+          "to": "final"
+        }
+      ],
+      "variants": {
+        "all_four": {
+          "a2a_acp_anp_preference_reversal_cases": 1,
+          "cases_with_forced_removal": 0,
+          "distinct_graph_assignments": [
+            {
+              "0": "Agora",
+              "1": "A2A",
+              "2": "ACP",
+              "3": "A2A"
+            },
+            {
+              "0": "Agora",
+              "1": "ANP",
+              "2": "ACP",
+              "3": "A2A"
+            }
+          ],
+          "eligible_preference_grid_minima": {
+            "minimum_lambda": 0.1,
+            "minimum_lambda_at_minimum_traffic_scale": 0.1,
+            "minimum_traffic_scale": 100.0,
+            "minimum_traffic_scale_at_minimum_lambda": 100.0
+          },
+          "eligible_preference_node_transitions": {
+            "A2A -> ANP": 1
+          },
+          "non_agora_preference_reversal_examples": [
+            {
+              "a2a_acp_anp_preference_reversal_nodes": [
+                "1"
+              ],
+              "baseline_assignment": {
+                "0": "Agora",
+                "1": "A2A",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "eligible_preference_reversal_nodes": [
+                "1"
+              ],
+              "forced_removal_nodes": [],
+              "graph_assignment": {
+                "0": "Agora",
+                "1": "ANP",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "lambda": 0.1,
+              "objective_delta": -0.5649729999999984,
+              "objective_delta_vs_feasible_seed": -0.5649729999999984,
+              "traffic_normalization": "per_edge",
+              "traffic_scale": 100.0,
+              "workflow": "analysis_task"
+            }
+          ],
+          "pure_a2a_acp_anp_strict_assignment_reversal_cases": 1,
+          "strict_by_normalization": {
+            "equal_total": 0,
+            "per_edge": 1
+          },
+          "strict_by_traffic_scale": {
+            "1.0": 0,
+            "10.0": 0,
+            "100.0": 1
+          },
+          "strict_changed_node_transitions": {
+            "A2A -> ANP": 1
+          },
+          "strict_eligible_preference_reversal_cases": 1,
+          "strict_original_baseline_grid_minima": {
+            "minimum_lambda": 0.1,
+            "minimum_lambda_at_minimum_traffic_scale": 0.1,
+            "minimum_traffic_scale": 100.0,
+            "minimum_traffic_scale_at_minimum_lambda": 100.0
+          },
+          "strict_reversal_examples": [
+            {
+              "a2a_acp_anp_preference_reversal_nodes": [
+                "1"
+              ],
+              "baseline_assignment": {
+                "0": "Agora",
+                "1": "A2A",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "eligible_preference_reversal_nodes": [
+                "1"
+              ],
+              "forced_removal_nodes": [],
+              "graph_assignment": {
+                "0": "Agora",
+                "1": "ANP",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "lambda": 0.1,
+              "objective_delta": -0.5649729999999984,
+              "objective_delta_vs_feasible_seed": -0.5649729999999984,
+              "traffic_normalization": "per_edge",
+              "traffic_scale": 100.0,
+              "workflow": "analysis_task"
+            }
+          ],
+          "strict_reversals_vs_original_baseline": 1,
+          "total_cases": 36
+        },
+        "without_agora": {
+          "a2a_acp_anp_preference_reversal_cases": 1,
+          "cases_with_forced_removal": 36,
+          "distinct_graph_assignments": [
+            {
+              "0": "A2A",
+              "1": "A2A",
+              "2": "ACP",
+              "3": "A2A"
+            },
+            {
+              "0": "A2A",
+              "1": "ANP",
+              "2": "ACP",
+              "3": "A2A"
+            }
+          ],
+          "eligible_preference_grid_minima": {
+            "minimum_lambda": 0.1,
+            "minimum_lambda_at_minimum_traffic_scale": 0.1,
+            "minimum_traffic_scale": 100.0,
+            "minimum_traffic_scale_at_minimum_lambda": 100.0
+          },
+          "eligible_preference_node_transitions": {
+            "A2A -> ANP": 1
+          },
+          "non_agora_preference_reversal_examples": [
+            {
+              "a2a_acp_anp_preference_reversal_nodes": [
+                "1"
+              ],
+              "baseline_assignment": {
+                "0": "Agora",
+                "1": "A2A",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "eligible_preference_reversal_nodes": [
+                "1"
+              ],
+              "forced_removal_nodes": [
+                "0"
+              ],
+              "graph_assignment": {
+                "0": "A2A",
+                "1": "ANP",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "lambda": 0.1,
+              "objective_delta": 0.4350270000000016,
+              "objective_delta_vs_feasible_seed": -0.5649729999999984,
+              "traffic_normalization": "per_edge",
+              "traffic_scale": 100.0,
+              "workflow": "analysis_task"
+            }
+          ],
+          "pure_a2a_acp_anp_strict_assignment_reversal_cases": 0,
+          "strict_by_normalization": {
+            "equal_total": 0,
+            "per_edge": 0
+          },
+          "strict_by_traffic_scale": {
+            "1.0": 0,
+            "10.0": 0,
+            "100.0": 0
+          },
+          "strict_changed_node_transitions": {},
+          "strict_eligible_preference_reversal_cases": 1,
+          "strict_original_baseline_grid_minima": {
+            "minimum_lambda": null,
+            "minimum_lambda_at_minimum_traffic_scale": null,
+            "minimum_traffic_scale": null,
+            "minimum_traffic_scale_at_minimum_lambda": null
+          },
+          "strict_reversal_examples": [],
+          "strict_reversals_vs_original_baseline": 0,
+          "total_cases": 36
+        }
+      }
+    },
+    "collaborative_task": {
+      "official_pattern": [
+        {
+          "from": 0,
+          "protocol_preference": "agora",
+          "reason": "broadcast_reliability",
+          "to": "all"
+        },
+        {
+          "from": "all",
+          "protocol_preference": "a2a",
+          "reason": "fast_aggregation",
+          "to": 0
+        }
+      ],
+      "variants": {
+        "all_four": {
+          "a2a_acp_anp_preference_reversal_cases": 1,
+          "cases_with_forced_removal": 0,
+          "distinct_graph_assignments": [
+            {
+              "0": "ANP",
+              "1": "A2A",
+              "2": "ACP",
+              "3": "A2A"
+            },
+            {
+              "0": "ANP",
+              "1": "ANP",
+              "2": "ACP",
+              "3": "ANP"
+            },
+            {
+              "0": "Agora",
+              "1": "A2A",
+              "2": "ACP",
+              "3": "A2A"
+            }
+          ],
+          "eligible_preference_grid_minima": {
+            "minimum_lambda": 0.001,
+            "minimum_lambda_at_minimum_traffic_scale": 0.1,
+            "minimum_traffic_scale": 1.0,
+            "minimum_traffic_scale_at_minimum_lambda": 100.0
+          },
+          "eligible_preference_node_transitions": {
+            "A2A -> ANP": 2,
+            "Agora -> ANP": 12
+          },
+          "non_agora_preference_reversal_examples": [
+            {
+              "a2a_acp_anp_preference_reversal_nodes": [
+                "1",
+                "3"
+              ],
+              "baseline_assignment": {
+                "0": "Agora",
+                "1": "A2A",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "eligible_preference_reversal_nodes": [
+                "0",
+                "1",
+                "3"
+              ],
+              "forced_removal_nodes": [],
+              "graph_assignment": {
+                "0": "ANP",
+                "1": "ANP",
+                "2": "ACP",
+                "3": "ANP"
+              },
+              "lambda": 0.1,
+              "objective_delta": -662.30446,
+              "objective_delta_vs_feasible_seed": -662.30446,
+              "traffic_normalization": "per_edge",
+              "traffic_scale": 100.0,
+              "workflow": "collaborative_task"
+            }
+          ],
+          "pure_a2a_acp_anp_strict_assignment_reversal_cases": 0,
+          "strict_by_normalization": {
+            "equal_total": 6,
+            "per_edge": 6
+          },
+          "strict_by_traffic_scale": {
+            "1.0": 2,
+            "10.0": 4,
+            "100.0": 6
+          },
+          "strict_changed_node_transitions": {
+            "A2A -> ANP": 2,
+            "Agora -> ANP": 12
+          },
+          "strict_eligible_preference_reversal_cases": 12,
+          "strict_original_baseline_grid_minima": {
+            "minimum_lambda": 0.001,
+            "minimum_lambda_at_minimum_traffic_scale": 0.1,
+            "minimum_traffic_scale": 1.0,
+            "minimum_traffic_scale_at_minimum_lambda": 100.0
+          },
+          "strict_reversal_examples": [
+            {
+              "a2a_acp_anp_preference_reversal_nodes": [],
+              "baseline_assignment": {
+                "0": "Agora",
+                "1": "A2A",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "eligible_preference_reversal_nodes": [
+                "0"
+              ],
+              "forced_removal_nodes": [],
+              "graph_assignment": {
+                "0": "ANP",
+                "1": "A2A",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "lambda": 0.1,
+              "objective_delta": -5.62174514,
+              "objective_delta_vs_feasible_seed": -5.62174514,
+              "traffic_normalization": "per_edge",
+              "traffic_scale": 1.0,
+              "workflow": "collaborative_task"
+            },
+            {
+              "a2a_acp_anp_preference_reversal_nodes": [],
+              "baseline_assignment": {
+                "0": "Agora",
+                "1": "A2A",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "eligible_preference_reversal_nodes": [
+                "0"
+              ],
+              "forced_removal_nodes": [],
+              "graph_assignment": {
+                "0": "ANP",
+                "1": "A2A",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "lambda": 0.01,
+              "objective_delta": -5.62174514,
+              "objective_delta_vs_feasible_seed": -5.62174514,
+              "traffic_normalization": "per_edge",
+              "traffic_scale": 10.0,
+              "workflow": "collaborative_task"
+            },
+            {
+              "a2a_acp_anp_preference_reversal_nodes": [],
+              "baseline_assignment": {
+                "0": "Agora",
+                "1": "A2A",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "eligible_preference_reversal_nodes": [
+                "0"
+              ],
+              "forced_removal_nodes": [],
+              "graph_assignment": {
+                "0": "ANP",
+                "1": "A2A",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "lambda": 0.1,
+              "objective_delta": -65.2174514,
+              "objective_delta_vs_feasible_seed": -65.2174514,
+              "traffic_normalization": "per_edge",
+              "traffic_scale": 10.0,
+              "workflow": "collaborative_task"
+            }
+          ],
+          "strict_reversals_vs_original_baseline": 12,
+          "total_cases": 36
+        },
+        "without_agora": {
+          "a2a_acp_anp_preference_reversal_cases": 1,
+          "cases_with_forced_removal": 36,
+          "distinct_graph_assignments": [
+            {
+              "0": "A2A",
+              "1": "A2A",
+              "2": "ACP",
+              "3": "A2A"
+            },
+            {
+              "0": "ANP",
+              "1": "A2A",
+              "2": "ACP",
+              "3": "A2A"
+            },
+            {
+              "0": "ANP",
+              "1": "ANP",
+              "2": "ACP",
+              "3": "ANP"
+            }
+          ],
+          "eligible_preference_grid_minima": {
+            "minimum_lambda": 0.1,
+            "minimum_lambda_at_minimum_traffic_scale": 0.1,
+            "minimum_traffic_scale": 100.0,
+            "minimum_traffic_scale_at_minimum_lambda": 100.0
+          },
+          "eligible_preference_node_transitions": {
+            "A2A -> ANP": 2
+          },
+          "non_agora_preference_reversal_examples": [
+            {
+              "a2a_acp_anp_preference_reversal_nodes": [
+                "1",
+                "3"
+              ],
+              "baseline_assignment": {
+                "0": "Agora",
+                "1": "A2A",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "eligible_preference_reversal_nodes": [
+                "1",
+                "3"
+              ],
+              "forced_removal_nodes": [
+                "0"
+              ],
+              "graph_assignment": {
+                "0": "ANP",
+                "1": "ANP",
+                "2": "ACP",
+                "3": "ANP"
+              },
+              "lambda": 0.1,
+              "objective_delta": -662.30446,
+              "objective_delta_vs_feasible_seed": -5.824864999999988,
+              "traffic_normalization": "per_edge",
+              "traffic_scale": 100.0,
+              "workflow": "collaborative_task"
+            }
+          ],
+          "pure_a2a_acp_anp_strict_assignment_reversal_cases": 0,
+          "strict_by_normalization": {
+            "equal_total": 6,
+            "per_edge": 6
+          },
+          "strict_by_traffic_scale": {
+            "1.0": 2,
+            "10.0": 4,
+            "100.0": 6
+          },
+          "strict_changed_node_transitions": {
+            "A2A -> ANP": 2,
+            "Agora -> ANP": 12
+          },
+          "strict_eligible_preference_reversal_cases": 1,
+          "strict_original_baseline_grid_minima": {
+            "minimum_lambda": 0.001,
+            "minimum_lambda_at_minimum_traffic_scale": 0.1,
+            "minimum_traffic_scale": 1.0,
+            "minimum_traffic_scale_at_minimum_lambda": 100.0
+          },
+          "strict_reversal_examples": [
+            {
+              "a2a_acp_anp_preference_reversal_nodes": [],
+              "baseline_assignment": {
+                "0": "Agora",
+                "1": "A2A",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "eligible_preference_reversal_nodes": [],
+              "forced_removal_nodes": [
+                "0"
+              ],
+              "graph_assignment": {
+                "0": "ANP",
+                "1": "A2A",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "lambda": 0.1,
+              "objective_delta": -5.62174514,
+              "objective_delta_vs_feasible_seed": -0.046949190000000085,
+              "traffic_normalization": "per_edge",
+              "traffic_scale": 1.0,
+              "workflow": "collaborative_task"
+            },
+            {
+              "a2a_acp_anp_preference_reversal_nodes": [],
+              "baseline_assignment": {
+                "0": "Agora",
+                "1": "A2A",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "eligible_preference_reversal_nodes": [],
+              "forced_removal_nodes": [
+                "0"
+              ],
+              "graph_assignment": {
+                "0": "ANP",
+                "1": "A2A",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "lambda": 0.01,
+              "objective_delta": -5.62174514,
+              "objective_delta_vs_feasible_seed": -0.04694919000000031,
+              "traffic_normalization": "per_edge",
+              "traffic_scale": 10.0,
+              "workflow": "collaborative_task"
+            },
+            {
+              "a2a_acp_anp_preference_reversal_nodes": [],
+              "baseline_assignment": {
+                "0": "Agora",
+                "1": "A2A",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "eligible_preference_reversal_nodes": [],
+              "forced_removal_nodes": [
+                "0"
+              ],
+              "graph_assignment": {
+                "0": "ANP",
+                "1": "A2A",
+                "2": "ACP",
+                "3": "A2A"
+              },
+              "lambda": 0.1,
+              "objective_delta": -65.2174514,
+              "objective_delta_vs_feasible_seed": -0.4694918999999995,
+              "traffic_normalization": "per_edge",
+              "traffic_scale": 10.0,
+              "workflow": "collaborative_task"
+            }
+          ],
+          "strict_reversals_vs_original_baseline": 12,
+          "total_cases": 36
+        }
+      }
+    }
+  }
+}

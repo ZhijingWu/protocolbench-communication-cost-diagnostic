@@ -1,0 +1,2294 @@
+[
+  {
+    "edges": [
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 1.0
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 1.0
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 1.0
+      }
+    ],
+    "local_preferences": {
+      "0": "Agora",
+      "1": "A2A",
+      "2": "ACP",
+      "3": "A2A"
+    },
+    "nodes": [
+      {
+        "id": "0",
+        "name": "Reader",
+        "port": 19000,
+        "role": "Gather evidence",
+        "tool": "browser_use"
+      },
+      {
+        "id": "1",
+        "name": "Analyst",
+        "port": 19001,
+        "role": "Analyze evidence",
+        "tool": "python_execute"
+      },
+      {
+        "id": "2",
+        "name": "Synthesizer",
+        "port": 19002,
+        "role": "Synthesize answer",
+        "tool": "create_chat_completion"
+      },
+      {
+        "id": "3",
+        "name": "Editor",
+        "port": 19003,
+        "role": "Prepare artifacts",
+        "tool": "str_replace_editor"
+      }
+    ],
+    "seed": 6349,
+    "topology": "chain",
+    "total_messages": 3.0,
+    "traffic_label": "low",
+    "traffic_normalization": "per_edge",
+    "traffic_scale": 1.0
+  },
+  {
+    "edges": [
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 10.0
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 10.0
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 10.0
+      }
+    ],
+    "local_preferences": {
+      "0": "Agora",
+      "1": "A2A",
+      "2": "ACP",
+      "3": "A2A"
+    },
+    "nodes": [
+      {
+        "id": "0",
+        "name": "Reader",
+        "port": 19000,
+        "role": "Gather evidence",
+        "tool": "browser_use"
+      },
+      {
+        "id": "1",
+        "name": "Analyst",
+        "port": 19001,
+        "role": "Analyze evidence",
+        "tool": "python_execute"
+      },
+      {
+        "id": "2",
+        "name": "Synthesizer",
+        "port": 19002,
+        "role": "Synthesize answer",
+        "tool": "create_chat_completion"
+      },
+      {
+        "id": "3",
+        "name": "Editor",
+        "port": 19003,
+        "role": "Prepare artifacts",
+        "tool": "str_replace_editor"
+      }
+    ],
+    "seed": 6349,
+    "topology": "chain",
+    "total_messages": 30.0,
+    "traffic_label": "medium",
+    "traffic_normalization": "per_edge",
+    "traffic_scale": 10.0
+  },
+  {
+    "edges": [
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 100.0
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 100.0
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 100.0
+      }
+    ],
+    "local_preferences": {
+      "0": "Agora",
+      "1": "A2A",
+      "2": "ACP",
+      "3": "A2A"
+    },
+    "nodes": [
+      {
+        "id": "0",
+        "name": "Reader",
+        "port": 19000,
+        "role": "Gather evidence",
+        "tool": "browser_use"
+      },
+      {
+        "id": "1",
+        "name": "Analyst",
+        "port": 19001,
+        "role": "Analyze evidence",
+        "tool": "python_execute"
+      },
+      {
+        "id": "2",
+        "name": "Synthesizer",
+        "port": 19002,
+        "role": "Synthesize answer",
+        "tool": "create_chat_completion"
+      },
+      {
+        "id": "3",
+        "name": "Editor",
+        "port": 19003,
+        "role": "Prepare artifacts",
+        "tool": "str_replace_editor"
+      }
+    ],
+    "seed": 6349,
+    "topology": "chain",
+    "total_messages": 300.0,
+    "traffic_label": "high",
+    "traffic_normalization": "per_edge",
+    "traffic_scale": 100.0
+  },
+  {
+    "edges": [
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 1.0
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 1.0
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 1.0
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 1.0
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 1.0
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 1.0
+      }
+    ],
+    "local_preferences": {
+      "0": "Agora",
+      "1": "A2A",
+      "2": "ACP",
+      "3": "A2A"
+    },
+    "nodes": [
+      {
+        "id": "0",
+        "name": "Reader",
+        "port": 19000,
+        "role": "Gather evidence",
+        "tool": "browser_use"
+      },
+      {
+        "id": "1",
+        "name": "Analyst",
+        "port": 19001,
+        "role": "Analyze evidence",
+        "tool": "python_execute"
+      },
+      {
+        "id": "2",
+        "name": "Synthesizer",
+        "port": 19002,
+        "role": "Synthesize answer",
+        "tool": "create_chat_completion"
+      },
+      {
+        "id": "3",
+        "name": "Editor",
+        "port": 19003,
+        "role": "Prepare artifacts",
+        "tool": "str_replace_editor"
+      }
+    ],
+    "seed": 6349,
+    "topology": "star",
+    "total_messages": 6.0,
+    "traffic_label": "low",
+    "traffic_normalization": "per_edge",
+    "traffic_scale": 1.0
+  },
+  {
+    "edges": [
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 10.0
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 10.0
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 10.0
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 10.0
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 10.0
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 10.0
+      }
+    ],
+    "local_preferences": {
+      "0": "Agora",
+      "1": "A2A",
+      "2": "ACP",
+      "3": "A2A"
+    },
+    "nodes": [
+      {
+        "id": "0",
+        "name": "Reader",
+        "port": 19000,
+        "role": "Gather evidence",
+        "tool": "browser_use"
+      },
+      {
+        "id": "1",
+        "name": "Analyst",
+        "port": 19001,
+        "role": "Analyze evidence",
+        "tool": "python_execute"
+      },
+      {
+        "id": "2",
+        "name": "Synthesizer",
+        "port": 19002,
+        "role": "Synthesize answer",
+        "tool": "create_chat_completion"
+      },
+      {
+        "id": "3",
+        "name": "Editor",
+        "port": 19003,
+        "role": "Prepare artifacts",
+        "tool": "str_replace_editor"
+      }
+    ],
+    "seed": 6349,
+    "topology": "star",
+    "total_messages": 60.0,
+    "traffic_label": "medium",
+    "traffic_normalization": "per_edge",
+    "traffic_scale": 10.0
+  },
+  {
+    "edges": [
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 100.0
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 100.0
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 100.0
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 100.0
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 100.0
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 100.0
+      }
+    ],
+    "local_preferences": {
+      "0": "Agora",
+      "1": "A2A",
+      "2": "ACP",
+      "3": "A2A"
+    },
+    "nodes": [
+      {
+        "id": "0",
+        "name": "Reader",
+        "port": 19000,
+        "role": "Gather evidence",
+        "tool": "browser_use"
+      },
+      {
+        "id": "1",
+        "name": "Analyst",
+        "port": 19001,
+        "role": "Analyze evidence",
+        "tool": "python_execute"
+      },
+      {
+        "id": "2",
+        "name": "Synthesizer",
+        "port": 19002,
+        "role": "Synthesize answer",
+        "tool": "create_chat_completion"
+      },
+      {
+        "id": "3",
+        "name": "Editor",
+        "port": 19003,
+        "role": "Prepare artifacts",
+        "tool": "str_replace_editor"
+      }
+    ],
+    "seed": 6349,
+    "topology": "star",
+    "total_messages": 600.0,
+    "traffic_label": "high",
+    "traffic_normalization": "per_edge",
+    "traffic_scale": 100.0
+  },
+  {
+    "edges": [
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 1.0
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 1.0
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 1.0
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 1.0
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 1.0
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 1.0
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 1.0
+      },
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 1.0
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 1.0
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 1.0
+      },
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 1.0
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 1.0
+      }
+    ],
+    "local_preferences": {
+      "0": "Agora",
+      "1": "A2A",
+      "2": "ACP",
+      "3": "A2A"
+    },
+    "nodes": [
+      {
+        "id": "0",
+        "name": "Reader",
+        "port": 19000,
+        "role": "Gather evidence",
+        "tool": "browser_use"
+      },
+      {
+        "id": "1",
+        "name": "Analyst",
+        "port": 19001,
+        "role": "Analyze evidence",
+        "tool": "python_execute"
+      },
+      {
+        "id": "2",
+        "name": "Synthesizer",
+        "port": 19002,
+        "role": "Synthesize answer",
+        "tool": "create_chat_completion"
+      },
+      {
+        "id": "3",
+        "name": "Editor",
+        "port": 19003,
+        "role": "Prepare artifacts",
+        "tool": "str_replace_editor"
+      }
+    ],
+    "seed": 6349,
+    "topology": "full_mesh",
+    "total_messages": 12.0,
+    "traffic_label": "low",
+    "traffic_normalization": "per_edge",
+    "traffic_scale": 1.0
+  },
+  {
+    "edges": [
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 10.0
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 10.0
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 10.0
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 10.0
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 10.0
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 10.0
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 10.0
+      },
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 10.0
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 10.0
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 10.0
+      },
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 10.0
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 10.0
+      }
+    ],
+    "local_preferences": {
+      "0": "Agora",
+      "1": "A2A",
+      "2": "ACP",
+      "3": "A2A"
+    },
+    "nodes": [
+      {
+        "id": "0",
+        "name": "Reader",
+        "port": 19000,
+        "role": "Gather evidence",
+        "tool": "browser_use"
+      },
+      {
+        "id": "1",
+        "name": "Analyst",
+        "port": 19001,
+        "role": "Analyze evidence",
+        "tool": "python_execute"
+      },
+      {
+        "id": "2",
+        "name": "Synthesizer",
+        "port": 19002,
+        "role": "Synthesize answer",
+        "tool": "create_chat_completion"
+      },
+      {
+        "id": "3",
+        "name": "Editor",
+        "port": 19003,
+        "role": "Prepare artifacts",
+        "tool": "str_replace_editor"
+      }
+    ],
+    "seed": 6349,
+    "topology": "full_mesh",
+    "total_messages": 120.0,
+    "traffic_label": "medium",
+    "traffic_normalization": "per_edge",
+    "traffic_scale": 10.0
+  },
+  {
+    "edges": [
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 100.0
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 100.0
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 100.0
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 100.0
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 100.0
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 100.0
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 100.0
+      },
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 100.0
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 100.0
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 100.0
+      },
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 100.0
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 100.0
+      }
+    ],
+    "local_preferences": {
+      "0": "Agora",
+      "1": "A2A",
+      "2": "ACP",
+      "3": "A2A"
+    },
+    "nodes": [
+      {
+        "id": "0",
+        "name": "Reader",
+        "port": 19000,
+        "role": "Gather evidence",
+        "tool": "browser_use"
+      },
+      {
+        "id": "1",
+        "name": "Analyst",
+        "port": 19001,
+        "role": "Analyze evidence",
+        "tool": "python_execute"
+      },
+      {
+        "id": "2",
+        "name": "Synthesizer",
+        "port": 19002,
+        "role": "Synthesize answer",
+        "tool": "create_chat_completion"
+      },
+      {
+        "id": "3",
+        "name": "Editor",
+        "port": 19003,
+        "role": "Prepare artifacts",
+        "tool": "str_replace_editor"
+      }
+    ],
+    "seed": 6349,
+    "topology": "full_mesh",
+    "total_messages": 1200.0,
+    "traffic_label": "high",
+    "traffic_normalization": "per_edge",
+    "traffic_scale": 100.0
+  },
+  {
+    "edges": [
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 1.0
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 1.0
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 1.0
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 9.0
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 1.0
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 1.0
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 9.0
+      },
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 1.0
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 1.0
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 9.0
+      },
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 1.0
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 1.0
+      }
+    ],
+    "local_preferences": {
+      "0": "Agora",
+      "1": "A2A",
+      "2": "ACP",
+      "3": "A2A"
+    },
+    "nodes": [
+      {
+        "id": "0",
+        "name": "Reader",
+        "port": 19000,
+        "role": "Gather evidence",
+        "tool": "browser_use"
+      },
+      {
+        "id": "1",
+        "name": "Analyst",
+        "port": 19001,
+        "role": "Analyze evidence",
+        "tool": "python_execute"
+      },
+      {
+        "id": "2",
+        "name": "Synthesizer",
+        "port": 19002,
+        "role": "Synthesize answer",
+        "tool": "create_chat_completion"
+      },
+      {
+        "id": "3",
+        "name": "Editor",
+        "port": 19003,
+        "role": "Prepare artifacts",
+        "tool": "str_replace_editor"
+      }
+    ],
+    "seed": 6349,
+    "topology": "hotspot",
+    "total_messages": 36.0,
+    "traffic_label": "low",
+    "traffic_normalization": "per_edge",
+    "traffic_scale": 1.0
+  },
+  {
+    "edges": [
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 10.0
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 10.0
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 10.0
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 90.0
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 10.0
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 10.0
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 90.0
+      },
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 10.0
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 10.0
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 90.0
+      },
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 10.0
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 10.0
+      }
+    ],
+    "local_preferences": {
+      "0": "Agora",
+      "1": "A2A",
+      "2": "ACP",
+      "3": "A2A"
+    },
+    "nodes": [
+      {
+        "id": "0",
+        "name": "Reader",
+        "port": 19000,
+        "role": "Gather evidence",
+        "tool": "browser_use"
+      },
+      {
+        "id": "1",
+        "name": "Analyst",
+        "port": 19001,
+        "role": "Analyze evidence",
+        "tool": "python_execute"
+      },
+      {
+        "id": "2",
+        "name": "Synthesizer",
+        "port": 19002,
+        "role": "Synthesize answer",
+        "tool": "create_chat_completion"
+      },
+      {
+        "id": "3",
+        "name": "Editor",
+        "port": 19003,
+        "role": "Prepare artifacts",
+        "tool": "str_replace_editor"
+      }
+    ],
+    "seed": 6349,
+    "topology": "hotspot",
+    "total_messages": 360.0,
+    "traffic_label": "medium",
+    "traffic_normalization": "per_edge",
+    "traffic_scale": 10.0
+  },
+  {
+    "edges": [
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 100.0
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 100.0
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 100.0
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 900.0
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 100.0
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 100.0
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 900.0
+      },
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 100.0
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 100.0
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 900.0
+      },
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 100.0
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 100.0
+      }
+    ],
+    "local_preferences": {
+      "0": "Agora",
+      "1": "A2A",
+      "2": "ACP",
+      "3": "A2A"
+    },
+    "nodes": [
+      {
+        "id": "0",
+        "name": "Reader",
+        "port": 19000,
+        "role": "Gather evidence",
+        "tool": "browser_use"
+      },
+      {
+        "id": "1",
+        "name": "Analyst",
+        "port": 19001,
+        "role": "Analyze evidence",
+        "tool": "python_execute"
+      },
+      {
+        "id": "2",
+        "name": "Synthesizer",
+        "port": 19002,
+        "role": "Synthesize answer",
+        "tool": "create_chat_completion"
+      },
+      {
+        "id": "3",
+        "name": "Editor",
+        "port": 19003,
+        "role": "Prepare artifacts",
+        "tool": "str_replace_editor"
+      }
+    ],
+    "seed": 6349,
+    "topology": "hotspot",
+    "total_messages": 3600.0,
+    "traffic_label": "high",
+    "traffic_normalization": "per_edge",
+    "traffic_scale": 100.0
+  },
+  {
+    "edges": [
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 0.3333333333333333
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 0.3333333333333333
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 0.3333333333333333
+      }
+    ],
+    "local_preferences": {
+      "0": "Agora",
+      "1": "A2A",
+      "2": "ACP",
+      "3": "A2A"
+    },
+    "nodes": [
+      {
+        "id": "0",
+        "name": "Reader",
+        "port": 19000,
+        "role": "Gather evidence",
+        "tool": "browser_use"
+      },
+      {
+        "id": "1",
+        "name": "Analyst",
+        "port": 19001,
+        "role": "Analyze evidence",
+        "tool": "python_execute"
+      },
+      {
+        "id": "2",
+        "name": "Synthesizer",
+        "port": 19002,
+        "role": "Synthesize answer",
+        "tool": "create_chat_completion"
+      },
+      {
+        "id": "3",
+        "name": "Editor",
+        "port": 19003,
+        "role": "Prepare artifacts",
+        "tool": "str_replace_editor"
+      }
+    ],
+    "seed": 6349,
+    "topology": "chain",
+    "total_messages": 1.0,
+    "traffic_label": "low",
+    "traffic_normalization": "equal_total",
+    "traffic_scale": 1.0
+  },
+  {
+    "edges": [
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 3.3333333333333335
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 3.3333333333333335
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 3.3333333333333335
+      }
+    ],
+    "local_preferences": {
+      "0": "Agora",
+      "1": "A2A",
+      "2": "ACP",
+      "3": "A2A"
+    },
+    "nodes": [
+      {
+        "id": "0",
+        "name": "Reader",
+        "port": 19000,
+        "role": "Gather evidence",
+        "tool": "browser_use"
+      },
+      {
+        "id": "1",
+        "name": "Analyst",
+        "port": 19001,
+        "role": "Analyze evidence",
+        "tool": "python_execute"
+      },
+      {
+        "id": "2",
+        "name": "Synthesizer",
+        "port": 19002,
+        "role": "Synthesize answer",
+        "tool": "create_chat_completion"
+      },
+      {
+        "id": "3",
+        "name": "Editor",
+        "port": 19003,
+        "role": "Prepare artifacts",
+        "tool": "str_replace_editor"
+      }
+    ],
+    "seed": 6349,
+    "topology": "chain",
+    "total_messages": 10.0,
+    "traffic_label": "medium",
+    "traffic_normalization": "equal_total",
+    "traffic_scale": 10.0
+  },
+  {
+    "edges": [
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 33.333333333333336
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 33.333333333333336
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 33.333333333333336
+      }
+    ],
+    "local_preferences": {
+      "0": "Agora",
+      "1": "A2A",
+      "2": "ACP",
+      "3": "A2A"
+    },
+    "nodes": [
+      {
+        "id": "0",
+        "name": "Reader",
+        "port": 19000,
+        "role": "Gather evidence",
+        "tool": "browser_use"
+      },
+      {
+        "id": "1",
+        "name": "Analyst",
+        "port": 19001,
+        "role": "Analyze evidence",
+        "tool": "python_execute"
+      },
+      {
+        "id": "2",
+        "name": "Synthesizer",
+        "port": 19002,
+        "role": "Synthesize answer",
+        "tool": "create_chat_completion"
+      },
+      {
+        "id": "3",
+        "name": "Editor",
+        "port": 19003,
+        "role": "Prepare artifacts",
+        "tool": "str_replace_editor"
+      }
+    ],
+    "seed": 6349,
+    "topology": "chain",
+    "total_messages": 100.0,
+    "traffic_label": "high",
+    "traffic_normalization": "equal_total",
+    "traffic_scale": 100.0
+  },
+  {
+    "edges": [
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 0.16666666666666666
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 0.16666666666666666
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 0.16666666666666666
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 0.16666666666666666
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 0.16666666666666666
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 0.16666666666666666
+      }
+    ],
+    "local_preferences": {
+      "0": "Agora",
+      "1": "A2A",
+      "2": "ACP",
+      "3": "A2A"
+    },
+    "nodes": [
+      {
+        "id": "0",
+        "name": "Reader",
+        "port": 19000,
+        "role": "Gather evidence",
+        "tool": "browser_use"
+      },
+      {
+        "id": "1",
+        "name": "Analyst",
+        "port": 19001,
+        "role": "Analyze evidence",
+        "tool": "python_execute"
+      },
+      {
+        "id": "2",
+        "name": "Synthesizer",
+        "port": 19002,
+        "role": "Synthesize answer",
+        "tool": "create_chat_completion"
+      },
+      {
+        "id": "3",
+        "name": "Editor",
+        "port": 19003,
+        "role": "Prepare artifacts",
+        "tool": "str_replace_editor"
+      }
+    ],
+    "seed": 6349,
+    "topology": "star",
+    "total_messages": 0.9999999999999999,
+    "traffic_label": "low",
+    "traffic_normalization": "equal_total",
+    "traffic_scale": 1.0
+  },
+  {
+    "edges": [
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 1.6666666666666667
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 1.6666666666666667
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 1.6666666666666667
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 1.6666666666666667
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 1.6666666666666667
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 1.6666666666666667
+      }
+    ],
+    "local_preferences": {
+      "0": "Agora",
+      "1": "A2A",
+      "2": "ACP",
+      "3": "A2A"
+    },
+    "nodes": [
+      {
+        "id": "0",
+        "name": "Reader",
+        "port": 19000,
+        "role": "Gather evidence",
+        "tool": "browser_use"
+      },
+      {
+        "id": "1",
+        "name": "Analyst",
+        "port": 19001,
+        "role": "Analyze evidence",
+        "tool": "python_execute"
+      },
+      {
+        "id": "2",
+        "name": "Synthesizer",
+        "port": 19002,
+        "role": "Synthesize answer",
+        "tool": "create_chat_completion"
+      },
+      {
+        "id": "3",
+        "name": "Editor",
+        "port": 19003,
+        "role": "Prepare artifacts",
+        "tool": "str_replace_editor"
+      }
+    ],
+    "seed": 6349,
+    "topology": "star",
+    "total_messages": 10.0,
+    "traffic_label": "medium",
+    "traffic_normalization": "equal_total",
+    "traffic_scale": 10.0
+  },
+  {
+    "edges": [
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 16.666666666666668
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 16.666666666666668
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 16.666666666666668
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 16.666666666666668
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 16.666666666666668
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 16.666666666666668
+      }
+    ],
+    "local_preferences": {
+      "0": "Agora",
+      "1": "A2A",
+      "2": "ACP",
+      "3": "A2A"
+    },
+    "nodes": [
+      {
+        "id": "0",
+        "name": "Reader",
+        "port": 19000,
+        "role": "Gather evidence",
+        "tool": "browser_use"
+      },
+      {
+        "id": "1",
+        "name": "Analyst",
+        "port": 19001,
+        "role": "Analyze evidence",
+        "tool": "python_execute"
+      },
+      {
+        "id": "2",
+        "name": "Synthesizer",
+        "port": 19002,
+        "role": "Synthesize answer",
+        "tool": "create_chat_completion"
+      },
+      {
+        "id": "3",
+        "name": "Editor",
+        "port": 19003,
+        "role": "Prepare artifacts",
+        "tool": "str_replace_editor"
+      }
+    ],
+    "seed": 6349,
+    "topology": "star",
+    "total_messages": 100.00000000000001,
+    "traffic_label": "high",
+    "traffic_normalization": "equal_total",
+    "traffic_scale": 100.0
+  },
+  {
+    "edges": [
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 0.08333333333333333
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 0.08333333333333333
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 0.08333333333333333
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 0.08333333333333333
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 0.08333333333333333
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 0.08333333333333333
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 0.08333333333333333
+      },
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 0.08333333333333333
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 0.08333333333333333
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 0.08333333333333333
+      },
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 0.08333333333333333
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 0.08333333333333333
+      }
+    ],
+    "local_preferences": {
+      "0": "Agora",
+      "1": "A2A",
+      "2": "ACP",
+      "3": "A2A"
+    },
+    "nodes": [
+      {
+        "id": "0",
+        "name": "Reader",
+        "port": 19000,
+        "role": "Gather evidence",
+        "tool": "browser_use"
+      },
+      {
+        "id": "1",
+        "name": "Analyst",
+        "port": 19001,
+        "role": "Analyze evidence",
+        "tool": "python_execute"
+      },
+      {
+        "id": "2",
+        "name": "Synthesizer",
+        "port": 19002,
+        "role": "Synthesize answer",
+        "tool": "create_chat_completion"
+      },
+      {
+        "id": "3",
+        "name": "Editor",
+        "port": 19003,
+        "role": "Prepare artifacts",
+        "tool": "str_replace_editor"
+      }
+    ],
+    "seed": 6349,
+    "topology": "full_mesh",
+    "total_messages": 1.0,
+    "traffic_label": "low",
+    "traffic_normalization": "equal_total",
+    "traffic_scale": 1.0
+  },
+  {
+    "edges": [
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 0.8333333333333334
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 0.8333333333333334
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 0.8333333333333334
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 0.8333333333333334
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 0.8333333333333334
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 0.8333333333333334
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 0.8333333333333334
+      },
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 0.8333333333333334
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 0.8333333333333334
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 0.8333333333333334
+      },
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 0.8333333333333334
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 0.8333333333333334
+      }
+    ],
+    "local_preferences": {
+      "0": "Agora",
+      "1": "A2A",
+      "2": "ACP",
+      "3": "A2A"
+    },
+    "nodes": [
+      {
+        "id": "0",
+        "name": "Reader",
+        "port": 19000,
+        "role": "Gather evidence",
+        "tool": "browser_use"
+      },
+      {
+        "id": "1",
+        "name": "Analyst",
+        "port": 19001,
+        "role": "Analyze evidence",
+        "tool": "python_execute"
+      },
+      {
+        "id": "2",
+        "name": "Synthesizer",
+        "port": 19002,
+        "role": "Synthesize answer",
+        "tool": "create_chat_completion"
+      },
+      {
+        "id": "3",
+        "name": "Editor",
+        "port": 19003,
+        "role": "Prepare artifacts",
+        "tool": "str_replace_editor"
+      }
+    ],
+    "seed": 6349,
+    "topology": "full_mesh",
+    "total_messages": 10.0,
+    "traffic_label": "medium",
+    "traffic_normalization": "equal_total",
+    "traffic_scale": 10.0
+  },
+  {
+    "edges": [
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 8.333333333333334
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 8.333333333333334
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 8.333333333333334
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 8.333333333333334
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 8.333333333333334
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 8.333333333333334
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 8.333333333333334
+      },
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 8.333333333333334
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 8.333333333333334
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 8.333333333333334
+      },
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 8.333333333333334
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 8.333333333333334
+      }
+    ],
+    "local_preferences": {
+      "0": "Agora",
+      "1": "A2A",
+      "2": "ACP",
+      "3": "A2A"
+    },
+    "nodes": [
+      {
+        "id": "0",
+        "name": "Reader",
+        "port": 19000,
+        "role": "Gather evidence",
+        "tool": "browser_use"
+      },
+      {
+        "id": "1",
+        "name": "Analyst",
+        "port": 19001,
+        "role": "Analyze evidence",
+        "tool": "python_execute"
+      },
+      {
+        "id": "2",
+        "name": "Synthesizer",
+        "port": 19002,
+        "role": "Synthesize answer",
+        "tool": "create_chat_completion"
+      },
+      {
+        "id": "3",
+        "name": "Editor",
+        "port": 19003,
+        "role": "Prepare artifacts",
+        "tool": "str_replace_editor"
+      }
+    ],
+    "seed": 6349,
+    "topology": "full_mesh",
+    "total_messages": 99.99999999999999,
+    "traffic_label": "high",
+    "traffic_normalization": "equal_total",
+    "traffic_scale": 100.0
+  },
+  {
+    "edges": [
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 0.027777777777777776
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 0.027777777777777776
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 0.027777777777777776
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 0.25
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 0.027777777777777776
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 0.027777777777777776
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 0.25
+      },
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 0.027777777777777776
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 0.027777777777777776
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 0.25
+      },
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 0.027777777777777776
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 0.027777777777777776
+      }
+    ],
+    "local_preferences": {
+      "0": "Agora",
+      "1": "A2A",
+      "2": "ACP",
+      "3": "A2A"
+    },
+    "nodes": [
+      {
+        "id": "0",
+        "name": "Reader",
+        "port": 19000,
+        "role": "Gather evidence",
+        "tool": "browser_use"
+      },
+      {
+        "id": "1",
+        "name": "Analyst",
+        "port": 19001,
+        "role": "Analyze evidence",
+        "tool": "python_execute"
+      },
+      {
+        "id": "2",
+        "name": "Synthesizer",
+        "port": 19002,
+        "role": "Synthesize answer",
+        "tool": "create_chat_completion"
+      },
+      {
+        "id": "3",
+        "name": "Editor",
+        "port": 19003,
+        "role": "Prepare artifacts",
+        "tool": "str_replace_editor"
+      }
+    ],
+    "seed": 6349,
+    "topology": "hotspot",
+    "total_messages": 1.0,
+    "traffic_label": "low",
+    "traffic_normalization": "equal_total",
+    "traffic_scale": 1.0
+  },
+  {
+    "edges": [
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 0.2777777777777778
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 0.2777777777777778
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 0.2777777777777778
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 2.5
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 0.2777777777777778
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 0.2777777777777778
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 2.5
+      },
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 0.2777777777777778
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 0.2777777777777778
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 2.5
+      },
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 0.2777777777777778
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 0.2777777777777778
+      }
+    ],
+    "local_preferences": {
+      "0": "Agora",
+      "1": "A2A",
+      "2": "ACP",
+      "3": "A2A"
+    },
+    "nodes": [
+      {
+        "id": "0",
+        "name": "Reader",
+        "port": 19000,
+        "role": "Gather evidence",
+        "tool": "browser_use"
+      },
+      {
+        "id": "1",
+        "name": "Analyst",
+        "port": 19001,
+        "role": "Analyze evidence",
+        "tool": "python_execute"
+      },
+      {
+        "id": "2",
+        "name": "Synthesizer",
+        "port": 19002,
+        "role": "Synthesize answer",
+        "tool": "create_chat_completion"
+      },
+      {
+        "id": "3",
+        "name": "Editor",
+        "port": 19003,
+        "role": "Prepare artifacts",
+        "tool": "str_replace_editor"
+      }
+    ],
+    "seed": 6349,
+    "topology": "hotspot",
+    "total_messages": 10.000000000000002,
+    "traffic_label": "medium",
+    "traffic_normalization": "equal_total",
+    "traffic_scale": 10.0
+  },
+  {
+    "edges": [
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 2.7777777777777777
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 2.7777777777777777
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "0",
+        "weight": 2.7777777777777777
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 25.0
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 2.7777777777777777
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "1",
+        "weight": 2.7777777777777777
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 25.0
+      },
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 2.7777777777777777
+      },
+      {
+        "dst": "3",
+        "payload_size_bytes": 10240,
+        "src": "2",
+        "weight": 2.7777777777777777
+      },
+      {
+        "dst": "0",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 25.0
+      },
+      {
+        "dst": "1",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 2.7777777777777777
+      },
+      {
+        "dst": "2",
+        "payload_size_bytes": 10240,
+        "src": "3",
+        "weight": 2.7777777777777777
+      }
+    ],
+    "local_preferences": {
+      "0": "Agora",
+      "1": "A2A",
+      "2": "ACP",
+      "3": "A2A"
+    },
+    "nodes": [
+      {
+        "id": "0",
+        "name": "Reader",
+        "port": 19000,
+        "role": "Gather evidence",
+        "tool": "browser_use"
+      },
+      {
+        "id": "1",
+        "name": "Analyst",
+        "port": 19001,
+        "role": "Analyze evidence",
+        "tool": "python_execute"
+      },
+      {
+        "id": "2",
+        "name": "Synthesizer",
+        "port": 19002,
+        "role": "Synthesize answer",
+        "tool": "create_chat_completion"
+      },
+      {
+        "id": "3",
+        "name": "Editor",
+        "port": 19003,
+        "role": "Prepare artifacts",
+        "tool": "str_replace_editor"
+      }
+    ],
+    "seed": 6349,
+    "topology": "hotspot",
+    "total_messages": 99.99999999999997,
+    "traffic_label": "high",
+    "traffic_normalization": "equal_total",
+    "traffic_scale": 100.0
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "archives": [
+    {
+      "archive_path": "results/raw/cost_interface_archive/9d72fe3c741a18b2c0c8924d3f643c229b2232507ec53a4fc1fb13d74d53dd09/protocol_costs.csv",
+      "original_path": "results/processed/protocol_costs.csv",
+      "sha256": "9d72fe3c741a18b2c0c8924d3f643c229b2232507ec53a4fc1fb13d74d53dd09"
+    },
+    {
+      "archive_path": "results/raw/cost_interface_archive/5071d5f2d4fbaa17e4206cf1450defedf9b7ced1e2aa79ae0f3a465cdf5bb898/protocol_costs_real.csv",
+      "original_path": "results/processed/protocol_costs_real.csv",
+      "sha256": "5071d5f2d4fbaa17e4206cf1450defedf9b7ced1e2aa79ae0f3a465cdf5bb898"
+    }
+  ],
+  "conversion_conditions_preserved": 16,
+  "encoded_bytes_definition": "HTTP request body bytes observed at the actual local repository server",
+  "historical_failed_inputs_unchanged": {
+    "results/raw/profile_manifest_real.json": "24f3aa979f0b42219d2a2e31168c4a0bc06a37e861f584837e489b5b78ee4503",
+    "results/raw/protocol_profile_real.csv": "230e51806ca73829cdc8da426285abf4cdbdffd03d8502be2993157dadab8f36",
+    "results/raw/protocol_profile_real.json": "25ee1b168b2cf73eb479c7c6b932880a723f69a0c9c20768d0572eee4113fd6a"
+  },
+  "input_sha256": {
+    "results/processed/real_protocol_costs.csv": "c9d5ee0d7d5c906715cbe4529b6d7a4335fe7b741809b53f721249b44d2478c8",
+    "results/raw/real_protocol_manifest.json": "13482540f6ec4b4c5294827f91822507f1ad69df401071d7899d8841589b41ab",
+    "results/raw/real_protocol_profile.csv": "442ef769d72176c9db734e9765e9b7521af2508f23472d9ec5170e1fd16c0479"
+  },
+  "latency_boundary": "perf_counter_ns immediately around await BaseAgent.send; setup/warmup excluded from summary",
+  "mapping": {
+    "attempted_requests": "measured_attempts",
+    "conversion runtime columns": "empty for real rows",
+    "failures / attempted_requests": "failure_rate",
+    "mean/median/p95_latency_ms": "identical measured strings",
+    "mean_encoded_request_bytes": "mean_encoded_bytes",
+    "successful_requests": "success_count"
+  },
+  "measurement_kind": "end_to_end_local_request",
+  "mode": "real",
+  "operation": "schema translation only; no measurements recomputed or rerun",
+  "output_sha256": {
+    "results/processed/protocol_costs.csv": "a44cb1dd5ae27789209ec0c2d2dd08f1e676a06d238df257346725e44c68abf0",
+    "results/processed/protocol_costs_real.csv": "a3f8ef10ad02ad2dd75548796aab6d9e84ea5f0b23ce19dd52bc60ef453db688"
+  },
+  "real_conditions": 16
+}

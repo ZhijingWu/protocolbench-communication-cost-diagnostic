@@ -1,0 +1,12 @@
+{
+  "measured_repetitions": 30,
+  "payload_size_bytes": [
+    1024,
+    10240,
+    51200,
+    102400
+  ],
+  "setup_timeout_seconds": 40,
+  "timeout_seconds": 30,
+  "warmup": 5
+}

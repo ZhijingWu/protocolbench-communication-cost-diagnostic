@@ -1,0 +1,123 @@
+{
+  "a2a_acp_anp_only_reversal_cases": 1,
+  "a2a_acp_anp_only_reversal_exists": true,
+  "a2a_acp_anp_only_witness": {
+    "baseline_assignment": {
+      "0": "Agora",
+      "1": "A2A",
+      "2": "ACP",
+      "3": "A2A"
+    },
+    "changed_nodes": [
+      "1",
+      "3"
+    ],
+    "graph_assignment": {
+      "0": "Agora",
+      "1": "ANP",
+      "2": "ACP",
+      "3": "ANP"
+    },
+    "lambda": 0.1,
+    "objective_delta": -1.1299459999999897,
+    "topology": "chain",
+    "traffic_normalization": "per_edge",
+    "traffic_scale": 100.0
+  },
+  "all_reversals_involve_agora": false,
+  "any_reversal_to_agora": false,
+  "by_topology_cases": {
+    "chain": 1,
+    "full_mesh": 9,
+    "hotspot": 15,
+    "star": 12
+  },
+  "by_traffic_normalization_cases": {
+    "equal_total": 15,
+    "per_edge": 22
+  },
+  "by_traffic_scale_cases": {
+    "1": 6,
+    "10": 12,
+    "100": 19
+  },
+  "cases_with_agora_changes": 36,
+  "cases_without_agora_changes": 1,
+  "changed_from_protocol_case_counts": {
+    "A2A": 4,
+    "ACP": 0,
+    "ANP": 0,
+    "Agora": 36
+  },
+  "changed_from_protocol_node_events": {
+    "A2A": 8,
+    "ACP": 0,
+    "ANP": 0,
+    "Agora": 36
+  },
+  "changed_node_count": 44,
+  "changed_to_protocol_case_counts": {
+    "A2A": 0,
+    "ACP": 0,
+    "ANP": 37,
+    "Agora": 0
+  },
+  "changed_to_protocol_node_events": {
+    "A2A": 0,
+    "ACP": 0,
+    "ANP": 44,
+    "Agora": 0
+  },
+  "counting_definition": "topology/traffic counts are cases; protocol node-events count each changed node; protocol case counts can overlap",
+  "minimum_lambda": 0.0001,
+  "minimum_lambda_at_minimum_traffic_scale": 0.01,
+  "minimum_lambda_witness": {
+    "baseline_assignment": {
+      "0": "Agora",
+      "1": "A2A",
+      "2": "ACP",
+      "3": "A2A"
+    },
+    "changed_nodes": [
+      "0"
+    ],
+    "graph_assignment": {
+      "0": "ANP",
+      "1": "A2A",
+      "2": "ACP",
+      "3": "A2A"
+    },
+    "lambda": 0.0001,
+    "objective_delta": -4.959570626,
+    "topology": "hotspot",
+    "traffic_normalization": "per_edge",
+    "traffic_scale": 100.0
+  },
+  "minimum_traffic_scale": 1.0,
+  "minimum_traffic_scale_at_minimum_lambda": 100.0,
+  "minimum_traffic_scale_witness": {
+    "baseline_assignment": {
+      "0": "Agora",
+      "1": "A2A",
+      "2": "ACP",
+      "3": "A2A"
+    },
+    "changed_nodes": [
+      "0"
+    ],
+    "graph_assignment": {
+      "0": "ANP",
+      "1": "A2A",
+      "2": "ACP",
+      "3": "A2A"
+    },
+    "lambda": 0.01,
+    "objective_delta": -4.959570625999999,
+    "topology": "hotspot",
+    "traffic_normalization": "per_edge",
+    "traffic_scale": 1.0
+  },
+  "non_agora_definition": "Every changed-from and changed-to protocol is A2A/ACP/ANP; an unchanged baseline Agora node is allowed",
+  "strict_reversal_cases": 37,
+  "total_cases": 144
+}

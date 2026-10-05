@@ -1,0 +1,65 @@
+{
+  "local_inputs": {
+    "agents_config": [
+      {
+        "id": "0",
+        "name": "Reader",
+        "port": 19000,
+        "role": "Gather evidence",
+        "tool": "browser_use"
+      },
+      {
+        "id": "1",
+        "name": "Analyst",
+        "port": 19001,
+        "role": "Analyze evidence",
+        "tool": "python_execute"
+      },
+      {
+        "id": "2",
+        "name": "Synthesizer",
+        "port": 19002,
+        "role": "Synthesize answer",
+        "tool": "create_chat_completion"
+      },
+      {
+        "id": "3",
+        "name": "Editor",
+        "port": 19003,
+        "role": "Prepare artifacts",
+        "tool": "str_replace_editor"
+      }
+    ],
+    "task_analysis": {
+      "complexity": "medium",
+      "domain_areas": [
+        "document_analysis"
+      ],
+      "required_tools": [
+        "browser_use",
+        "python_execute",
+        "create_chat_completion",
+        "str_replace_editor"
+      ],
+      "task_type": "mixed"
+    }
+  },
+  "local_inputs_sha256": "7feebac851b3efda55198539da729651b1fddf7b1fe6abc9ac2e97e44ac5b835",
+  "routing_decision": {
+    "agent_assignments": {
+      "0": "agora",
+      "1": "a2a",
+      "2": "acp",
+      "3": "a2a"
+    },
+    "confidence": 0.3,
+    "reasoning": "Fallback heuristic routing based on tool types",
+    "selected_protocols": [
+      "a2a",
+      "acp",
+      "agora"
+    ],
+    "strategy": "heuristic_fallback"
+  },
+  "source": "heuristic_fallback"
+}

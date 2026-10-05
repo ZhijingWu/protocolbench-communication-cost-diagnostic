@@ -1,0 +1,17 @@
+mode,protocol,payload_size_bytes,measurement_kind,measured_attempts,success_count,failure_rate,mean_latency_ms,median_latency_ms,p95_latency_ms,mean_conversion_runtime_ms,median_conversion_runtime_ms,p95_conversion_runtime_ms,mean_encoded_bytes
+conversion-only,A2A,1024,conversion_serialization,30,30,0.0,,,,0.009526466666666667,0.009060499999999999,0.010745399999999999,1240
+conversion-only,A2A,10240,conversion_serialization,30,30,0.0,,,,0.03698983333333333,0.0359145,0.04244134999999997,10456
+conversion-only,A2A,51200,conversion_serialization,30,30,0.0,,,,0.15819066666666667,0.15570299999999998,0.16892365,51416
+conversion-only,A2A,102400,conversion_serialization,30,30,0.0,,,,0.4343170333333333,0.4347025,0.45702309999999996,102616
+conversion-only,ACP,1024,conversion_serialization,30,30,0.0,,,,0.0076087,0.0075835,0.00783415,1235
+conversion-only,ACP,10240,conversion_serialization,30,30,0.0,,,,0.03419793333333333,0.0335605,0.03485185,10451
+conversion-only,ACP,51200,conversion_serialization,30,30,0.0,,,,0.15573936666666666,0.15435100000000002,0.16648485,51411
+conversion-only,ACP,102400,conversion_serialization,30,30,0.0,,,,0.43345659999999997,0.43294299999999997,0.45627039999999996,102611
+conversion-only,ANP,1024,conversion_serialization,30,30,0.0,,,,0.009588466666666667,0.0077020000000000005,0.0087907,1243
+conversion-only,ANP,10240,conversion_serialization,30,30,0.0,,,,0.03452656666666667,0.0346525,0.035762749999999996,10459
+conversion-only,ANP,51200,conversion_serialization,30,30,0.0,,,,0.15357796666666668,0.15462599999999999,0.16275564999999997,51419
+conversion-only,ANP,102400,conversion_serialization,30,30,0.0,,,,0.4327356,0.43417300000000003,0.4579246,102619
+conversion-only,Agora,1024,conversion_serialization,30,30,0.0,,,,0.006158,0.0059505,0.007659799999999999,1090
+conversion-only,Agora,10240,conversion_serialization,30,30,0.0,,,,0.03209993333333333,0.0320145,0.032497349999999994,10306
+conversion-only,Agora,51200,conversion_serialization,30,30,0.0,,,,0.15066976666666668,0.14871250000000003,0.16835144999999999,51266
+conversion-only,Agora,102400,conversion_serialization,30,30,0.0,,,,0.4328819,0.43203800000000003,0.4509968,102466

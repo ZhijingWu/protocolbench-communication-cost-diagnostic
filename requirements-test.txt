@@ -1,0 +1,3 @@
+# Pure upstream converter/router tests; communication SDKs are optional for profiling.
+PyYAML==6.0.2
+pytest==8.4.1

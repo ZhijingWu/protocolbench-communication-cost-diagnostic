@@ -1,0 +1,37 @@
+{
+  "forced_removals_excluded_from_preference_reversals": true,
+  "full_candidate_strict_reversals": 13,
+  "git_diff_HEAD_name_only": "empty",
+  "git_diff_check": "exit 0, no output",
+  "global_no_agora_forced_agent": "0",
+  "independent_objective_and_eligibility_checks": "PASS for all 144 rows",
+  "no_agora_eligible_a2a_to_anp_node_events": 3,
+  "no_agora_eligible_preference_reversal_cases": 2,
+  "no_agora_strict_vs_original_baseline": 12,
+  "node_count": 4,
+  "official_edges_and_terminal_marker": "PASS",
+  "output_sha256": {
+    "results/processed/gaia_workflow_reversal.csv": "9c455d3c0cc1a0727d31b0b36078ab7ab3724d9414a0c8a5bc97aed1b6d94c1d",
+    "results/processed/gaia_workflow_summary.json": "f5557a6321ce2b34848b588e820cfd4a213d9d702d53d5166fdf03c53b36835b"
+  },
+  "supplemental_whitespace_checks": "PASS",
+  "tests": "50 passed in 0.88s",
+  "unchanged_input_hashes": {
+    "configs/topology_cases.yaml": "56e3493e0f8870c192b8e98c1dfb9255c3bb11d61a71f1ba0c2327ddfc4fc7c2",
+    "results/processed/decision_reversal.csv": "bf000a11f080d5516e7bd1db8162e9f92b1e11a5ddb5a6bcb354b44d9902df8a",
+    "results/processed/protocol_costs.csv": "a44cb1dd5ae27789209ec0c2d2dd08f1e676a06d238df257346725e44c68abf0",
+    "results/processed/real_protocol_costs.csv": "c9d5ee0d7d5c906715cbe4529b6d7a4335fe7b741809b53f721249b44d2478c8",
+    "results/processed/reversal_summary.json": "32fe0692947fd859c77269fc4963ce26485c14830aa3e424760dc7839d3e4f03",
+    "results/raw/local_router_output.json": "d844c024abb62a95c17005ff10d55a55664f11a38b8565755b65239732c91eb3",
+    "results/raw/real_protocol_manifest.json": "13482540f6ec4b4c5294827f91822507f1ad69df401071d7899d8841589b41ab",
+    "results/raw/real_protocol_profile.csv": "442ef769d72176c9db734e9765e9b7521af2508f23472d9ec5170e1fd16c0479",
+    "results/raw/topology_cases.json": "7cbd5a50c92e179af8891c6d1c26e6a74ce90ddd9f2e1b8e10d4898c8e5cbee9",
+    "scripts/run_joint_assignment.py": "4c6ff9bbe462f6d6afd634323546cbddb7ecf89bf83df53462d26b36df3076f3",
+    "src/cost_schema.py": "4cb980041cc8828b26e435d00f3b3d8f094fcc91ef1d74f7ed671dfc20754cc1",
+    "src/graph_aware_oracle.py": "de4cedea27941ca52e21651fe5705e5d00aaa3570f1e86d300e009a1992f14cf",
+    "src/local_router_adapter.py": "bd5bf01ec1266089a18ec2d69e504dcd4042a2528e34497a8ac0c52ab0dcb3f9",
+    "src/objective.py": "d07979dc921f11f2caf32cc3ce00694d5166fe5ae68eaa8c5f3e2b9fc07d953e",
+    "src/topology_generator.py": "30cffbfd020a7466f4c24632bd56707bb7c73600954409f4f5b246f759c2ca5d"
+  },
+  "workflow_runner_exit": 0
+}

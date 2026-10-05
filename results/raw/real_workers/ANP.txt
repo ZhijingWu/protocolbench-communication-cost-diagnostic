@@ -1,0 +1,182 @@
+<PYTHON_ENV>/lib/python3.11/site-packages/langgraph/checkpoint/base/__init__.py:18: LangChainPendingDeprecationWarning: The default value of `allowed_objects` will change in a future version. Pass an explicit value (e.g., allowed_objects='messages' or allowed_objects='core') to suppress this warning.
+  from langgraph.checkpoint.serde.jsonplus import JsonPlusSerializer
+INFO:     Started server process [3657710]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:54459 (Press CTRL+C to quit)
+INFO:     Uvicorn running on http://0.0.0.0:55459 (Press CTRL+C to quit)
+Registered router type: llm_based
+Registered router type: load_balanced
+INFO:     127.0.0.1:36826 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+INFO:     Started server process [3657710]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:49699 (Press CTRL+C to quit)
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36826 - "POST /anp/message HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Finished server process [3657710]
+ERROR:    Traceback (most recent call last):
+  File "<PYTHON_ENV>/lib/python3.11/site-packages/starlette/routing.py", line 661, in lifespan
+    await receive()
+  File "<PYTHON_ENV>/lib/python3.11/site-packages/fastapi/telemetry/_runtime.py", line 214, in wrapped_receive
+    message = await receive()
+              ^^^^^^^^^^^^^^^
+  File "<PYTHON_ENV>/lib/python3.11/site-packages/uvicorn/lifespan/on.py", line 137, in receive
+    return await self.receive_queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<PYTHON_ENV>/lib/python3.11/asyncio/queues.py", line 158, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+ERROR:    Traceback (most recent call last):
+  File "<PYTHON_ENV>/lib/python3.11/site-packages/starlette/routing.py", line 661, in lifespan
+    await receive()
+  File "<PYTHON_ENV>/lib/python3.11/site-packages/fastapi/telemetry/_runtime.py", line 214, in wrapped_receive
+    message = await receive()
+              ^^^^^^^^^^^^^^^
+  File "<PYTHON_ENV>/lib/python3.11/site-packages/uvicorn/lifespan/on.py", line 137, in receive
+    return await self.receive_queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<PYTHON_ENV>/lib/python3.11/asyncio/queues.py", line 158, in get
+    await getter
+asyncio.exceptions.CancelledError

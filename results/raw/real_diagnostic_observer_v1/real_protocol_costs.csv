@@ -1,0 +1,17 @@
+protocol,payload_size_bytes,status,requested_repetitions,attempted_requests,successful_requests,failures,skipped_requests,mean_latency_ms,median_latency_ms,p95_latency_ms,std_latency_ms,mean_encoded_request_bytes,setup_latency_ms,transport_path,timing_source
+A2A,1024,blocked,30,30,0,30,0,,,,,,1877.01369,A2AAdapter -> A2AStarletteApplication /message -> SDKNoopExecutor,perf_counter_ns around BaseAgent.send
+A2A,10240,blocked,30,30,0,30,0,,,,,,1877.01369,A2AAdapter -> A2AStarletteApplication /message -> SDKNoopExecutor,perf_counter_ns around BaseAgent.send
+A2A,51200,blocked,30,30,0,30,0,,,,,,1877.01369,A2AAdapter -> A2AStarletteApplication /message -> SDKNoopExecutor,perf_counter_ns around BaseAgent.send
+A2A,102400,blocked,30,30,0,30,0,,,,,,1877.01369,A2AAdapter -> A2AStarletteApplication /message -> SDKNoopExecutor,perf_counter_ns around BaseAgent.send
+ACP,1024,blocked,30,30,0,30,0,,,,,,1862.005439,ACPAdapter -> ACPStarletteApplication /acp/message -> ACPNoopExecutor,perf_counter_ns around BaseAgent.send
+ACP,10240,blocked,30,30,0,30,0,,,,,,1862.005439,ACPAdapter -> ACPStarletteApplication /acp/message -> ACPNoopExecutor,perf_counter_ns around BaseAgent.send
+ACP,51200,blocked,30,30,0,30,0,,,,,,1862.005439,ACPAdapter -> ACPStarletteApplication /acp/message -> ACPNoopExecutor,perf_counter_ns around BaseAgent.send
+ACP,102400,blocked,30,30,0,30,0,,,,,,1862.005439,ACPAdapter -> ACPStarletteApplication /acp/message -> ACPNoopExecutor,perf_counter_ns around BaseAgent.send
+ANP,1024,blocked,30,30,0,30,0,,,,,,2394.543305,ANPAdapter -> ANPSimpleNodeWrapper /anp/message HTTP -> ANPNoopExecutor.answer,perf_counter_ns around BaseAgent.send
+ANP,10240,blocked,30,30,0,30,0,,,,,,2394.543305,ANPAdapter -> ANPSimpleNodeWrapper /anp/message HTTP -> ANPNoopExecutor.answer,perf_counter_ns around BaseAgent.send
+ANP,51200,blocked,30,30,0,30,0,,,,,,2394.543305,ANPAdapter -> ANPSimpleNodeWrapper /anp/message HTTP -> ANPNoopExecutor.answer,perf_counter_ns around BaseAgent.send
+ANP,102400,blocked,30,30,0,30,0,,,,,,2394.543305,ANPAdapter -> ANPSimpleNodeWrapper /anp/message HTTP -> ANPNoopExecutor.answer,perf_counter_ns around BaseAgent.send
+Agora,1024,ok,30,30,30,0,0,23.669056666666666,23.019188999999997,31.37998145,3.890679102407554,1052,1843.299708,AgoraClientAdapter(toolformer=None) -> AgoraServerWrapper /message -> EchoReceipts.answer,perf_counter_ns around BaseAgent.send
+Agora,10240,ok,30,30,30,0,0,23.4047566,22.8434655,29.399078699999997,3.425800477324363,10268,1843.299708,AgoraClientAdapter(toolformer=None) -> AgoraServerWrapper /message -> EchoReceipts.answer,perf_counter_ns around BaseAgent.send
+Agora,51200,ok,30,30,30,0,0,24.7239273,24.7344935,31.8907736,3.905348307408763,51228,1843.299708,AgoraClientAdapter(toolformer=None) -> AgoraServerWrapper /message -> EchoReceipts.answer,perf_counter_ns around BaseAgent.send
+Agora,102400,ok,30,30,30,0,0,26.112045166666668,26.339069000000002,33.90324845,5.030048991842217,102428,1843.299708,AgoraClientAdapter(toolformer=None) -> AgoraServerWrapper /message -> EchoReceipts.answer,perf_counter_ns around BaseAgent.send

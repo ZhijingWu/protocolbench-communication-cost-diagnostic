@@ -1,0 +1,21 @@
+{
+  "baseline_assignment_changes": 0,
+  "conversion-only": {
+    "measured_rows": 480,
+    "measured_successes": 480,
+    "raw_rows": 560,
+    "summary_consistent": true,
+    "warmup_rows": 80
+  },
+  "end_to_end_repeatability": "PASS (runtime_seconds excluded)",
+  "independent_result_arithmetic": "PASS for all 144 sweep rows",
+  "real": {
+    "measured_rows": 480,
+    "measured_successes": 0,
+    "raw_rows": 560,
+    "summary_consistent": true,
+    "warmup_rows": 80
+  },
+  "strict_reversal_cases": 60,
+  "topology_table_byte_identical": true
+}

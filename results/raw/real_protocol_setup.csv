@@ -1,0 +1,5 @@
+protocol,status,setup_latency_ms,server_url,transport_path,error_type,error_message
+A2A,ready,1907.941015,http://127.0.0.1:57745,A2AAdapter -> A2AStarletteApplication /message -> SDKNoopExecutor,,
+ACP,ready,2002.874017,http://127.0.0.1:51285,ACPAdapter -> ACPStarletteApplication /acp/message -> ACPNoopExecutor,,
+ANP,ready,2395.489563,http://127.0.0.1:54459,ANPAdapter -> ANPSimpleNodeWrapper /anp/message HTTP -> ANPNoopExecutor.answer,,
+Agora,ready,1927.650991,http://127.0.0.1:39933,AgoraClientAdapter(toolformer=None) -> AgoraServerWrapper /message -> EchoReceipts.answer,,

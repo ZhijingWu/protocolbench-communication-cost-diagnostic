@@ -1,0 +1,66 @@
+{
+  "blockers": [],
+  "branch": "exp/topology-aware-protocol-routing",
+  "config": {
+    "measured_repetitions": 30,
+    "payload_size_bytes": [
+      1024,
+      10240,
+      51200,
+      102400
+    ],
+    "real_endpoints": {
+      "A2A": null,
+      "ACP": null,
+      "ANP": null,
+      "Agora": null
+    },
+    "timeout_seconds": 30,
+    "warmup": 5
+  },
+  "config_sha256": "6d0c7837a6744220cf1d0203e78ac2a15359a2d2c87c1a61853810679b137dd9",
+  "dependencies": {
+    "PyYAML": "6.0.1",
+    "a2a-sdk": null,
+    "acp-sdk": null,
+    "agent-connect": null,
+    "agora-protocol": null,
+    "httpx": "0.28.1",
+    "prometheus-client": null,
+    "psutil": "7.0.0",
+    "pynvml": null,
+    "pytest": null,
+    "uvicorn": null
+  },
+  "executable": "<UNUSED_PYTHON_ENV>/bin/python",
+  "failure_rate_includes_setup_blocked_attempts": true,
+  "head": "6349eb97f0ca83db9cbfd44dea0bbdbb3ea9d37f",
+  "mode": "conversion-only",
+  "network_latency_measured": false,
+  "output_sha256": {
+    "results/processed/protocol_costs_conversion-only.csv": "9d72fe3c741a18b2c0c8924d3f643c229b2232507ec53a4fc1fb13d74d53dd09",
+    "results/raw/protocol_profile_conversion-only.csv": "cbff05e476b80045b4ce612ab8834d1b9c4a35c311b2b3c0a6f983a6cf11b91c",
+    "results/raw/protocol_profile_conversion-only.json": "d5b16222a9b4703d2195d76f44bd951ded78e873442b81325b69e9be2179cddb"
+  },
+  "p95_definition": "linear interpolation at (n-1)*0.95",
+  "platform": "Linux-6.1.0-40-amd64-x86_64-with-glibc2.36",
+  "python": "3.11.9 (main, Apr 19 2024, 16:48:06) [GCC 11.2.0]",
+  "raw_csv": "results/raw/protocol_profile_conversion-only.csv",
+  "source_sha256": {
+    "routerbench/evaluator.py": "e920603ed9c9a77a474986beadaff97cda53071c2d899e63e2068a7d554e441b",
+    "routerbench/prompt_template.py": "343a26e655a9551d2694c711f5afb4681cfde53bf725d640e82ad81c07e52614",
+    "routerbench/proto_router.py": "f5976e4de68086b2afbaf255f81eccd21da5a5e536ed71d231fd1f681d6637f6",
+    "routerbench/run_benchmark.py": "caaba0fd2e999ca2a62d18360d9f13fe506aaece9a538c597a13902d639c4838",
+    "scenarios/gaia/config/meta_protocol.yaml": "b64482dcbd47a6fb1140ffabcc82fcb05de7733607ea29e909fa6f28b277b0c9",
+    "scenarios/gaia/protocol_backends/meta_protocol/llm_router.py": "13583c6be843d9153b8a4e14b87f20d04c4bb6ded0c80a205cdd4e24dcc9fb45",
+    "scenarios/gaia/protocol_backends/meta_protocol/network.py": "12f24613211f0253ca0ba84321f36551ea8372d267c98da72eb889d4dc4fc406",
+    "scenarios/gaia/runners/run_meta_protocol.py": "022ef862bbd60a388a6c5269b1e2e0766eda16f76291cf5018442e6e0e90dd18",
+    "src/agent_adapters/agora_adapter.py": "33aa224f917b42701921074698f9e244245f7727fa9c9352d05b55459dda1920",
+    "src/core/base_agent.py": "3b0f20b81069405d3a6b87a760f57071f56f38130f9577ee2681168d6bba1741",
+    "src/core/metrics.py": "cf57a5cf0a16f6134e60dab7030b83a3bf5e821010584fd9c163579420468a9a",
+    "src/core/network.py": "0d1884819ca957d96b93bdc90b8b17ec8c81aabfb3fa8a72d9050f29b46ae336",
+    "src/core/protocol_converter.py": "0cc17f2032098726e5428fd52b2e2ac43ce8fa11c8a19a6a4ad91bcb94b72485",
+    "src/core/unified_message.py": "85aba33b22213e694a8ea6e84be4e0a95bf192e8567c714a0a202f784242c39e"
+  },
+  "statistics_success_only": true
+}

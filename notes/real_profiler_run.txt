@@ -1,0 +1,4 @@
+A2A: setup=ready; measured successes=120/120
+ACP: setup=ready; measured successes=120/120
+ANP: setup=ready; measured successes=120/120
+Agora: setup=ready; measured successes=120/120
