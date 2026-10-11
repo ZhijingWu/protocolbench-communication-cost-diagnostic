@@ -121,3 +121,11 @@ The experiment's formulas, enumeration, candidate policy, raw numeric strings, b
 Built on [ProtocolBench / AgentProtocols](https://github.com/ulab-uiuc/AgentProtocols), audited at [commit 6349eb97f0ca83db9cbfd44dea0bbdbb3ea9d37f](https://github.com/ulab-uiuc/AgentProtocols/tree/6349eb97f0ca83db9cbfd44dea0bbdbb3ea9d37f). Original upstream authors retain attribution for their code and design. See [UPSTREAM.md](UPSTREAM.md) and the preserved [MIT license](LICENSE).
 
 Read the [microbenchmark note](notes/real_microbench.md), [findings](notes/findings.md), [final technical note](outreach/v2/technical_note_v2.pdf), and [its claim audit](outreach/v2/claim_check_v2.md). This repository is an independent diagnostic, not an official ProtocolBench repository.
+
+## Workflow-Latency Calibration (October 2026)
+
+A separate controlled no-op session evaluated **120 measured serial/fork/join workflows containing 480 workflow RPCs**, excluding 20 warmup workflows / 80 warmup RPCs. These requests are separate from the historical 480-request profile and the synthetic-margin sensitivity study above.
+
+For the serial comparison, frozen historical request costs predict treatment−baseline **−0.1564973 ms**, while the observed paired mean workflow makespan difference is **+0.8279372 ms**. This is a single-session mean calibration reversal, not a speedup or general protocol ranking. Fork/join predicted communication work decreases but predicted DAG completion ties; observed AB/BA means disagree in sign, without isolating a causal order effect.
+
+See the [workflow calibration evidence and offline recalculation](results/workflow_calibration/README.md). The package contains original recorded timing/receipt/order data and a standard-library calculator; it does not claim full original-environment rerun reproducibility, real GAIA execution or task-quality gains.

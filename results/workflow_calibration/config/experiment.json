@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "configuration_kind": "descriptive_export_of_recorded_evidence",
+  "derived_from_original_manifest_sha256": "ac695bbd4ab559e2f5f29ac6dc55cf091b39edbe78cce74d05972fe32c983337",
+  "run_id": "20261009_full01",
+  "created_utc": "2026-10-09T12:49:49Z",
+  "payload_size_bytes": 10240,
+  "warmups_per_cell": 5,
+  "measured_per_cell": 30,
+  "plans": {
+    "baseline": {
+      "0": "Agora",
+      "1": "A2A",
+      "2": "ACP",
+      "3": "A2A"
+    },
+    "treatment": {
+      "0": "Agora",
+      "1": "ANP",
+      "2": "ACP",
+      "3": "A2A"
+    }
+  },
+  "topologies": {
+    "analysis_task": {
+      "stages": [
+        [
+          {
+            "src": "0",
+            "dst": "1"
+          }
+        ],
+        [
+          {
+            "src": "1",
+            "dst": "2"
+          }
+        ]
+      ],
+      "terminal_events": [
+        {
+          "src": "2",
+          "dst": "final",
+          "step_index": 2,
+          "metadata": {
+            "protocol_preference": "agora",
+            "reason": "reliable_final_result"
+          },
+          "weight": 1.0,
+          "included_in_communication_objective": false
+        }
+      ]
+    },
+    "collaborative_task": {
+      "stages": [
+        [
+          {
+            "src": "0",
+            "dst": "1"
+          },
+          {
+            "src": "0",
+            "dst": "2"
+          },
+          {
+            "src": "0",
+            "dst": "3"
+          }
+        ],
+        [
+          {
+            "src": "1",
+            "dst": "0"
+          },
+          {
+            "src": "2",
+            "dst": "0"
+          },
+          {
+            "src": "3",
+            "dst": "0"
+          }
+        ]
+      ],
+      "terminal_events": []
+    }
+  },
+  "execution_order": {
+    "type": "deterministic alternating adjacent AB/BA pairs",
+    "measured_pairs_per_topology": 30,
+    "AB_pairs": 15,
+    "BA_pairs": 15,
+    "workflows_overlap": false,
+    "workflow_priority_also_alternates": true
+  },
+  "historical_profile": {
+    "repository_relative_path": "results/processed/real_protocol_costs.csv",
+    "git_blob_sha256": "c9d5ee0d7d5c906715cbe4529b6d7a4335fe7b741809b53f721249b44d2478c8",
+    "hashing": "canonical LF only for this pre-existing text dependency; no numerical normalization",
+    "refit_during_workflow_session": false
+  },
+  "measurement_boundaries": {
+    "RPC": "perf_counter_ns around BaseAgent.send including conversion, transport, server receipt and decode",
+    "workflow": "perf_counter_ns around both scheduled stages, including observer/scheduler overhead",
+    "timestamps": "monotonic, not Unix epoch"
+  },
+  "nominal": {
+    "destination_protocol": true,
+    "work": "sum of frozen edge mean RTTs",
+    "DAG": "sum of per-stage maximum frozen edge means",
+    "agent_compute_ms": 0,
+    "traffic_scale": 1
+  },
+  "environment": {
+    "python": "3.11.13",
+    "OS": "Linux",
+    "architecture": "x86_64",
+    "dependencies": {
+      "a2a-sdk": "0.3.3",
+      "acp-sdk": "1.0.3",
+      "agora-protocol": "0.2.0",
+      "agent-connect": "0.3.5",
+      "uvicorn": "0.35.0",
+      "httpx": "0.28.1",
+      "prometheus-client": "0.22.1",
+      "psutil": "7.0.0",
+      "pynvml": "12.0.0",
+      "PyYAML": "6.0.2",
+      "pytest": "8.4.1"
+    },
+    "llm_calls": 0,
+    "gpu_used": false,
+    "transport": "allocated loopback endpoints; deterministic no-op responders"
+  },
+  "recorded_review_median_ci95_ms": {
+    "analysis_task": [
+      -0.028424000000000005,
+      1.8976710000000003
+    ],
+    "collaborative_task": [
+      0.0819270000000003,
+      2.2107954999999997
+    ]
+  },
+  "bootstrap": {
+    "resamples": 10000,
+    "type": "AB/BA-stratified percentile; complete pair deltas",
+    "mean_effect_seeds": {
+      "analysis_task": 96349,
+      "collaborative_task": 96350
+    },
+    "median_effect_seed_per_topology": 96349,
+    "scope": "descriptive within one server session"
+  },
+  "original_workflow_yaml": {
+    "name": "scenarios/gaia/config/meta_protocol.yaml",
+    "recorded_sha256": "b64482dcbd47a6fb1140ffabcc82fcb05de7733607ea29e909fa6f28b277b0c9",
+    "original_file_included": false,
+    "description": "This config describes recorded instantiated edges; it is not the missing original YAML."
+  }
+}

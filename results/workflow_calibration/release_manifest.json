@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "prepared_on": "2026-10-11",
+  "source_session_date": "2026-10-09",
+  "source_run_id": "20261009_full01",
+  "base_public_repository_revision": "3902c9b005b9c4c4cf477f228a5360f221536044",
+  "original_full_manifest_sha256": "ac695bbd4ab559e2f5f29ac6dc55cf091b39edbe78cce74d05972fe32c983337",
+  "hash_scope": "all package files except release_manifest.json itself; package .gitattributes preserves publication bytes",
+  "files": {
+    ".gitattributes": {
+      "publication_sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+      "publication_bytes": 8,
+      "origin_kind": "new_documentation_code_or_descriptive_metadata",
+      "original_relative_path": null,
+      "original_sha256": null,
+      "copied_unchanged": false,
+      "sanitizations": []
+    },
+    "config/experiment.json": {
+      "publication_sha256": "ff237e387fe60c2fd0ad6613ccf2abcc5161c157ff8adba48d577149d52e997c",
+      "publication_bytes": 4228,
+      "origin_kind": "new_documentation_code_or_descriptive_metadata",
+      "original_relative_path": null,
+      "original_sha256": null,
+      "copied_unchanged": false,
+      "sanitizations": [
+        "host-specific original manifest fields omitted in descriptive exports"
+      ]
+    },
+    "processed/paired_differences.csv": {
+      "publication_sha256": "7bacb14d7d2b966ad42e6dba8be800d8a694b1a06576e6a38300726125864830",
+      "publication_bytes": 7224,
+      "origin_kind": "existing_record_copy",
+      "original_relative_path": "processed/paired_differences.csv",
+      "original_sha256": "7bacb14d7d2b966ad42e6dba8be800d8a694b1a06576e6a38300726125864830",
+      "copied_unchanged": true,
+      "sanitizations": []
+    },
+    "processed/summary.json": {
+      "publication_sha256": "ec221d0272992c6229bd1ec7b482a60cc1970f9241fa562c55cb71b2d4897d09",
+      "publication_bytes": 6755,
+      "origin_kind": "existing_record_copy",
+      "original_relative_path": "processed/summary.json",
+      "original_sha256": "ec221d0272992c6229bd1ec7b482a60cc1970f9241fa562c55cb71b2d4897d09",
+      "copied_unchanged": true,
+      "sanitizations": []
+    },
+    "processed/workflow_summary.csv": {
+      "publication_sha256": "b8f2cb3f26ce95aac0a97db3d31a48cbe0f8f0d15f45d7852653c03fab548c95",
+      "publication_bytes": 1760,
+      "origin_kind": "existing_record_copy",
+      "original_relative_path": "processed/workflow_summary.csv",
+      "original_sha256": "b8f2cb3f26ce95aac0a97db3d31a48cbe0f8f0d15f45d7852653c03fab548c95",
+      "copied_unchanged": true,
+      "sanitizations": []
+    },
+    "provenance/release_audit.md": {
+      "publication_sha256": "98a78fe7f50ef34f53b28cf5e7190789fbabc60b5205dc8ad1d02f4f655b572c",
+      "publication_bytes": 6390,
+      "origin_kind": "new_documentation_code_or_descriptive_metadata",
+      "original_relative_path": null,
+      "original_sha256": null,
+      "copied_unchanged": false,
+      "sanitizations": []
+    },
+    "provenance/source_hashes.json": {
+      "publication_sha256": "4948c44122a1aac16eb6190cae8c45561a744f1cb85f2511523954a47dcb7353",
+      "publication_bytes": 4817,
+      "origin_kind": "new_documentation_code_or_descriptive_metadata",
+      "original_relative_path": null,
+      "original_sha256": null,
+      "copied_unchanged": false,
+      "sanitizations": [
+        "host-specific original manifest fields omitted in descriptive exports"
+      ]
+    },
+    "raw/execution_order.json": {
+      "publication_sha256": "30ebcbe0f864ee3f505f511c5c775e012ccebe2435fc4d4b42b17b6940d7ce07",
+      "publication_bytes": 26393,
+      "origin_kind": "existing_record_copy",
+      "original_relative_path": "raw/execution_order.json",
+      "original_sha256": "30ebcbe0f864ee3f505f511c5c775e012ccebe2435fc4d4b42b17b6940d7ce07",
+      "copied_unchanged": true,
+      "sanitizations": []
+    },
+    "raw/failures.json": {
+      "publication_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "publication_bytes": 3,
+      "origin_kind": "existing_record_copy",
+      "original_relative_path": "raw/failures.json",
+      "original_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "copied_unchanged": true,
+      "sanitizations": []
+    },
+    "raw/rpc_events.csv": {
+      "publication_sha256": "830ecf20a022646ad8591a9fc0f192c4940e14d5740d491b2c1a46948dc83c38",
+      "publication_bytes": 169595,
+      "origin_kind": "existing_record_copy",
+      "original_relative_path": "raw/rpc_events.csv",
+      "original_sha256": "830ecf20a022646ad8591a9fc0f192c4940e14d5740d491b2c1a46948dc83c38",
+      "copied_unchanged": true,
+      "sanitizations": []
+    },
+    "raw/server_executor_events.jsonl": {
+      "publication_sha256": "f532b18419ae74ac59017fe757215f2ceb087ed0846923c57244df44ac57da93",
+      "publication_bytes": 281282,
+      "origin_kind": "existing_record_copy",
+      "original_relative_path": "raw/server_executor_events.jsonl",
+      "original_sha256": "f532b18419ae74ac59017fe757215f2ceb087ed0846923c57244df44ac57da93",
+      "copied_unchanged": true,
+      "sanitizations": []
+    },
+    "raw/stage_events.csv": {
+      "publication_sha256": "23eacdd6f0256cc5c338850eecee9e3733557d300533c84310be8388a1914ae1",
+      "publication_bytes": 59942,
+      "origin_kind": "existing_record_copy",
+      "original_relative_path": "raw/stage_events.csv",
+      "original_sha256": "23eacdd6f0256cc5c338850eecee9e3733557d300533c84310be8388a1914ae1",
+      "copied_unchanged": true,
+      "sanitizations": []
+    },
+    "raw/workflow_runs.csv": {
+      "publication_sha256": "d374ec6f300ae64420fc5e10892332bcbbd2039c8db698b63b1563a898424a73",
+      "publication_bytes": 33581,
+      "origin_kind": "existing_record_copy",
+      "original_relative_path": "raw/workflow_runs.csv",
+      "original_sha256": "d374ec6f300ae64420fc5e10892332bcbbd2039c8db698b63b1563a898424a73",
+      "copied_unchanged": true,
+      "sanitizations": []
+    },
+    "README.md": {
+      "publication_sha256": "230c734ae964e0f1cbc5ae9ec5839fa1a25223678fa952f4b029cf8485449870",
+      "publication_bytes": 8815,
+      "origin_kind": "new_documentation_code_or_descriptive_metadata",
+      "original_relative_path": null,
+      "original_sha256": null,
+      "copied_unchanged": false,
+      "sanitizations": []
+    },
+    "scripts/recalculate.py": {
+      "publication_sha256": "a0110d66be0f83c94b884e72e03a85cb6ed3b089707e637841f794b01a92eb1f",
+      "publication_bytes": 23263,
+      "origin_kind": "new_documentation_code_or_descriptive_metadata",
+      "original_relative_path": null,
+      "original_sha256": null,
+      "copied_unchanged": false,
+      "sanitizations": []
+    }
+  },
+  "historical_dependency": {
+    "repository_relative_path": "results/processed/real_protocol_costs.csv",
+    "git_blob_sha256": "c9d5ee0d7d5c906715cbe4529b6d7a4335fe7b741809b53f721249b44d2478c8",
+    "not_duplicated_in_package": true
+  },
+  "limitations": [
+    "single-session diagnostic",
+    "frozen historical point predictions",
+    "deterministic nonrandomized order",
+    "existing-record recalculation, not network rerun"
+  ]
+}

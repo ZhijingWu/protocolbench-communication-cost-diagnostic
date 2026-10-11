@@ -1233,7 +1233,7 @@
     ".gitignore": "00a26013405cfb971eedc036854e4fe7755f134e56868910c45451fae644185b",
     "LICENSE": "e8b39d01814cc8343a222eab872b3dbb590829c347ad3739f87c18756aab8eb8",
     "PUBLICATION.md": "8cf69b5a982f59987f2c7197d310d4fb9763acf693743a9b46611bf86f575f99",
-    "README.md": "63d51701a0ac8eda4d03ef7325f73d9b235516da1bb9a24c5969abeaec6d5292",
+    "README.md": "75cc2d3b36123dfcd966650aefc6c0316a2bfad4f1242856ffc9f7badfd0e61a",
     "UPSTREAM.md": "e3b7c787a8fb4938aeadcc4b3c6318950c1e16eeac2790ef2671c9d65114f4fd",
     "configs/microbench.yaml": "f868b29306cfcf0c4ca77015203b2c0bdfd4f3b0f378e7069842850df9f6fe3b",
     "configs/topology_cases.yaml": "56e3493e0f8870c192b8e98c1dfb9255c3bb11d61a71f1ba0c2327ddfc4fc7c2",
@@ -2618,5 +2618,16 @@
     "tests/test_topology_generator.py": "19d17ede67b3a0df1261910b6c12940e10e123432f88e2c60c4e0ed204e290ba"
   },
   "source_tracked_diff_sha256_before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "upstream_repository": "https://github.com/ulab-uiuc/AgentProtocols"
+  "upstream_repository": "https://github.com/ulab-uiuc/AgentProtocols",
+  "amendments": [
+    {
+      "prepared_on": "2026-10-11",
+      "base_repository_revision": "3902c9b005b9c4c4cf477f228a5360f221536044",
+      "scope": "README-only checksum amendment for added workflow-calibration section; existing experimental values and all other legacy file hashes unchanged",
+      "README_previous_sha256": "63d51701a0ac8eda4d03ef7325f73d9b235516da1bb9a24c5969abeaec6d5292",
+      "README_amended_sha256": "75cc2d3b36123dfcd966650aefc6c0316a2bfad4f1242856ffc9f7badfd0e61a",
+      "workflow_evidence_manifest": "results/workflow_calibration/release_manifest.json",
+      "hash_convention": "committed LF text bytes, as in original release map"
+    }
+  ]
 }

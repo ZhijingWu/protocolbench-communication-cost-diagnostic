@@ -1,0 +1,201 @@
+{
+  "status": "passed",
+  "workflow_summary": [
+    {
+      "workflow": "analysis_task",
+      "plan": "baseline",
+      "attempts": 30,
+      "successes": 30,
+      "failures": 0,
+      "scheduled_measured_runs": 30,
+      "unexecuted": 0,
+      "assignment": {
+        "0": "Agora",
+        "1": "A2A",
+        "2": "ACP",
+        "3": "A2A"
+      },
+      "mean_makespan_ms": 3.895017,
+      "median_makespan_ms": 3.684667,
+      "p95_makespan_ms": 4.5659684999999985,
+      "std_makespan_ms": 0.7656783445704906,
+      "mean_ci95_ms": [
+        3.6949021875000003,
+        4.209128333333334
+      ],
+      "p95_ci95_ms": [
+        4.111596,
+        7.589378
+      ],
+      "mean_predicted_work_ms": 2.7834156666666665,
+      "mean_predicted_dag_ms": 2.7834156666666665,
+      "mean_rpc_interval_sum_ms": 3.7197939333333334,
+      "mean_parallel_overlap_ms": 0.0,
+      "mean_overlap_credit_ms": 0.0,
+      "mean_scheduler_uncovered_ms": 0.17522306666666668,
+      "mean_dag_prediction_error_ms": 1.1116013333333334,
+      "mean_work_prediction_error_ms": 0.9363782666666668
+    },
+    {
+      "workflow": "analysis_task",
+      "plan": "treatment",
+      "attempts": 30,
+      "successes": 30,
+      "failures": 0,
+      "scheduled_measured_runs": 30,
+      "unexecuted": 0,
+      "assignment": {
+        "0": "Agora",
+        "1": "ANP",
+        "2": "ACP",
+        "3": "A2A"
+      },
+      "mean_makespan_ms": 4.722954233333334,
+      "median_makespan_ms": 4.0628605,
+      "p95_makespan_ms": 6.731107949999998,
+      "std_makespan_ms": 1.249828820255403,
+      "mean_ci95_ms": [
+        4.287104813333334,
+        5.169543294166666
+      ],
+      "p95_ci95_ms": [
+        5.631548,
+        8.111895
+      ],
+      "mean_predicted_work_ms": 2.6269183666666667,
+      "mean_predicted_dag_ms": 2.6269183666666667,
+      "mean_rpc_interval_sum_ms": 4.527554666666667,
+      "mean_parallel_overlap_ms": 0.0,
+      "mean_overlap_credit_ms": 0.0,
+      "mean_scheduler_uncovered_ms": 0.19539956666666672,
+      "mean_dag_prediction_error_ms": 2.0960358666666665,
+      "mean_work_prediction_error_ms": 1.9006363
+    },
+    {
+      "workflow": "collaborative_task",
+      "plan": "baseline",
+      "attempts": 30,
+      "successes": 30,
+      "failures": 0,
+      "scheduled_measured_runs": 30,
+      "unexecuted": 0,
+      "assignment": {
+        "0": "Agora",
+        "1": "A2A",
+        "2": "ACP",
+        "3": "A2A"
+      },
+      "mean_makespan_ms": 47.2969479,
+      "median_makespan_ms": 46.829271,
+      "p95_makespan_ms": 51.4401741,
+      "std_makespan_ms": 3.239239619138698,
+      "mean_ci95_ms": [
+        46.48846990083332,
+        48.0808059525
+      ],
+      "p95_ci95_ms": [
+        50.501546,
+        53.693772
+      ],
+      "mean_predicted_work_ms": 74.41095609999999,
+      "mean_predicted_dag_ms": 24.855776966666664,
+      "mean_rpc_interval_sum_ms": 137.42853816666667,
+      "mean_parallel_overlap_ms": 46.49432053333334,
+      "mean_overlap_credit_ms": 90.40859040000001,
+      "mean_scheduler_uncovered_ms": 0.27700013333333356,
+      "mean_dag_prediction_error_ms": 22.441170933333336,
+      "mean_work_prediction_error_ms": 63.01758206666668
+    },
+    {
+      "workflow": "collaborative_task",
+      "plan": "treatment",
+      "attempts": 30,
+      "successes": 30,
+      "failures": 0,
+      "scheduled_measured_runs": 30,
+      "unexecuted": 0,
+      "assignment": {
+        "0": "Agora",
+        "1": "ANP",
+        "2": "ACP",
+        "3": "A2A"
+      },
+      "mean_makespan_ms": 49.59606946666667,
+      "median_makespan_ms": 49.509266999999994,
+      "p95_makespan_ms": 54.09189115,
+      "std_makespan_ms": 2.4660404834737744,
+      "mean_ci95_ms": [
+        48.774448285000005,
+        50.479178067499994
+      ],
+      "p95_ci95_ms": [
+        51.313065,
+        56.50351
+      ],
+      "mean_predicted_work_ms": 74.2544588,
+      "mean_predicted_dag_ms": 24.855776966666664,
+      "mean_rpc_interval_sum_ms": 144.846716,
+      "mean_parallel_overlap_ms": 48.64226656666666,
+      "mean_overlap_credit_ms": 95.5699262,
+      "mean_scheduler_uncovered_ms": 0.31927966666666713,
+      "mean_dag_prediction_error_ms": 24.740292500000002,
+      "mean_work_prediction_error_ms": 70.5922572
+    }
+  ],
+  "paired_effects": [
+    {
+      "workflow": "analysis_task",
+      "complete_pairs": 30,
+      "mean_delta_ms": 0.8279372333333335,
+      "median_delta_ms": 0.08187850000000041,
+      "mean_delta_ci95_ms": [
+        0.29334004583333345,
+        1.333663201666667
+      ],
+      "treatment_faster_pairs": 11,
+      "baseline_faster_pairs": 19,
+      "mean_delta_by_order_ms": {
+        "AB": 0.9825408666666667,
+        "BA": 0.6733336000000001
+      },
+      "mean_delta_work_ms": 0.8077607333333334,
+      "nominal_dag_delta_ms": -0.15649729999999984,
+      "nominal_work_delta_ms": -0.15649729999999984,
+      "within_session_ranking": "baseline_faster",
+      "order_direction_consistent": true
+    },
+    {
+      "workflow": "collaborative_task",
+      "complete_pairs": 30,
+      "mean_delta_ms": 2.2991215666666673,
+      "median_delta_ms": 1.4546810000000008,
+      "mean_delta_ci95_ms": [
+        1.2101054000000004,
+        3.387301645000001
+      ],
+      "treatment_faster_pairs": 11,
+      "baseline_faster_pairs": 19,
+      "mean_delta_by_order_ms": {
+        "AB": 4.6679840666666665,
+        "BA": -0.06974093333333257
+      },
+      "mean_delta_work_ms": 7.41817783333333,
+      "nominal_dag_delta_ms": 0.0,
+      "nominal_work_delta_ms": -0.15649729999999806,
+      "within_session_ranking": "baseline_faster",
+      "order_direction_consistent": false
+    }
+  ],
+  "definitions": {
+    "delta": "treatment minus baseline; negative favors treatment",
+    "p95": "linear interpolation of actual complete workflow makespan samples; no RPC-based p95 inference",
+    "bootstrap": "10000 resamples; AB/BA-stratified; paired deltas resampled as complete pairs; fixed seeds",
+    "uncertainty_scope": "descriptive within one server session; no independent-session replication or multiple-comparison claim",
+    "predicted_work": "sum of frozen historical destination-protocol mean RTT per declared application RPC",
+    "predicted_dag": "sum over two barrier-separated stages of max frozen mean RTT; zero compute and ideal overlap",
+    "measured_work": "sum of observed BaseAgent.send intervals, includes overlapping waiting; not CPU utilization",
+    "parallel_overlap": "time with at least two active client send intervals, not proof of parallel server CPU work",
+    "scheduler_uncovered": "makespan minus union of client RPC intervals; includes harness observation/validation",
+    "join_wait": "last peer completion minus this RPC completion; elapsed dependency wait, not extra transport cost"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "original_manifest_sha256": "ac695bbd4ab559e2f5f29ac6dc55cf091b39edbe78cce74d05972fe32c983337",
+  "upstream_repository": "https://github.com/ulab-uiuc/AgentProtocols",
+  "upstream_revision": "6349eb97f0ca83db9cbfd44dea0bbdbb3ea9d37f",
+  "original_executed_source_sha256": {
+    "experiments/topology_aware_protocol/noop_workflow_calibration/run_calibration.py": "6e179251e2333d658596e7970c804bdf63eca1d7a2f0c0a59cd5e4131f337ec9",
+    "experiments/topology_aware_protocol/noop_workflow_calibration/test_calibration.py": "a2858f9320fe0608b26027862507c75e308e17b62e12870ccc211807953fdeac",
+    "experiments/topology_aware_protocol/src/local_protocol_microbench.py": "f3ec3369378b1da7536d9abd5d473465a737a443f3113ab7baafff09e6b257a3",
+    "experiments/topology_aware_protocol/src/gaia_workflow.py": "efb30f60ff9c54bd2c82ca0b624bd343f43c2ffc96e70b399b1244e6df73f379",
+    "src/core/base_agent.py": "3b0f20b81069405d3a6b87a760f57071f56f38130f9577ee2681168d6bba1741",
+    "src/core/protocol_converter.py": "0cc17f2032098726e5428fd52b2e2ac43ce8fa11c8a19a6a4ad91bcb94b72485",
+    "src/agent_adapters/a2a_adapter.py": "9e76383cfcf961210bfd65e92279e95870f02b2af27e2075abf7d04c34677c1f",
+    "src/server_adapters/a2a_adapter.py": "c7087f0783f20218f4fc8f4afaa136337d412635dd5551eccd087983940d90dc",
+    "src/agent_adapters/acp_adapter.py": "96b99fb3bfca22dae4e8cab736fc8a4c682fe43d43e5d29033e06831c188f6d3",
+    "src/server_adapters/acp_adapter.py": "d786e6b9571a5ab8c9b0e5c4ec3c92b3d426815eb12749875cf85b29a8340e37",
+    "src/agent_adapters/anp_adapter.py": "831607cd06147030a0fd6de6443c574cfd04934d4e2085febcac90ff818412b9",
+    "src/server_adapters/anp_adapter.py": "5fa35fc8bd39c78a950fd7580cd2009b8abaa3535b52d30a0b199ad60ac5884d",
+    "src/agent_adapters/agora_adapter.py": "33aa224f917b42701921074698f9e244245f7727fa9c9352d05b55459dda1920",
+    "src/server_adapters/agora_adapter.py": "fa680298cd39eecbd820f95c7e2d345611cf2dac2b33505dd075c9ec469ffdd4"
+  },
+  "snapshot_hash_verification": "all 14 snapshots matched original manifest before packaging; snapshots not distributed",
+  "original_input_sha256": {
+    "results/processed/real_protocol_costs.csv": "c9d5ee0d7d5c906715cbe4529b6d7a4335fe7b741809b53f721249b44d2478c8",
+    "results/raw/real_protocol_profile.csv": "442ef769d72176c9db734e9765e9b7521af2508f23472d9ec5170e1fd16c0479",
+    "results/raw/real_protocol_manifest.json": "13482540f6ec4b4c5294827f91822507f1ad69df401071d7899d8841589b41ab",
+    "notes/final_audit.md": "7ccc4a11389b8f0dc844ef34a626c62cceb7ee9f198a29d55cae207b9e74f512",
+    "notes/local_preference_signal_audit.md": "4cd91e0baec999c1b0b79500a84d01246f4a7b53346f9684c059b660983806e7",
+    "scenarios/gaia/config/meta_protocol.yaml": "b64482dcbd47a6fb1140ffabcc82fcb05de7733607ea29e909fa6f28b277b0c9"
+  },
+  "original_output_sha256": {
+    "raw/execution_order.json": "30ebcbe0f864ee3f505f511c5c775e012ccebe2435fc4d4b42b17b6940d7ce07",
+    "raw/failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "raw/rpc_events.csv": "830ecf20a022646ad8591a9fc0f192c4940e14d5740d491b2c1a46948dc83c38",
+    "raw/server_executor_events.jsonl": "f532b18419ae74ac59017fe757215f2ceb087ed0846923c57244df44ac57da93",
+    "raw/setup.csv": "a054598c6e44d7b57a6df1b4fef086412365de0857324e1ab24411654535cc20",
+    "raw/stage_events.csv": "23eacdd6f0256cc5c338850eecee9e3733557d300533c84310be8388a1914ae1",
+    "raw/workflow_runs.csv": "d374ec6f300ae64420fc5e10892332bcbbd2039c8db698b63b1563a898424a73"
+  },
+  "original_derived_sha256": {
+    "processed/workflow_summary.csv": "b8f2cb3f26ce95aac0a97db3d31a48cbe0f8f0d15f45d7852653c03fab548c95",
+    "processed/paired_differences.csv": "7bacb14d7d2b966ad42e6dba8be800d8a694b1a06576e6a38300726125864830",
+    "processed/summary.json": "ec221d0272992c6229bd1ec7b482a60cc1970f9241fa562c55cb71b2d4897d09",
+    "processed/review_summary.json": "fe9331fe4eba9186dc16c25d7a73d8ef6165f9ae93f568350e859f8ced3e5dbf"
+  },
+  "accepted_smoke_manifest_sha256": "2627d2af53cd4c94963c4b5466e0c9bbbc9d8bdccff519c112c8ebb9b63c627f",
+  "attempt_accounting": {
+    "failed_preflight_business_rpcs": 0,
+    "failed_first_smoke_workflows": 0,
+    "failed_first_smoke_business_rpcs": 0,
+    "accepted_smoke_workflows": 4,
+    "accepted_smoke_rpcs": 16,
+    "full_run_failed_business_rpcs": 0,
+    "harness_retries": 0,
+    "unexecuted_schedule": [],
+    "post_results_shutdown_cancelled_errors": 2,
+    "smoke_and_setup_excluded_from_measurement_totals": true
+  },
+  "omitted_metadata_fields": [
+    "internal absolute command and filesystem paths",
+    "private executable/server locations",
+    "dynamic endpoint-port list",
+    "unscreened runtime/console stores"
+  ],
+  "new_offline_calculator": "independently authored standard-library reader; does not import original runner"
+}

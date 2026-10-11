@@ -1,0 +1,1262 @@
+[
+  {
+    "execution_order": 0,
+    "phase": "warmup",
+    "workflow": "analysis_task",
+    "pair_index": 0,
+    "pair_order": "AB",
+    "plan": "baseline",
+    "run_id": "r0000"
+  },
+  {
+    "execution_order": 1,
+    "phase": "warmup",
+    "workflow": "analysis_task",
+    "pair_index": 0,
+    "pair_order": "AB",
+    "plan": "treatment",
+    "run_id": "r0001"
+  },
+  {
+    "execution_order": 2,
+    "phase": "warmup",
+    "workflow": "collaborative_task",
+    "pair_index": 0,
+    "pair_order": "AB",
+    "plan": "baseline",
+    "run_id": "r0002"
+  },
+  {
+    "execution_order": 3,
+    "phase": "warmup",
+    "workflow": "collaborative_task",
+    "pair_index": 0,
+    "pair_order": "AB",
+    "plan": "treatment",
+    "run_id": "r0003"
+  },
+  {
+    "execution_order": 4,
+    "phase": "warmup",
+    "workflow": "collaborative_task",
+    "pair_index": 1,
+    "pair_order": "BA",
+    "plan": "treatment",
+    "run_id": "r0004"
+  },
+  {
+    "execution_order": 5,
+    "phase": "warmup",
+    "workflow": "collaborative_task",
+    "pair_index": 1,
+    "pair_order": "BA",
+    "plan": "baseline",
+    "run_id": "r0005"
+  },
+  {
+    "execution_order": 6,
+    "phase": "warmup",
+    "workflow": "analysis_task",
+    "pair_index": 1,
+    "pair_order": "BA",
+    "plan": "treatment",
+    "run_id": "r0006"
+  },
+  {
+    "execution_order": 7,
+    "phase": "warmup",
+    "workflow": "analysis_task",
+    "pair_index": 1,
+    "pair_order": "BA",
+    "plan": "baseline",
+    "run_id": "r0007"
+  },
+  {
+    "execution_order": 8,
+    "phase": "warmup",
+    "workflow": "analysis_task",
+    "pair_index": 2,
+    "pair_order": "AB",
+    "plan": "baseline",
+    "run_id": "r0008"
+  },
+  {
+    "execution_order": 9,
+    "phase": "warmup",
+    "workflow": "analysis_task",
+    "pair_index": 2,
+    "pair_order": "AB",
+    "plan": "treatment",
+    "run_id": "r0009"
+  },
+  {
+    "execution_order": 10,
+    "phase": "warmup",
+    "workflow": "collaborative_task",
+    "pair_index": 2,
+    "pair_order": "AB",
+    "plan": "baseline",
+    "run_id": "r0010"
+  },
+  {
+    "execution_order": 11,
+    "phase": "warmup",
+    "workflow": "collaborative_task",
+    "pair_index": 2,
+    "pair_order": "AB",
+    "plan": "treatment",
+    "run_id": "r0011"
+  },
+  {
+    "execution_order": 12,
+    "phase": "warmup",
+    "workflow": "collaborative_task",
+    "pair_index": 3,
+    "pair_order": "BA",
+    "plan": "treatment",
+    "run_id": "r0012"
+  },
+  {
+    "execution_order": 13,
+    "phase": "warmup",
+    "workflow": "collaborative_task",
+    "pair_index": 3,
+    "pair_order": "BA",
+    "plan": "baseline",
+    "run_id": "r0013"
+  },
+  {
+    "execution_order": 14,
+    "phase": "warmup",
+    "workflow": "analysis_task",
+    "pair_index": 3,
+    "pair_order": "BA",
+    "plan": "treatment",
+    "run_id": "r0014"
+  },
+  {
+    "execution_order": 15,
+    "phase": "warmup",
+    "workflow": "analysis_task",
+    "pair_index": 3,
+    "pair_order": "BA",
+    "plan": "baseline",
+    "run_id": "r0015"
+  },
+  {
+    "execution_order": 16,
+    "phase": "warmup",
+    "workflow": "analysis_task",
+    "pair_index": 4,
+    "pair_order": "AB",
+    "plan": "baseline",
+    "run_id": "r0016"
+  },
+  {
+    "execution_order": 17,
+    "phase": "warmup",
+    "workflow": "analysis_task",
+    "pair_index": 4,
+    "pair_order": "AB",
+    "plan": "treatment",
+    "run_id": "r0017"
+  },
+  {
+    "execution_order": 18,
+    "phase": "warmup",
+    "workflow": "collaborative_task",
+    "pair_index": 4,
+    "pair_order": "AB",
+    "plan": "baseline",
+    "run_id": "r0018"
+  },
+  {
+    "execution_order": 19,
+    "phase": "warmup",
+    "workflow": "collaborative_task",
+    "pair_index": 4,
+    "pair_order": "AB",
+    "plan": "treatment",
+    "run_id": "r0019"
+  },
+  {
+    "execution_order": 20,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 0,
+    "pair_order": "AB",
+    "plan": "baseline",
+    "run_id": "r0020"
+  },
+  {
+    "execution_order": 21,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 0,
+    "pair_order": "AB",
+    "plan": "treatment",
+    "run_id": "r0021"
+  },
+  {
+    "execution_order": 22,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 0,
+    "pair_order": "AB",
+    "plan": "baseline",
+    "run_id": "r0022"
+  },
+  {
+    "execution_order": 23,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 0,
+    "pair_order": "AB",
+    "plan": "treatment",
+    "run_id": "r0023"
+  },
+  {
+    "execution_order": 24,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 1,
+    "pair_order": "BA",
+    "plan": "treatment",
+    "run_id": "r0024"
+  },
+  {
+    "execution_order": 25,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 1,
+    "pair_order": "BA",
+    "plan": "baseline",
+    "run_id": "r0025"
+  },
+  {
+    "execution_order": 26,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 1,
+    "pair_order": "BA",
+    "plan": "treatment",
+    "run_id": "r0026"
+  },
+  {
+    "execution_order": 27,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 1,
+    "pair_order": "BA",
+    "plan": "baseline",
+    "run_id": "r0027"
+  },
+  {
+    "execution_order": 28,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 2,
+    "pair_order": "AB",
+    "plan": "baseline",
+    "run_id": "r0028"
+  },
+  {
+    "execution_order": 29,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 2,
+    "pair_order": "AB",
+    "plan": "treatment",
+    "run_id": "r0029"
+  },
+  {
+    "execution_order": 30,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 2,
+    "pair_order": "AB",
+    "plan": "baseline",
+    "run_id": "r0030"
+  },
+  {
+    "execution_order": 31,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 2,
+    "pair_order": "AB",
+    "plan": "treatment",
+    "run_id": "r0031"
+  },
+  {
+    "execution_order": 32,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 3,
+    "pair_order": "BA",
+    "plan": "treatment",
+    "run_id": "r0032"
+  },
+  {
+    "execution_order": 33,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 3,
+    "pair_order": "BA",
+    "plan": "baseline",
+    "run_id": "r0033"
+  },
+  {
+    "execution_order": 34,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 3,
+    "pair_order": "BA",
+    "plan": "treatment",
+    "run_id": "r0034"
+  },
+  {
+    "execution_order": 35,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 3,
+    "pair_order": "BA",
+    "plan": "baseline",
+    "run_id": "r0035"
+  },
+  {
+    "execution_order": 36,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 4,
+    "pair_order": "AB",
+    "plan": "baseline",
+    "run_id": "r0036"
+  },
+  {
+    "execution_order": 37,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 4,
+    "pair_order": "AB",
+    "plan": "treatment",
+    "run_id": "r0037"
+  },
+  {
+    "execution_order": 38,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 4,
+    "pair_order": "AB",
+    "plan": "baseline",
+    "run_id": "r0038"
+  },
+  {
+    "execution_order": 39,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 4,
+    "pair_order": "AB",
+    "plan": "treatment",
+    "run_id": "r0039"
+  },
+  {
+    "execution_order": 40,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 5,
+    "pair_order": "BA",
+    "plan": "treatment",
+    "run_id": "r0040"
+  },
+  {
+    "execution_order": 41,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 5,
+    "pair_order": "BA",
+    "plan": "baseline",
+    "run_id": "r0041"
+  },
+  {
+    "execution_order": 42,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 5,
+    "pair_order": "BA",
+    "plan": "treatment",
+    "run_id": "r0042"
+  },
+  {
+    "execution_order": 43,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 5,
+    "pair_order": "BA",
+    "plan": "baseline",
+    "run_id": "r0043"
+  },
+  {
+    "execution_order": 44,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 6,
+    "pair_order": "AB",
+    "plan": "baseline",
+    "run_id": "r0044"
+  },
+  {
+    "execution_order": 45,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 6,
+    "pair_order": "AB",
+    "plan": "treatment",
+    "run_id": "r0045"
+  },
+  {
+    "execution_order": 46,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 6,
+    "pair_order": "AB",
+    "plan": "baseline",
+    "run_id": "r0046"
+  },
+  {
+    "execution_order": 47,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 6,
+    "pair_order": "AB",
+    "plan": "treatment",
+    "run_id": "r0047"
+  },
+  {
+    "execution_order": 48,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 7,
+    "pair_order": "BA",
+    "plan": "treatment",
+    "run_id": "r0048"
+  },
+  {
+    "execution_order": 49,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 7,
+    "pair_order": "BA",
+    "plan": "baseline",
+    "run_id": "r0049"
+  },
+  {
+    "execution_order": 50,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 7,
+    "pair_order": "BA",
+    "plan": "treatment",
+    "run_id": "r0050"
+  },
+  {
+    "execution_order": 51,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 7,
+    "pair_order": "BA",
+    "plan": "baseline",
+    "run_id": "r0051"
+  },
+  {
+    "execution_order": 52,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 8,
+    "pair_order": "AB",
+    "plan": "baseline",
+    "run_id": "r0052"
+  },
+  {
+    "execution_order": 53,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 8,
+    "pair_order": "AB",
+    "plan": "treatment",
+    "run_id": "r0053"
+  },
+  {
+    "execution_order": 54,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 8,
+    "pair_order": "AB",
+    "plan": "baseline",
+    "run_id": "r0054"
+  },
+  {
+    "execution_order": 55,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 8,
+    "pair_order": "AB",
+    "plan": "treatment",
+    "run_id": "r0055"
+  },
+  {
+    "execution_order": 56,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 9,
+    "pair_order": "BA",
+    "plan": "treatment",
+    "run_id": "r0056"
+  },
+  {
+    "execution_order": 57,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 9,
+    "pair_order": "BA",
+    "plan": "baseline",
+    "run_id": "r0057"
+  },
+  {
+    "execution_order": 58,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 9,
+    "pair_order": "BA",
+    "plan": "treatment",
+    "run_id": "r0058"
+  },
+  {
+    "execution_order": 59,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 9,
+    "pair_order": "BA",
+    "plan": "baseline",
+    "run_id": "r0059"
+  },
+  {
+    "execution_order": 60,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 10,
+    "pair_order": "AB",
+    "plan": "baseline",
+    "run_id": "r0060"
+  },
+  {
+    "execution_order": 61,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 10,
+    "pair_order": "AB",
+    "plan": "treatment",
+    "run_id": "r0061"
+  },
+  {
+    "execution_order": 62,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 10,
+    "pair_order": "AB",
+    "plan": "baseline",
+    "run_id": "r0062"
+  },
+  {
+    "execution_order": 63,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 10,
+    "pair_order": "AB",
+    "plan": "treatment",
+    "run_id": "r0063"
+  },
+  {
+    "execution_order": 64,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 11,
+    "pair_order": "BA",
+    "plan": "treatment",
+    "run_id": "r0064"
+  },
+  {
+    "execution_order": 65,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 11,
+    "pair_order": "BA",
+    "plan": "baseline",
+    "run_id": "r0065"
+  },
+  {
+    "execution_order": 66,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 11,
+    "pair_order": "BA",
+    "plan": "treatment",
+    "run_id": "r0066"
+  },
+  {
+    "execution_order": 67,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 11,
+    "pair_order": "BA",
+    "plan": "baseline",
+    "run_id": "r0067"
+  },
+  {
+    "execution_order": 68,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 12,
+    "pair_order": "AB",
+    "plan": "baseline",
+    "run_id": "r0068"
+  },
+  {
+    "execution_order": 69,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 12,
+    "pair_order": "AB",
+    "plan": "treatment",
+    "run_id": "r0069"
+  },
+  {
+    "execution_order": 70,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 12,
+    "pair_order": "AB",
+    "plan": "baseline",
+    "run_id": "r0070"
+  },
+  {
+    "execution_order": 71,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 12,
+    "pair_order": "AB",
+    "plan": "treatment",
+    "run_id": "r0071"
+  },
+  {
+    "execution_order": 72,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 13,
+    "pair_order": "BA",
+    "plan": "treatment",
+    "run_id": "r0072"
+  },
+  {
+    "execution_order": 73,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 13,
+    "pair_order": "BA",
+    "plan": "baseline",
+    "run_id": "r0073"
+  },
+  {
+    "execution_order": 74,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 13,
+    "pair_order": "BA",
+    "plan": "treatment",
+    "run_id": "r0074"
+  },
+  {
+    "execution_order": 75,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 13,
+    "pair_order": "BA",
+    "plan": "baseline",
+    "run_id": "r0075"
+  },
+  {
+    "execution_order": 76,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 14,
+    "pair_order": "AB",
+    "plan": "baseline",
+    "run_id": "r0076"
+  },
+  {
+    "execution_order": 77,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 14,
+    "pair_order": "AB",
+    "plan": "treatment",
+    "run_id": "r0077"
+  },
+  {
+    "execution_order": 78,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 14,
+    "pair_order": "AB",
+    "plan": "baseline",
+    "run_id": "r0078"
+  },
+  {
+    "execution_order": 79,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 14,
+    "pair_order": "AB",
+    "plan": "treatment",
+    "run_id": "r0079"
+  },
+  {
+    "execution_order": 80,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 15,
+    "pair_order": "BA",
+    "plan": "treatment",
+    "run_id": "r0080"
+  },
+  {
+    "execution_order": 81,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 15,
+    "pair_order": "BA",
+    "plan": "baseline",
+    "run_id": "r0081"
+  },
+  {
+    "execution_order": 82,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 15,
+    "pair_order": "BA",
+    "plan": "treatment",
+    "run_id": "r0082"
+  },
+  {
+    "execution_order": 83,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 15,
+    "pair_order": "BA",
+    "plan": "baseline",
+    "run_id": "r0083"
+  },
+  {
+    "execution_order": 84,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 16,
+    "pair_order": "AB",
+    "plan": "baseline",
+    "run_id": "r0084"
+  },
+  {
+    "execution_order": 85,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 16,
+    "pair_order": "AB",
+    "plan": "treatment",
+    "run_id": "r0085"
+  },
+  {
+    "execution_order": 86,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 16,
+    "pair_order": "AB",
+    "plan": "baseline",
+    "run_id": "r0086"
+  },
+  {
+    "execution_order": 87,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 16,
+    "pair_order": "AB",
+    "plan": "treatment",
+    "run_id": "r0087"
+  },
+  {
+    "execution_order": 88,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 17,
+    "pair_order": "BA",
+    "plan": "treatment",
+    "run_id": "r0088"
+  },
+  {
+    "execution_order": 89,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 17,
+    "pair_order": "BA",
+    "plan": "baseline",
+    "run_id": "r0089"
+  },
+  {
+    "execution_order": 90,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 17,
+    "pair_order": "BA",
+    "plan": "treatment",
+    "run_id": "r0090"
+  },
+  {
+    "execution_order": 91,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 17,
+    "pair_order": "BA",
+    "plan": "baseline",
+    "run_id": "r0091"
+  },
+  {
+    "execution_order": 92,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 18,
+    "pair_order": "AB",
+    "plan": "baseline",
+    "run_id": "r0092"
+  },
+  {
+    "execution_order": 93,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 18,
+    "pair_order": "AB",
+    "plan": "treatment",
+    "run_id": "r0093"
+  },
+  {
+    "execution_order": 94,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 18,
+    "pair_order": "AB",
+    "plan": "baseline",
+    "run_id": "r0094"
+  },
+  {
+    "execution_order": 95,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 18,
+    "pair_order": "AB",
+    "plan": "treatment",
+    "run_id": "r0095"
+  },
+  {
+    "execution_order": 96,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 19,
+    "pair_order": "BA",
+    "plan": "treatment",
+    "run_id": "r0096"
+  },
+  {
+    "execution_order": 97,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 19,
+    "pair_order": "BA",
+    "plan": "baseline",
+    "run_id": "r0097"
+  },
+  {
+    "execution_order": 98,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 19,
+    "pair_order": "BA",
+    "plan": "treatment",
+    "run_id": "r0098"
+  },
+  {
+    "execution_order": 99,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 19,
+    "pair_order": "BA",
+    "plan": "baseline",
+    "run_id": "r0099"
+  },
+  {
+    "execution_order": 100,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 20,
+    "pair_order": "AB",
+    "plan": "baseline",
+    "run_id": "r0100"
+  },
+  {
+    "execution_order": 101,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 20,
+    "pair_order": "AB",
+    "plan": "treatment",
+    "run_id": "r0101"
+  },
+  {
+    "execution_order": 102,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 20,
+    "pair_order": "AB",
+    "plan": "baseline",
+    "run_id": "r0102"
+  },
+  {
+    "execution_order": 103,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 20,
+    "pair_order": "AB",
+    "plan": "treatment",
+    "run_id": "r0103"
+  },
+  {
+    "execution_order": 104,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 21,
+    "pair_order": "BA",
+    "plan": "treatment",
+    "run_id": "r0104"
+  },
+  {
+    "execution_order": 105,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 21,
+    "pair_order": "BA",
+    "plan": "baseline",
+    "run_id": "r0105"
+  },
+  {
+    "execution_order": 106,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 21,
+    "pair_order": "BA",
+    "plan": "treatment",
+    "run_id": "r0106"
+  },
+  {
+    "execution_order": 107,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 21,
+    "pair_order": "BA",
+    "plan": "baseline",
+    "run_id": "r0107"
+  },
+  {
+    "execution_order": 108,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 22,
+    "pair_order": "AB",
+    "plan": "baseline",
+    "run_id": "r0108"
+  },
+  {
+    "execution_order": 109,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 22,
+    "pair_order": "AB",
+    "plan": "treatment",
+    "run_id": "r0109"
+  },
+  {
+    "execution_order": 110,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 22,
+    "pair_order": "AB",
+    "plan": "baseline",
+    "run_id": "r0110"
+  },
+  {
+    "execution_order": 111,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 22,
+    "pair_order": "AB",
+    "plan": "treatment",
+    "run_id": "r0111"
+  },
+  {
+    "execution_order": 112,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 23,
+    "pair_order": "BA",
+    "plan": "treatment",
+    "run_id": "r0112"
+  },
+  {
+    "execution_order": 113,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 23,
+    "pair_order": "BA",
+    "plan": "baseline",
+    "run_id": "r0113"
+  },
+  {
+    "execution_order": 114,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 23,
+    "pair_order": "BA",
+    "plan": "treatment",
+    "run_id": "r0114"
+  },
+  {
+    "execution_order": 115,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 23,
+    "pair_order": "BA",
+    "plan": "baseline",
+    "run_id": "r0115"
+  },
+  {
+    "execution_order": 116,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 24,
+    "pair_order": "AB",
+    "plan": "baseline",
+    "run_id": "r0116"
+  },
+  {
+    "execution_order": 117,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 24,
+    "pair_order": "AB",
+    "plan": "treatment",
+    "run_id": "r0117"
+  },
+  {
+    "execution_order": 118,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 24,
+    "pair_order": "AB",
+    "plan": "baseline",
+    "run_id": "r0118"
+  },
+  {
+    "execution_order": 119,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 24,
+    "pair_order": "AB",
+    "plan": "treatment",
+    "run_id": "r0119"
+  },
+  {
+    "execution_order": 120,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 25,
+    "pair_order": "BA",
+    "plan": "treatment",
+    "run_id": "r0120"
+  },
+  {
+    "execution_order": 121,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 25,
+    "pair_order": "BA",
+    "plan": "baseline",
+    "run_id": "r0121"
+  },
+  {
+    "execution_order": 122,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 25,
+    "pair_order": "BA",
+    "plan": "treatment",
+    "run_id": "r0122"
+  },
+  {
+    "execution_order": 123,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 25,
+    "pair_order": "BA",
+    "plan": "baseline",
+    "run_id": "r0123"
+  },
+  {
+    "execution_order": 124,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 26,
+    "pair_order": "AB",
+    "plan": "baseline",
+    "run_id": "r0124"
+  },
+  {
+    "execution_order": 125,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 26,
+    "pair_order": "AB",
+    "plan": "treatment",
+    "run_id": "r0125"
+  },
+  {
+    "execution_order": 126,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 26,
+    "pair_order": "AB",
+    "plan": "baseline",
+    "run_id": "r0126"
+  },
+  {
+    "execution_order": 127,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 26,
+    "pair_order": "AB",
+    "plan": "treatment",
+    "run_id": "r0127"
+  },
+  {
+    "execution_order": 128,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 27,
+    "pair_order": "BA",
+    "plan": "treatment",
+    "run_id": "r0128"
+  },
+  {
+    "execution_order": 129,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 27,
+    "pair_order": "BA",
+    "plan": "baseline",
+    "run_id": "r0129"
+  },
+  {
+    "execution_order": 130,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 27,
+    "pair_order": "BA",
+    "plan": "treatment",
+    "run_id": "r0130"
+  },
+  {
+    "execution_order": 131,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 27,
+    "pair_order": "BA",
+    "plan": "baseline",
+    "run_id": "r0131"
+  },
+  {
+    "execution_order": 132,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 28,
+    "pair_order": "AB",
+    "plan": "baseline",
+    "run_id": "r0132"
+  },
+  {
+    "execution_order": 133,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 28,
+    "pair_order": "AB",
+    "plan": "treatment",
+    "run_id": "r0133"
+  },
+  {
+    "execution_order": 134,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 28,
+    "pair_order": "AB",
+    "plan": "baseline",
+    "run_id": "r0134"
+  },
+  {
+    "execution_order": 135,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 28,
+    "pair_order": "AB",
+    "plan": "treatment",
+    "run_id": "r0135"
+  },
+  {
+    "execution_order": 136,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 29,
+    "pair_order": "BA",
+    "plan": "treatment",
+    "run_id": "r0136"
+  },
+  {
+    "execution_order": 137,
+    "phase": "measured",
+    "workflow": "collaborative_task",
+    "pair_index": 29,
+    "pair_order": "BA",
+    "plan": "baseline",
+    "run_id": "r0137"
+  },
+  {
+    "execution_order": 138,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 29,
+    "pair_order": "BA",
+    "plan": "treatment",
+    "run_id": "r0138"
+  },
+  {
+    "execution_order": 139,
+    "phase": "measured",
+    "workflow": "analysis_task",
+    "pair_index": 29,
+    "pair_order": "BA",
+    "plan": "baseline",
+    "run_id": "r0139"
+  }
+]
