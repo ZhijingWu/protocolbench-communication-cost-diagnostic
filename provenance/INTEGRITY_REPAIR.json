@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-24",
+  "issue": "Original release manifest hashes bound CRLF working files while published Git blobs used LF.",
+  "verified_before_repair": {
+    "exact": 5,
+    "newline_only": 114
+  },
+  "scientific_payload_changed": false,
+  "repair": "Retain the historical manifest; bind the current manifest to actual published bytes; disable newline conversion.",
+  "historical_manifest": "provenance/historical_publication_manifest.json"
+}

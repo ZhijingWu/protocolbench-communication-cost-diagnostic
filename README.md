@@ -129,3 +129,7 @@ A separate controlled no-op session evaluated **120 measured serial/fork/join wo
 For the serial comparison, frozen historical request costs predict treatment−baseline **−0.1564973 ms**, while the observed paired mean workflow makespan difference is **+0.8279372 ms**. This is a single-session mean calibration reversal, not a speedup or general protocol ranking. Fork/join predicted communication work decreases but predicted DAG completion ties; observed AB/BA means disagree in sign, without isolating a causal order effect.
 
 See the [workflow calibration evidence and offline recalculation](results/workflow_calibration/README.md). The package contains original recorded timing/receipt/order data and a standard-library calculator; it does not claim full original-environment rerun reproducibility, real GAIA execution or task-quality gains.
+
+## Release integrity
+
+The publication manifest now binds the actual Git file bytes. The [integrity repair receipt](provenance/INTEGRITY_REPAIR.json) preserves the earlier manifest and documents its CRLF/LF mismatch. Scientific payloads and conclusions are unchanged.
